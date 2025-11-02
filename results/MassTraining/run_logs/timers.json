@@ -1,0 +1,5353 @@
+{
+    "name": "root",
+    "gauges": {
+        "Simple_LowVHigh_Low.Policy.Entropy.mean": {
+            "value": 3.9029808044433594,
+            "min": 3.9025821685791016,
+            "max": 3.9770874977111816,
+            "count": 4
+        },
+        "Simple_LowVHigh_Low.Policy.Entropy.sum": {
+            "value": 195078.78125,
+            "min": 195078.78125,
+            "max": 198854.375,
+            "count": 4
+        },
+        "Simple_LowVHigh_Low.Step.mean": {
+            "value": 199946.0,
+            "min": 49936.0,
+            "max": 199946.0,
+            "count": 4
+        },
+        "Simple_LowVHigh_Low.Step.sum": {
+            "value": 199946.0,
+            "min": 49936.0,
+            "max": 199946.0,
+            "count": 4
+        },
+        "Simple_LowVHigh_Low.Policy.ExtrinsicValueEstimate.mean": {
+            "value": 0.006176063325256109,
+            "min": 0.006176063325256109,
+            "max": 0.0683165118098259,
+            "count": 4
+        },
+        "Simple_LowVHigh_Low.Policy.ExtrinsicValueEstimate.sum": {
+            "value": 4.903794288635254,
+            "min": 4.903794288635254,
+            "max": 53.97004699707031,
+            "count": 4
+        },
+        "Simple_LowVHigh_Low.Environment.EpisodeLength.mean": {
+            "value": 1700.448275862069,
+            "min": 1700.448275862069,
+            "max": 3000.0,
+            "count": 4
+        },
+        "Simple_LowVHigh_Low.Environment.EpisodeLength.sum": {
+            "value": 49313.0,
+            "min": 48000.0,
+            "max": 51035.0,
+            "count": 4
+        },
+        "Simple_LowVHigh_Low.Environment.CumulativeReward.mean": {
+            "value": -0.2595806019059543,
+            "min": -0.2595806019059543,
+            "max": 0.8105758912861347,
+            "count": 4
+        },
+        "Simple_LowVHigh_Low.Environment.CumulativeReward.sum": {
+            "value": -7.527837455272675,
+            "min": -7.527837455272675,
+            "max": 12.969214260578156,
+            "count": 4
+        },
+        "Simple_LowVHigh_Low.Policy.ExtrinsicReward.mean": {
+            "value": -0.2595806019059543,
+            "min": -0.2595806019059543,
+            "max": 0.8105758912861347,
+            "count": 4
+        },
+        "Simple_LowVHigh_Low.Policy.ExtrinsicReward.sum": {
+            "value": -7.527837455272675,
+            "min": -7.527837455272675,
+            "max": 12.969214260578156,
+            "count": 4
+        },
+        "Simple_LowVHigh_Low.Losses.PolicyLoss.mean": {
+            "value": 0.025660976298774278,
+            "min": 0.02225705520870785,
+            "max": 0.027005209451696523,
+            "count": 4
+        },
+        "Simple_LowVHigh_Low.Losses.PolicyLoss.sum": {
+            "value": 0.1283048814938714,
+            "min": 0.10802083780678609,
+            "max": 0.1283048814938714,
+            "count": 4
+        },
+        "Simple_LowVHigh_Low.Losses.ValueLoss.mean": {
+            "value": 0.004629313626016179,
+            "min": 0.0023129659510838486,
+            "max": 0.004629313626016179,
+            "count": 4
+        },
+        "Simple_LowVHigh_Low.Losses.ValueLoss.sum": {
+            "value": 0.023146568130080897,
+            "min": 0.011564829755419243,
+            "max": 0.023146568130080897,
+            "count": 4
+        },
+        "Simple_LowVHigh_Low.Policy.LearningRate.mean": {
+            "value": 0.00019521459492848005,
+            "min": 0.00019521459492848005,
+            "max": 0.00028457760514079993,
+            "count": 4
+        },
+        "Simple_LowVHigh_Low.Policy.LearningRate.sum": {
+            "value": 0.0009760729746424002,
+            "min": 0.0009760729746424002,
+            "max": 0.001284267071911,
+            "count": 4
+        },
+        "Simple_LowVHigh_Low.Policy.Epsilon.mean": {
+            "value": 0.16507152,
+            "min": 0.16507152,
+            "max": 0.1948592,
+            "count": 4
+        },
+        "Simple_LowVHigh_Low.Policy.Epsilon.sum": {
+            "value": 0.8253576,
+            "min": 0.7794368,
+            "max": 0.9280889999999999,
+            "count": 4
+        },
+        "Simple_LowVHigh_Low.Policy.Beta.mean": {
+            "value": 0.0032570688479999998,
+            "min": 0.0032570688479999998,
+            "max": 0.004743474080000001,
+            "count": 4
+        },
+        "Simple_LowVHigh_Low.Policy.Beta.sum": {
+            "value": 0.01628534424,
+            "min": 0.01628534424,
+            "max": 0.021411641100000003,
+            "count": 4
+        },
+        "Simple_LowVHigh_Low.IsTraining.mean": {
+            "value": 1.0,
+            "min": 1.0,
+            "max": 1.0,
+            "count": 4
+        },
+        "Simple_LowVHigh_Low.IsTraining.sum": {
+            "value": 1.0,
+            "min": 1.0,
+            "max": 1.0,
+            "count": 4
+        },
+        "Simple_LowVHigh_High.Policy.Entropy.mean": {
+            "value": 3.912550449371338,
+            "min": 3.912550449371338,
+            "max": 3.97737979888916,
+            "count": 4
+        },
+        "Simple_LowVHigh_High.Policy.Entropy.sum": {
+            "value": 195557.09375,
+            "min": 195557.09375,
+            "max": 198868.984375,
+            "count": 4
+        },
+        "Simple_LowVHigh_High.Step.mean": {
+            "value": 199946.0,
+            "min": 49936.0,
+            "max": 199946.0,
+            "count": 4
+        },
+        "Simple_LowVHigh_High.Step.sum": {
+            "value": 199946.0,
+            "min": 49936.0,
+            "max": 199946.0,
+            "count": 4
+        },
+        "Simple_LowVHigh_High.Policy.ExtrinsicValueEstimate.mean": {
+            "value": 0.04525579884648323,
+            "min": 0.003983350470662117,
+            "max": 0.04525579884648323,
+            "count": 4
+        },
+        "Simple_LowVHigh_High.Policy.ExtrinsicValueEstimate.sum": {
+            "value": 35.93310546875,
+            "min": 3.1149802207946777,
+            "max": 35.93310546875,
+            "count": 4
+        },
+        "Simple_LowVHigh_High.Environment.EpisodeLength.mean": {
+            "value": 1700.448275862069,
+            "min": 1700.448275862069,
+            "max": 3000.0,
+            "count": 4
+        },
+        "Simple_LowVHigh_High.Environment.EpisodeLength.sum": {
+            "value": 49313.0,
+            "min": 48000.0,
+            "max": 51035.0,
+            "count": 4
+        },
+        "Simple_LowVHigh_High.Environment.CumulativeReward.mean": {
+            "value": 0.5711828572996731,
+            "min": 0.4596445021175203,
+            "max": 0.7642710655927658,
+            "count": 4
+        },
+        "Simple_LowVHigh_High.Environment.CumulativeReward.sum": {
+            "value": 16.56430286169052,
+            "min": 9.652534544467926,
+            "max": 16.56430286169052,
+            "count": 4
+        },
+        "Simple_LowVHigh_High.Policy.ExtrinsicReward.mean": {
+            "value": 0.5711828572996731,
+            "min": 0.4596445021175203,
+            "max": 0.7642710655927658,
+            "count": 4
+        },
+        "Simple_LowVHigh_High.Policy.ExtrinsicReward.sum": {
+            "value": 16.56430286169052,
+            "min": 9.652534544467926,
+            "max": 16.56430286169052,
+            "count": 4
+        },
+        "Simple_LowVHigh_High.Losses.PolicyLoss.mean": {
+            "value": 0.023590546889851495,
+            "min": 0.022903113530871152,
+            "max": 0.026030897518309455,
+            "count": 4
+        },
+        "Simple_LowVHigh_High.Losses.PolicyLoss.sum": {
+            "value": 0.11795273444925747,
+            "min": 0.09161245412348461,
+            "max": 0.13015448759154727,
+            "count": 4
+        },
+        "Simple_LowVHigh_High.Losses.ValueLoss.mean": {
+            "value": 0.004432528171067436,
+            "min": 0.0023485975031508127,
+            "max": 0.004432528171067436,
+            "count": 4
+        },
+        "Simple_LowVHigh_High.Losses.ValueLoss.sum": {
+            "value": 0.02216264085533718,
+            "min": 0.011742987515754064,
+            "max": 0.02216264085533718,
+            "count": 4
+        },
+        "Simple_LowVHigh_High.Policy.LearningRate.mean": {
+            "value": 0.00019521459492848005,
+            "min": 0.00019521459492848005,
+            "max": 0.00028457760514079993,
+            "count": 4
+        },
+        "Simple_LowVHigh_High.Policy.LearningRate.sum": {
+            "value": 0.0009760729746424002,
+            "min": 0.0009760729746424002,
+            "max": 0.001284267071911,
+            "count": 4
+        },
+        "Simple_LowVHigh_High.Policy.Epsilon.mean": {
+            "value": 0.16507152,
+            "min": 0.16507152,
+            "max": 0.1948592,
+            "count": 4
+        },
+        "Simple_LowVHigh_High.Policy.Epsilon.sum": {
+            "value": 0.8253576,
+            "min": 0.7794368,
+            "max": 0.9280889999999999,
+            "count": 4
+        },
+        "Simple_LowVHigh_High.Policy.Beta.mean": {
+            "value": 0.0032570688479999998,
+            "min": 0.0032570688479999998,
+            "max": 0.004743474080000001,
+            "count": 4
+        },
+        "Simple_LowVHigh_High.Policy.Beta.sum": {
+            "value": 0.01628534424,
+            "min": 0.01628534424,
+            "max": 0.021411641100000003,
+            "count": 4
+        },
+        "Simple_LowVHigh_High.IsTraining.mean": {
+            "value": 1.0,
+            "min": 1.0,
+            "max": 1.0,
+            "count": 4
+        },
+        "Simple_LowVHigh_High.IsTraining.sum": {
+            "value": 1.0,
+            "min": 1.0,
+            "max": 1.0,
+            "count": 4
+        },
+        "Control_LowVHigh_High.Policy.Entropy.mean": {
+            "value": 3.912674903869629,
+            "min": 3.912674903869629,
+            "max": 3.9727938175201416,
+            "count": 4
+        },
+        "Control_LowVHigh_High.Policy.Entropy.sum": {
+            "value": 195430.28125,
+            "min": 195430.28125,
+            "max": 198639.6875,
+            "count": 4
+        },
+        "Control_LowVHigh_High.Step.mean": {
+            "value": 199947.0,
+            "min": 49936.0,
+            "max": 199947.0,
+            "count": 4
+        },
+        "Control_LowVHigh_High.Step.sum": {
+            "value": 199947.0,
+            "min": 49936.0,
+            "max": 199947.0,
+            "count": 4
+        },
+        "Control_LowVHigh_High.Policy.ExtrinsicValueEstimate.mean": {
+            "value": 0.02401910349726677,
+            "min": 0.02401910349726677,
+            "max": 0.2100641280412674,
+            "count": 4
+        },
+        "Control_LowVHigh_High.Policy.ExtrinsicValueEstimate.sum": {
+            "value": 18.99911117553711,
+            "min": 18.99911117553711,
+            "max": 166.1607208251953,
+            "count": 4
+        },
+        "Control_LowVHigh_High.Environment.EpisodeLength.mean": {
+            "value": 1683.8275862068965,
+            "min": 1477.5,
+            "max": 2019.2692307692307,
+            "count": 4
+        },
+        "Control_LowVHigh_High.Environment.EpisodeLength.sum": {
+            "value": 48831.0,
+            "min": 47280.0,
+            "max": 52501.0,
+            "count": 4
+        },
+        "Control_LowVHigh_High.Environment.CumulativeReward.mean": {
+            "value": -0.16089661881841463,
+            "min": -0.16089661881841463,
+            "max": 0.43009551901083726,
+            "count": 4
+        },
+        "Control_LowVHigh_High.Environment.CumulativeReward.sum": {
+            "value": -4.666001945734024,
+            "min": -4.666001945734024,
+            "max": 11.182483494281769,
+            "count": 4
+        },
+        "Control_LowVHigh_High.Policy.ExtrinsicReward.mean": {
+            "value": -0.16089661881841463,
+            "min": -0.16089661881841463,
+            "max": 0.43009551901083726,
+            "count": 4
+        },
+        "Control_LowVHigh_High.Policy.ExtrinsicReward.sum": {
+            "value": -4.666001945734024,
+            "min": -4.666001945734024,
+            "max": 11.182483494281769,
+            "count": 4
+        },
+        "Control_LowVHigh_High.Losses.PolicyLoss.mean": {
+            "value": 0.023279655716226748,
+            "min": 0.023279655716226748,
+            "max": 0.026012968098123868,
+            "count": 4
+        },
+        "Control_LowVHigh_High.Losses.PolicyLoss.sum": {
+            "value": 0.11639827858113375,
+            "min": 0.09814162274512152,
+            "max": 0.13006484049061934,
+            "count": 4
+        },
+        "Control_LowVHigh_High.Losses.ValueLoss.mean": {
+            "value": 0.00395723196445033,
+            "min": 0.00395723196445033,
+            "max": 0.006535141019655082,
+            "count": 4
+        },
+        "Control_LowVHigh_High.Losses.ValueLoss.sum": {
+            "value": 0.01978615982225165,
+            "min": 0.01978615982225165,
+            "max": 0.026140564078620327,
+            "count": 4
+        },
+        "Control_LowVHigh_High.Policy.LearningRate.mean": {
+            "value": 0.00019521531492824,
+            "min": 0.00019521531492824,
+            "max": 0.00028458525513824995,
+            "count": 4
+        },
+        "Control_LowVHigh_High.Policy.LearningRate.sum": {
+            "value": 0.0009760765746412001,
+            "min": 0.0009760765746412001,
+            "max": 0.0012840972719675998,
+            "count": 4
+        },
+        "Control_LowVHigh_High.Policy.Epsilon.mean": {
+            "value": 0.16507176000000004,
+            "min": 0.16507176000000004,
+            "max": 0.19486175000000003,
+            "count": 4
+        },
+        "Control_LowVHigh_High.Policy.Epsilon.sum": {
+            "value": 0.8253588000000002,
+            "min": 0.7794470000000001,
+            "max": 0.9280324,
+            "count": 4
+        },
+        "Control_LowVHigh_High.Policy.Beta.mean": {
+            "value": 0.003257080824,
+            "min": 0.003257080824,
+            "max": 0.004743601325,
+            "count": 4
+        },
+        "Control_LowVHigh_High.Policy.Beta.sum": {
+            "value": 0.01628540412,
+            "min": 0.01628540412,
+            "max": 0.02140881676,
+            "count": 4
+        },
+        "Control_LowVHigh_High.IsTraining.mean": {
+            "value": 1.0,
+            "min": 1.0,
+            "max": 1.0,
+            "count": 4
+        },
+        "Control_LowVHigh_High.IsTraining.sum": {
+            "value": 1.0,
+            "min": 1.0,
+            "max": 1.0,
+            "count": 4
+        },
+        "Control_LowVHigh_Low.Policy.Entropy.mean": {
+            "value": 3.9818918704986572,
+            "min": 3.9747402667999268,
+            "max": 3.9818918704986572,
+            "count": 4
+        },
+        "Control_LowVHigh_Low.Policy.Entropy.sum": {
+            "value": 198887.53125,
+            "min": 198860.234375,
+            "max": 199052.0,
+            "count": 4
+        },
+        "Control_LowVHigh_Low.Step.mean": {
+            "value": 199947.0,
+            "min": 49936.0,
+            "max": 199947.0,
+            "count": 4
+        },
+        "Control_LowVHigh_Low.Step.sum": {
+            "value": 199947.0,
+            "min": 49936.0,
+            "max": 199947.0,
+            "count": 4
+        },
+        "Control_LowVHigh_Low.Policy.ExtrinsicValueEstimate.mean": {
+            "value": 0.0623076893389225,
+            "min": 0.0623076893389225,
+            "max": 0.18244554102420807,
+            "count": 4
+        },
+        "Control_LowVHigh_Low.Policy.ExtrinsicValueEstimate.sum": {
+            "value": 49.28538131713867,
+            "min": 49.28538131713867,
+            "max": 144.31442260742188,
+            "count": 4
+        },
+        "Control_LowVHigh_Low.Environment.EpisodeLength.mean": {
+            "value": 1683.8275862068965,
+            "min": 1477.5,
+            "max": 2019.2692307692307,
+            "count": 4
+        },
+        "Control_LowVHigh_Low.Environment.EpisodeLength.sum": {
+            "value": 48831.0,
+            "min": 47280.0,
+            "max": 52501.0,
+            "count": 4
+        },
+        "Control_LowVHigh_Low.Environment.CumulativeReward.mean": {
+            "value": 0.720989163579612,
+            "min": 0.17584818229079247,
+            "max": 0.720989163579612,
+            "count": 4
+        },
+        "Control_LowVHigh_Low.Environment.CumulativeReward.sum": {
+            "value": 20.908685743808746,
+            "min": 5.627141833305359,
+            "max": 20.908685743808746,
+            "count": 4
+        },
+        "Control_LowVHigh_Low.Policy.ExtrinsicReward.mean": {
+            "value": 0.720989163579612,
+            "min": 0.17584818229079247,
+            "max": 0.720989163579612,
+            "count": 4
+        },
+        "Control_LowVHigh_Low.Policy.ExtrinsicReward.sum": {
+            "value": 20.908685743808746,
+            "min": 5.627141833305359,
+            "max": 20.908685743808746,
+            "count": 4
+        },
+        "Control_LowVHigh_Low.Losses.PolicyLoss.mean": {
+            "value": 0.022816361404644943,
+            "min": 0.02155416354847451,
+            "max": 0.025310743489923578,
+            "count": 4
+        },
+        "Control_LowVHigh_Low.Losses.PolicyLoss.sum": {
+            "value": 0.11408180702322472,
+            "min": 0.09183204007179786,
+            "max": 0.12655371744961788,
+            "count": 4
+        },
+        "Control_LowVHigh_Low.Losses.ValueLoss.mean": {
+            "value": 0.0036558011977467692,
+            "min": 0.0036558011977467692,
+            "max": 0.006501704331215781,
+            "count": 4
+        },
+        "Control_LowVHigh_Low.Losses.ValueLoss.sum": {
+            "value": 0.018279005988733846,
+            "min": 0.018279005988733846,
+            "max": 0.026006817324863124,
+            "count": 4
+        },
+        "Control_LowVHigh_Low.Policy.LearningRate.mean": {
+            "value": 0.00019521531492824,
+            "min": 0.00019521531492824,
+            "max": 0.00028458525513824995,
+            "count": 4
+        },
+        "Control_LowVHigh_Low.Policy.LearningRate.sum": {
+            "value": 0.0009760765746412001,
+            "min": 0.0009760765746412001,
+            "max": 0.0012840972719675998,
+            "count": 4
+        },
+        "Control_LowVHigh_Low.Policy.Epsilon.mean": {
+            "value": 0.16507176000000004,
+            "min": 0.16507176000000004,
+            "max": 0.19486175000000003,
+            "count": 4
+        },
+        "Control_LowVHigh_Low.Policy.Epsilon.sum": {
+            "value": 0.8253588000000002,
+            "min": 0.7794470000000001,
+            "max": 0.9280324,
+            "count": 4
+        },
+        "Control_LowVHigh_Low.Policy.Beta.mean": {
+            "value": 0.003257080824,
+            "min": 0.003257080824,
+            "max": 0.004743601325,
+            "count": 4
+        },
+        "Control_LowVHigh_Low.Policy.Beta.sum": {
+            "value": 0.01628540412,
+            "min": 0.01628540412,
+            "max": 0.02140881676,
+            "count": 4
+        },
+        "Control_LowVHigh_Low.IsTraining.mean": {
+            "value": 1.0,
+            "min": 1.0,
+            "max": 1.0,
+            "count": 4
+        },
+        "Control_LowVHigh_Low.IsTraining.sum": {
+            "value": 1.0,
+            "min": 1.0,
+            "max": 1.0,
+            "count": 4
+        },
+        "Complex_LowVLow_Low2.Policy.Entropy.mean": {
+            "value": 3.978243350982666,
+            "min": 3.9680070877075195,
+            "max": 3.978243350982666,
+            "count": 4
+        },
+        "Complex_LowVLow_Low2.Policy.Entropy.sum": {
+            "value": 198991.734375,
+            "min": 198614.625,
+            "max": 198991.734375,
+            "count": 4
+        },
+        "Complex_LowVLow_Low2.Step.mean": {
+            "value": 199992.0,
+            "min": 49940.0,
+            "max": 199992.0,
+            "count": 4
+        },
+        "Complex_LowVLow_Low2.Step.sum": {
+            "value": 199992.0,
+            "min": 49940.0,
+            "max": 199992.0,
+            "count": 4
+        },
+        "Complex_LowVLow_Low2.Policy.ExtrinsicValueEstimate.mean": {
+            "value": 0.03542131558060646,
+            "min": 0.002459939569234848,
+            "max": 0.03542131558060646,
+            "count": 4
+        },
+        "Complex_LowVLow_Low2.Policy.ExtrinsicValueEstimate.sum": {
+            "value": 28.124523162841797,
+            "min": 1.9285926818847656,
+            "max": 28.124523162841797,
+            "count": 4
+        },
+        "Complex_LowVLow_Low2.Environment.EpisodeLength.mean": {
+            "value": 1956.28,
+            "min": 1892.7037037037037,
+            "max": 2774.764705882353,
+            "count": 4
+        },
+        "Complex_LowVLow_Low2.Environment.EpisodeLength.sum": {
+            "value": 48907.0,
+            "min": 47171.0,
+            "max": 51307.0,
+            "count": 4
+        },
+        "Complex_LowVLow_Low2.Environment.CumulativeReward.mean": {
+            "value": 0.9892959594726562,
+            "min": 0.314147827801881,
+            "max": 0.9892959594726562,
+            "count": 4
+        },
+        "Complex_LowVLow_Low2.Environment.CumulativeReward.sum": {
+            "value": 24.732398986816406,
+            "min": 8.481991350650787,
+            "max": 24.732398986816406,
+            "count": 4
+        },
+        "Complex_LowVLow_Low2.Policy.ExtrinsicReward.mean": {
+            "value": 0.9892959594726562,
+            "min": 0.314147827801881,
+            "max": 0.9892959594726562,
+            "count": 4
+        },
+        "Complex_LowVLow_Low2.Policy.ExtrinsicReward.sum": {
+            "value": 24.732398986816406,
+            "min": 8.481991350650787,
+            "max": 24.732398986816406,
+            "count": 4
+        },
+        "Complex_LowVLow_Low2.Losses.PolicyLoss.mean": {
+            "value": 0.024695280785672367,
+            "min": 0.01969253765613151,
+            "max": 0.024973205905407667,
+            "count": 4
+        },
+        "Complex_LowVLow_Low2.Losses.PolicyLoss.sum": {
+            "value": 0.12347640392836183,
+            "min": 0.07877015062452604,
+            "max": 0.12486602952703833,
+            "count": 4
+        },
+        "Complex_LowVLow_Low2.Losses.ValueLoss.mean": {
+            "value": 0.0033564321914066873,
+            "min": 0.002847036235228491,
+            "max": 0.0036674203170696277,
+            "count": 4
+        },
+        "Complex_LowVLow_Low2.Losses.ValueLoss.sum": {
+            "value": 0.016782160957033436,
+            "min": 0.011388144940913964,
+            "max": 0.01833710158534814,
+            "count": 4
+        },
+        "Complex_LowVLow_Low2.Policy.LearningRate.mean": {
+            "value": 0.00019523619492128002,
+            "min": 0.00019523619492128002,
+            "max": 0.0002845815051395,
+            "count": 4
+        },
+        "Complex_LowVLow_Low2.Policy.LearningRate.sum": {
+            "value": 0.0009761809746064,
+            "min": 0.0009761809746064,
+            "max": 0.0012841596719467996,
+            "count": 4
+        },
+        "Complex_LowVLow_Low2.Policy.Epsilon.mean": {
+            "value": 0.16507872,
+            "min": 0.16507872,
+            "max": 0.1948605,
+            "count": 4
+        },
+        "Complex_LowVLow_Low2.Policy.Epsilon.sum": {
+            "value": 0.8253936000000001,
+            "min": 0.779442,
+            "max": 0.9280532000000001,
+            "count": 4
+        },
+        "Complex_LowVLow_Low2.Policy.Beta.mean": {
+            "value": 0.0032574281280000014,
+            "min": 0.0032574281280000014,
+            "max": 0.004743538950000001,
+            "count": 4
+        },
+        "Complex_LowVLow_Low2.Policy.Beta.sum": {
+            "value": 0.016287140640000006,
+            "min": 0.016287140640000006,
+            "max": 0.02140985468,
+            "count": 4
+        },
+        "Complex_LowVLow_Low2.IsTraining.mean": {
+            "value": 1.0,
+            "min": 1.0,
+            "max": 1.0,
+            "count": 4
+        },
+        "Complex_LowVLow_Low2.IsTraining.sum": {
+            "value": 1.0,
+            "min": 1.0,
+            "max": 1.0,
+            "count": 4
+        },
+        "Complex_LowVLow_Low1.Policy.Entropy.mean": {
+            "value": 3.9745445251464844,
+            "min": 3.942420244216919,
+            "max": 3.9745445251464844,
+            "count": 4
+        },
+        "Complex_LowVLow_Low1.Policy.Entropy.sum": {
+            "value": 198806.71875,
+            "min": 197333.90625,
+            "max": 198806.71875,
+            "count": 4
+        },
+        "Complex_LowVLow_Low1.Step.mean": {
+            "value": 199992.0,
+            "min": 49940.0,
+            "max": 199992.0,
+            "count": 4
+        },
+        "Complex_LowVLow_Low1.Step.sum": {
+            "value": 199992.0,
+            "min": 49940.0,
+            "max": 199992.0,
+            "count": 4
+        },
+        "Complex_LowVLow_Low1.Policy.ExtrinsicValueEstimate.mean": {
+            "value": -0.03476973995566368,
+            "min": -0.235373854637146,
+            "max": -0.03476973995566368,
+            "count": 4
+        },
+        "Complex_LowVLow_Low1.Policy.ExtrinsicValueEstimate.sum": {
+            "value": -27.607173919677734,
+            "min": -184.53309631347656,
+            "max": -27.607173919677734,
+            "count": 4
+        },
+        "Complex_LowVLow_Low1.Environment.EpisodeLength.mean": {
+            "value": 1956.28,
+            "min": 1892.7037037037037,
+            "max": 2774.764705882353,
+            "count": 4
+        },
+        "Complex_LowVLow_Low1.Environment.EpisodeLength.sum": {
+            "value": 48907.0,
+            "min": 47171.0,
+            "max": 51307.0,
+            "count": 4
+        },
+        "Complex_LowVLow_Low1.Environment.CumulativeReward.mean": {
+            "value": -0.6219734263420105,
+            "min": -0.7077389447777359,
+            "max": 0.38085000655230355,
+            "count": 4
+        },
+        "Complex_LowVLow_Low1.Environment.CumulativeReward.sum": {
+            "value": -15.549335658550262,
+            "min": -19.10895150899887,
+            "max": 6.47445011138916,
+            "count": 4
+        },
+        "Complex_LowVLow_Low1.Policy.ExtrinsicReward.mean": {
+            "value": -0.6219734263420105,
+            "min": -0.7077389447777359,
+            "max": 0.38085000655230355,
+            "count": 4
+        },
+        "Complex_LowVLow_Low1.Policy.ExtrinsicReward.sum": {
+            "value": -15.549335658550262,
+            "min": -19.10895150899887,
+            "max": 6.47445011138916,
+            "count": 4
+        },
+        "Complex_LowVLow_Low1.Losses.PolicyLoss.mean": {
+            "value": 0.024185893228277567,
+            "min": 0.021966282827391596,
+            "max": 0.025948075971876584,
+            "count": 4
+        },
+        "Complex_LowVLow_Low1.Losses.PolicyLoss.sum": {
+            "value": 0.12092946614138783,
+            "min": 0.08786513130956639,
+            "max": 0.12974037985938291,
+            "count": 4
+        },
+        "Complex_LowVLow_Low1.Losses.ValueLoss.mean": {
+            "value": 0.0034504403728836527,
+            "min": 0.0034156087172838544,
+            "max": 0.003950489517107296,
+            "count": 4
+        },
+        "Complex_LowVLow_Low1.Losses.ValueLoss.sum": {
+            "value": 0.017252201864418264,
+            "min": 0.015801958068429184,
+            "max": 0.018584107225372765,
+            "count": 4
+        },
+        "Complex_LowVLow_Low1.Policy.LearningRate.mean": {
+            "value": 0.00019523619492128002,
+            "min": 0.00019523619492128002,
+            "max": 0.0002845815051395,
+            "count": 4
+        },
+        "Complex_LowVLow_Low1.Policy.LearningRate.sum": {
+            "value": 0.0009761809746064,
+            "min": 0.0009761809746064,
+            "max": 0.0012841596719467996,
+            "count": 4
+        },
+        "Complex_LowVLow_Low1.Policy.Epsilon.mean": {
+            "value": 0.16507872,
+            "min": 0.16507872,
+            "max": 0.1948605,
+            "count": 4
+        },
+        "Complex_LowVLow_Low1.Policy.Epsilon.sum": {
+            "value": 0.8253936000000001,
+            "min": 0.779442,
+            "max": 0.9280532000000001,
+            "count": 4
+        },
+        "Complex_LowVLow_Low1.Policy.Beta.mean": {
+            "value": 0.0032574281280000014,
+            "min": 0.0032574281280000014,
+            "max": 0.004743538950000001,
+            "count": 4
+        },
+        "Complex_LowVLow_Low1.Policy.Beta.sum": {
+            "value": 0.016287140640000006,
+            "min": 0.016287140640000006,
+            "max": 0.02140985468,
+            "count": 4
+        },
+        "Complex_LowVLow_Low1.IsTraining.mean": {
+            "value": 1.0,
+            "min": 1.0,
+            "max": 1.0,
+            "count": 4
+        },
+        "Complex_LowVLow_Low1.IsTraining.sum": {
+            "value": 1.0,
+            "min": 1.0,
+            "max": 1.0,
+            "count": 4
+        },
+        "Simple_MedVHigh_High.Policy.Entropy.mean": {
+            "value": 3.9488401412963867,
+            "min": 3.913182258605957,
+            "max": 3.952650547027588,
+            "count": 4
+        },
+        "Simple_MedVHigh_High.Policy.Entropy.sum": {
+            "value": 197445.953125,
+            "min": 195666.9375,
+            "max": 197691.8125,
+            "count": 4
+        },
+        "Simple_MedVHigh_High.Step.mean": {
+            "value": 199975.0,
+            "min": 49951.0,
+            "max": 199975.0,
+            "count": 4
+        },
+        "Simple_MedVHigh_High.Step.sum": {
+            "value": 199975.0,
+            "min": 49951.0,
+            "max": 199975.0,
+            "count": 4
+        },
+        "Simple_MedVHigh_High.Policy.ExtrinsicValueEstimate.mean": {
+            "value": 0.0019673756323754787,
+            "min": -0.1883641928434372,
+            "max": 0.0019673756323754787,
+            "count": 4
+        },
+        "Simple_MedVHigh_High.Policy.ExtrinsicValueEstimate.sum": {
+            "value": 1.5660309791564941,
+            "min": -148.80770874023438,
+            "max": 1.5660309791564941,
+            "count": 4
+        },
+        "Simple_MedVHigh_High.Environment.EpisodeLength.mean": {
+            "value": 1539.53125,
+            "min": 1259.7692307692307,
+            "max": 1835.037037037037,
+            "count": 4
+        },
+        "Simple_MedVHigh_High.Environment.EpisodeLength.sum": {
+            "value": 49265.0,
+            "min": 49131.0,
+            "max": 49546.0,
+            "count": 4
+        },
+        "Simple_MedVHigh_High.Environment.CumulativeReward.mean": {
+            "value": 0.30865866504609585,
+            "min": 0.16975378226011228,
+            "max": 0.5302542221957239,
+            "count": 4
+        },
+        "Simple_MedVHigh_High.Environment.CumulativeReward.sum": {
+            "value": 9.877077281475067,
+            "min": 6.253887295722961,
+            "max": 15.377372443675995,
+            "count": 4
+        },
+        "Simple_MedVHigh_High.Policy.ExtrinsicReward.mean": {
+            "value": 0.30865866504609585,
+            "min": 0.16975378226011228,
+            "max": 0.5302542221957239,
+            "count": 4
+        },
+        "Simple_MedVHigh_High.Policy.ExtrinsicReward.sum": {
+            "value": 9.877077281475067,
+            "min": 6.253887295722961,
+            "max": 15.377372443675995,
+            "count": 4
+        },
+        "Simple_MedVHigh_High.Losses.PolicyLoss.mean": {
+            "value": 0.024375622629498446,
+            "min": 0.022811079728029048,
+            "max": 0.026082749906927348,
+            "count": 4
+        },
+        "Simple_MedVHigh_High.Losses.PolicyLoss.sum": {
+            "value": 0.12187811314749222,
+            "min": 0.10018389130321642,
+            "max": 0.13041374953463675,
+            "count": 4
+        },
+        "Simple_MedVHigh_High.Losses.ValueLoss.mean": {
+            "value": 0.00455941483999292,
+            "min": 0.00455941483999292,
+            "max": 0.015423436365866412,
+            "count": 4
+        },
+        "Simple_MedVHigh_High.Losses.ValueLoss.sum": {
+            "value": 0.0227970741999646,
+            "min": 0.0227970741999646,
+            "max": 0.06169374546346565,
+            "count": 4
+        },
+        "Simple_MedVHigh_High.Policy.LearningRate.mean": {
+            "value": 0.00019524675491776003,
+            "min": 0.00019524675491776003,
+            "max": 0.00028459755513415,
+            "count": 4
+        },
+        "Simple_MedVHigh_High.Policy.LearningRate.sum": {
+            "value": 0.0009762337745888001,
+            "min": 0.0009762337745888001,
+            "max": 0.0012842748719083996,
+            "count": 4
+        },
+        "Simple_MedVHigh_High.Policy.Epsilon.mean": {
+            "value": 0.16508224000000002,
+            "min": 0.16508224000000002,
+            "max": 0.19486585,
+            "count": 4
+        },
+        "Simple_MedVHigh_High.Policy.Epsilon.sum": {
+            "value": 0.8254112000000001,
+            "min": 0.7794634,
+            "max": 0.9280916,
+            "count": 4
+        },
+        "Simple_MedVHigh_High.Policy.Beta.mean": {
+            "value": 0.0032576037760000003,
+            "min": 0.0032576037760000003,
+            "max": 0.004743805915,
+            "count": 4
+        },
+        "Simple_MedVHigh_High.Policy.Beta.sum": {
+            "value": 0.01628801888,
+            "min": 0.01628801888,
+            "max": 0.02141177084,
+            "count": 4
+        },
+        "Simple_MedVHigh_High.IsTraining.mean": {
+            "value": 1.0,
+            "min": 1.0,
+            "max": 1.0,
+            "count": 4
+        },
+        "Simple_MedVHigh_High.IsTraining.sum": {
+            "value": 1.0,
+            "min": 1.0,
+            "max": 1.0,
+            "count": 4
+        },
+        "Simple_MedVHigh_Med.Policy.Entropy.mean": {
+            "value": 3.9221999645233154,
+            "min": 3.9221999645233154,
+            "max": 3.9563803672790527,
+            "count": 4
+        },
+        "Simple_MedVHigh_Med.Policy.Entropy.sum": {
+            "value": 196113.921875,
+            "min": 196113.921875,
+            "max": 197878.359375,
+            "count": 4
+        },
+        "Simple_MedVHigh_Med.Step.mean": {
+            "value": 199975.0,
+            "min": 49951.0,
+            "max": 199975.0,
+            "count": 4
+        },
+        "Simple_MedVHigh_Med.Step.sum": {
+            "value": 199975.0,
+            "min": 49951.0,
+            "max": 199975.0,
+            "count": 4
+        },
+        "Simple_MedVHigh_Med.Policy.ExtrinsicValueEstimate.mean": {
+            "value": 0.052295293658971786,
+            "min": 0.052295293658971786,
+            "max": 0.23026548326015472,
+            "count": 4
+        },
+        "Simple_MedVHigh_Med.Policy.ExtrinsicValueEstimate.sum": {
+            "value": 41.627052307128906,
+            "min": 41.627052307128906,
+            "max": 181.90972900390625,
+            "count": 4
+        },
+        "Simple_MedVHigh_Med.Environment.EpisodeLength.mean": {
+            "value": 1539.53125,
+            "min": 1259.7692307692307,
+            "max": 1835.037037037037,
+            "count": 4
+        },
+        "Simple_MedVHigh_Med.Environment.EpisodeLength.sum": {
+            "value": 49265.0,
+            "min": 49131.0,
+            "max": 49546.0,
+            "count": 4
+        },
+        "Simple_MedVHigh_Med.Environment.CumulativeReward.mean": {
+            "value": -0.13991853408515453,
+            "min": -0.13991853408515453,
+            "max": 0.3898245206585637,
+            "count": 4
+        },
+        "Simple_MedVHigh_Med.Environment.CumulativeReward.sum": {
+            "value": -4.477393090724945,
+            "min": -4.477393090724945,
+            "max": 10.52526205778122,
+            "count": 4
+        },
+        "Simple_MedVHigh_Med.Policy.ExtrinsicReward.mean": {
+            "value": -0.13991853408515453,
+            "min": -0.13991853408515453,
+            "max": 0.3898245206585637,
+            "count": 4
+        },
+        "Simple_MedVHigh_Med.Policy.ExtrinsicReward.sum": {
+            "value": -4.477393090724945,
+            "min": -4.477393090724945,
+            "max": 10.52526205778122,
+            "count": 4
+        },
+        "Simple_MedVHigh_Med.Losses.PolicyLoss.mean": {
+            "value": 0.023527067253986993,
+            "min": 0.021698646571797632,
+            "max": 0.02510591168267031,
+            "count": 4
+        },
+        "Simple_MedVHigh_Med.Losses.PolicyLoss.sum": {
+            "value": 0.11763533626993497,
+            "min": 0.09441780699416996,
+            "max": 0.12552955841335156,
+            "count": 4
+        },
+        "Simple_MedVHigh_Med.Losses.ValueLoss.mean": {
+            "value": 0.004479457373187566,
+            "min": 0.004075343968191494,
+            "max": 0.01017151528891797,
+            "count": 4
+        },
+        "Simple_MedVHigh_Med.Losses.ValueLoss.sum": {
+            "value": 0.02239728686593783,
+            "min": 0.020376719840957472,
+            "max": 0.04068606115567188,
+            "count": 4
+        },
+        "Simple_MedVHigh_Med.Policy.LearningRate.mean": {
+            "value": 0.00019524675491776003,
+            "min": 0.00019524675491776003,
+            "max": 0.00028459755513415,
+            "count": 4
+        },
+        "Simple_MedVHigh_Med.Policy.LearningRate.sum": {
+            "value": 0.0009762337745888001,
+            "min": 0.0009762337745888001,
+            "max": 0.0012842748719083996,
+            "count": 4
+        },
+        "Simple_MedVHigh_Med.Policy.Epsilon.mean": {
+            "value": 0.16508224000000002,
+            "min": 0.16508224000000002,
+            "max": 0.19486585,
+            "count": 4
+        },
+        "Simple_MedVHigh_Med.Policy.Epsilon.sum": {
+            "value": 0.8254112000000001,
+            "min": 0.7794634,
+            "max": 0.9280916,
+            "count": 4
+        },
+        "Simple_MedVHigh_Med.Policy.Beta.mean": {
+            "value": 0.0032576037760000003,
+            "min": 0.0032576037760000003,
+            "max": 0.004743805915,
+            "count": 4
+        },
+        "Simple_MedVHigh_Med.Policy.Beta.sum": {
+            "value": 0.01628801888,
+            "min": 0.01628801888,
+            "max": 0.02141177084,
+            "count": 4
+        },
+        "Simple_MedVHigh_Med.IsTraining.mean": {
+            "value": 1.0,
+            "min": 1.0,
+            "max": 1.0,
+            "count": 4
+        },
+        "Simple_MedVHigh_Med.IsTraining.sum": {
+            "value": 1.0,
+            "min": 1.0,
+            "max": 1.0,
+            "count": 4
+        },
+        "Complex_HighVHigh_High2.Policy.Entropy.mean": {
+            "value": 3.9452576637268066,
+            "min": 3.9448745250701904,
+            "max": 3.974233865737915,
+            "count": 4
+        },
+        "Complex_HighVHigh_High2.Policy.Entropy.sum": {
+            "value": 197274.71875,
+            "min": 197180.609375,
+            "max": 198783.234375,
+            "count": 4
+        },
+        "Complex_HighVHigh_High2.Step.mean": {
+            "value": 199987.0,
+            "min": 49954.0,
+            "max": 199987.0,
+            "count": 4
+        },
+        "Complex_HighVHigh_High2.Step.sum": {
+            "value": 199987.0,
+            "min": 49954.0,
+            "max": 199987.0,
+            "count": 4
+        },
+        "Complex_HighVHigh_High2.Policy.ExtrinsicValueEstimate.mean": {
+            "value": 0.01471696887165308,
+            "min": 0.01471696887165308,
+            "max": 0.0481051467359066,
+            "count": 4
+        },
+        "Complex_HighVHigh_High2.Policy.ExtrinsicValueEstimate.sum": {
+            "value": 11.626405715942383,
+            "min": 11.626405715942383,
+            "max": 37.71443557739258,
+            "count": 4
+        },
+        "Complex_HighVHigh_High2.Environment.EpisodeLength.mean": {
+            "value": 2214.782608695652,
+            "min": 1781.4444444444443,
+            "max": 2907.3529411764707,
+            "count": 4
+        },
+        "Complex_HighVHigh_High2.Environment.EpisodeLength.sum": {
+            "value": 50940.0,
+            "min": 48099.0,
+            "max": 50940.0,
+            "count": 4
+        },
+        "Complex_HighVHigh_High2.Environment.CumulativeReward.mean": {
+            "value": 0.1483946390773939,
+            "min": 0.08456105214578134,
+            "max": 0.7062635982737822,
+            "count": 4
+        },
+        "Complex_HighVHigh_High2.Environment.CumulativeReward.sum": {
+            "value": 3.41307669878006,
+            "min": 2.283148407936096,
+            "max": 12.006481170654297,
+            "count": 4
+        },
+        "Complex_HighVHigh_High2.Policy.ExtrinsicReward.mean": {
+            "value": 0.1483946390773939,
+            "min": 0.08456105214578134,
+            "max": 0.7062635982737822,
+            "count": 4
+        },
+        "Complex_HighVHigh_High2.Policy.ExtrinsicReward.sum": {
+            "value": 3.41307669878006,
+            "min": 2.283148407936096,
+            "max": 12.006481170654297,
+            "count": 4
+        },
+        "Complex_HighVHigh_High2.Losses.PolicyLoss.mean": {
+            "value": 0.02356446935174366,
+            "min": 0.02208704089280218,
+            "max": 0.02356446935174366,
+            "count": 4
+        },
+        "Complex_HighVHigh_High2.Losses.PolicyLoss.sum": {
+            "value": 0.11782234675871829,
+            "min": 0.08834816357120873,
+            "max": 0.11782234675871829,
+            "count": 4
+        },
+        "Complex_HighVHigh_High2.Losses.ValueLoss.mean": {
+            "value": 0.0031506373021208374,
+            "min": 0.0031506373021208374,
+            "max": 0.0042786991937706865,
+            "count": 4
+        },
+        "Complex_HighVHigh_High2.Losses.ValueLoss.sum": {
+            "value": 0.015753186510604186,
+            "min": 0.015753186510604186,
+            "max": 0.021393495968853433,
+            "count": 4
+        },
+        "Complex_HighVHigh_High2.Policy.LearningRate.mean": {
+            "value": 0.00019515435494855997,
+            "min": 0.00019515435494855997,
+            "max": 0.0002845719051427,
+            "count": 4
+        },
+        "Complex_HighVHigh_High2.Policy.LearningRate.sum": {
+            "value": 0.0009757717747427999,
+            "min": 0.0009757717747427999,
+            "max": 0.0012840072719976,
+            "count": 4
+        },
+        "Complex_HighVHigh_High2.Policy.Epsilon.mean": {
+            "value": 0.16505144,
+            "min": 0.16505144,
+            "max": 0.19485729999999998,
+            "count": 4
+        },
+        "Complex_HighVHigh_High2.Policy.Epsilon.sum": {
+            "value": 0.8252571999999999,
+            "min": 0.7794291999999999,
+            "max": 0.9280024,
+            "count": 4
+        },
+        "Complex_HighVHigh_High2.Policy.Beta.mean": {
+            "value": 0.0032560668560000007,
+            "min": 0.0032560668560000007,
+            "max": 0.0047433792700000005,
+            "count": 4
+        },
+        "Complex_HighVHigh_High2.Policy.Beta.sum": {
+            "value": 0.016280334280000003,
+            "min": 0.016280334280000003,
+            "max": 0.02140731976,
+            "count": 4
+        },
+        "Complex_HighVHigh_High2.IsTraining.mean": {
+            "value": 1.0,
+            "min": 1.0,
+            "max": 1.0,
+            "count": 4
+        },
+        "Complex_HighVHigh_High2.IsTraining.sum": {
+            "value": 1.0,
+            "min": 1.0,
+            "max": 1.0,
+            "count": 4
+        },
+        "Complex_HighVHigh_High1.Policy.Entropy.mean": {
+            "value": 3.923753261566162,
+            "min": 3.923753261566162,
+            "max": 3.966031312942505,
+            "count": 4
+        },
+        "Complex_HighVHigh_High1.Policy.Entropy.sum": {
+            "value": 196199.4375,
+            "min": 196199.4375,
+            "max": 198372.953125,
+            "count": 4
+        },
+        "Complex_HighVHigh_High1.Step.mean": {
+            "value": 199987.0,
+            "min": 49954.0,
+            "max": 199987.0,
+            "count": 4
+        },
+        "Complex_HighVHigh_High1.Step.sum": {
+            "value": 199987.0,
+            "min": 49954.0,
+            "max": 199987.0,
+            "count": 4
+        },
+        "Complex_HighVHigh_High1.Policy.ExtrinsicValueEstimate.mean": {
+            "value": 0.028240298852324486,
+            "min": 0.017292605713009834,
+            "max": 0.028911994770169258,
+            "count": 4
+        },
+        "Complex_HighVHigh_High1.Policy.ExtrinsicValueEstimate.sum": {
+            "value": 22.30983543395996,
+            "min": 13.695743560791016,
+            "max": 22.667003631591797,
+            "count": 4
+        },
+        "Complex_HighVHigh_High1.Environment.EpisodeLength.mean": {
+            "value": 2214.782608695652,
+            "min": 1781.4444444444443,
+            "max": 2907.3529411764707,
+            "count": 4
+        },
+        "Complex_HighVHigh_High1.Environment.EpisodeLength.sum": {
+            "value": 50940.0,
+            "min": 48099.0,
+            "max": 50940.0,
+            "count": 4
+        },
+        "Complex_HighVHigh_High1.Environment.CumulativeReward.mean": {
+            "value": 0.6195581710856893,
+            "min": 0.048431617873055596,
+            "max": 0.7119960469358108,
+            "count": 4
+        },
+        "Complex_HighVHigh_High1.Environment.CumulativeReward.sum": {
+            "value": 14.249837934970856,
+            "min": 1.3560853004455566,
+            "max": 14.249837934970856,
+            "count": 4
+        },
+        "Complex_HighVHigh_High1.Policy.ExtrinsicReward.mean": {
+            "value": 0.6195581710856893,
+            "min": 0.048431617873055596,
+            "max": 0.7119960469358108,
+            "count": 4
+        },
+        "Complex_HighVHigh_High1.Policy.ExtrinsicReward.sum": {
+            "value": 14.249837934970856,
+            "min": 1.3560853004455566,
+            "max": 14.249837934970856,
+            "count": 4
+        },
+        "Complex_HighVHigh_High1.Losses.PolicyLoss.mean": {
+            "value": 0.0231163958630835,
+            "min": 0.023076760191470386,
+            "max": 0.024420987060293553,
+            "count": 4
+        },
+        "Complex_HighVHigh_High1.Losses.PolicyLoss.sum": {
+            "value": 0.1155819793154175,
+            "min": 0.09607271808199586,
+            "max": 0.12210493530146777,
+            "count": 4
+        },
+        "Complex_HighVHigh_High1.Losses.ValueLoss.mean": {
+            "value": 0.0031166055103919155,
+            "min": 0.0030180908526138716,
+            "max": 0.00435535827302374,
+            "count": 4
+        },
+        "Complex_HighVHigh_High1.Losses.ValueLoss.sum": {
+            "value": 0.015583027551959578,
+            "min": 0.012072363410455486,
+            "max": 0.0217767913651187,
+            "count": 4
+        },
+        "Complex_HighVHigh_High1.Policy.LearningRate.mean": {
+            "value": 0.00019515435494855997,
+            "min": 0.00019515435494855997,
+            "max": 0.0002845719051427,
+            "count": 4
+        },
+        "Complex_HighVHigh_High1.Policy.LearningRate.sum": {
+            "value": 0.0009757717747427999,
+            "min": 0.0009757717747427999,
+            "max": 0.0012840072719976,
+            "count": 4
+        },
+        "Complex_HighVHigh_High1.Policy.Epsilon.mean": {
+            "value": 0.16505144,
+            "min": 0.16505144,
+            "max": 0.19485729999999998,
+            "count": 4
+        },
+        "Complex_HighVHigh_High1.Policy.Epsilon.sum": {
+            "value": 0.8252571999999999,
+            "min": 0.7794291999999999,
+            "max": 0.9280024,
+            "count": 4
+        },
+        "Complex_HighVHigh_High1.Policy.Beta.mean": {
+            "value": 0.0032560668560000007,
+            "min": 0.0032560668560000007,
+            "max": 0.0047433792700000005,
+            "count": 4
+        },
+        "Complex_HighVHigh_High1.Policy.Beta.sum": {
+            "value": 0.016280334280000003,
+            "min": 0.016280334280000003,
+            "max": 0.02140731976,
+            "count": 4
+        },
+        "Complex_HighVHigh_High1.IsTraining.mean": {
+            "value": 1.0,
+            "min": 1.0,
+            "max": 1.0,
+            "count": 4
+        },
+        "Complex_HighVHigh_High1.IsTraining.sum": {
+            "value": 1.0,
+            "min": 1.0,
+            "max": 1.0,
+            "count": 4
+        },
+        "Control_LowVLow_Low2.Policy.Entropy.mean": {
+            "value": 3.8761022090911865,
+            "min": 3.8761022090911865,
+            "max": 3.9678146839141846,
+            "count": 4
+        },
+        "Control_LowVLow_Low2.Policy.Entropy.sum": {
+            "value": 193708.203125,
+            "min": 193708.203125,
+            "max": 198466.125,
+            "count": 4
+        },
+        "Control_LowVLow_Low2.Step.mean": {
+            "value": 199971.0,
+            "min": 49955.0,
+            "max": 199971.0,
+            "count": 4
+        },
+        "Control_LowVLow_Low2.Step.sum": {
+            "value": 199971.0,
+            "min": 49955.0,
+            "max": 199971.0,
+            "count": 4
+        },
+        "Control_LowVLow_Low2.Policy.ExtrinsicValueEstimate.mean": {
+            "value": 0.08763103932142258,
+            "min": -0.08538536727428436,
+            "max": 0.08763103932142258,
+            "count": 4
+        },
+        "Control_LowVLow_Low2.Policy.ExtrinsicValueEstimate.sum": {
+            "value": 72.29560852050781,
+            "min": -67.45443725585938,
+            "max": 72.29560852050781,
+            "count": 4
+        },
+        "Control_LowVLow_Low2.Environment.EpisodeLength.mean": {
+            "value": 615.6875,
+            "min": 594.25,
+            "max": 2148.695652173913,
+            "count": 4
+        },
+        "Control_LowVLow_Low2.Environment.EpisodeLength.sum": {
+            "value": 49255.0,
+            "min": 49255.0,
+            "max": 50518.0,
+            "count": 4
+        },
+        "Control_LowVLow_Low2.Environment.CumulativeReward.mean": {
+            "value": -0.275,
+            "min": -0.275,
+            "max": 0.6439173169758009,
+            "count": 4
+        },
+        "Control_LowVLow_Low2.Environment.CumulativeReward.sum": {
+            "value": -22.0,
+            "min": -22.0,
+            "max": 21.621543407440186,
+            "count": 4
+        },
+        "Control_LowVLow_Low2.Policy.ExtrinsicReward.mean": {
+            "value": -0.275,
+            "min": -0.275,
+            "max": 0.6439173169758009,
+            "count": 4
+        },
+        "Control_LowVLow_Low2.Policy.ExtrinsicReward.sum": {
+            "value": -22.0,
+            "min": -22.0,
+            "max": 21.621543407440186,
+            "count": 4
+        },
+        "Control_LowVLow_Low2.Losses.PolicyLoss.mean": {
+            "value": 0.022945296512916685,
+            "min": 0.022945296512916685,
+            "max": 0.02542560382435719,
+            "count": 4
+        },
+        "Control_LowVLow_Low2.Losses.PolicyLoss.sum": {
+            "value": 0.11472648256458343,
+            "min": 0.09823596997496982,
+            "max": 0.12712801912178595,
+            "count": 4
+        },
+        "Control_LowVLow_Low2.Losses.ValueLoss.mean": {
+            "value": 0.012720444273824493,
+            "min": 0.003840743459780545,
+            "max": 0.012720444273824493,
+            "count": 4
+        },
+        "Control_LowVLow_Low2.Losses.ValueLoss.sum": {
+            "value": 0.06360222136912247,
+            "min": 0.01536297383912218,
+            "max": 0.06360222136912247,
+            "count": 4
+        },
+        "Control_LowVLow_Low2.Policy.LearningRate.mean": {
+            "value": 0.00019521363492880004,
+            "min": 0.00019521363492880004,
+            "max": 0.0002845941051353,
+            "count": 4
+        },
+        "Control_LowVLow_Low2.Policy.LearningRate.sum": {
+            "value": 0.0009760681746440002,
+            "min": 0.0009760681746440002,
+            "max": 0.0012841938719354,
+            "count": 4
+        },
+        "Control_LowVLow_Low2.Policy.Epsilon.mean": {
+            "value": 0.16507120000000006,
+            "min": 0.16507120000000006,
+            "max": 0.19486470000000003,
+            "count": 4
+        },
+        "Control_LowVLow_Low2.Policy.Epsilon.sum": {
+            "value": 0.8253560000000003,
+            "min": 0.7794588000000001,
+            "max": 0.9280645999999999,
+            "count": 4
+        },
+        "Control_LowVLow_Low2.Policy.Beta.mean": {
+            "value": 0.00325705288,
+            "min": 0.00325705288,
+            "max": 0.00474374853,
+            "count": 4
+        },
+        "Control_LowVLow_Low2.Policy.Beta.sum": {
+            "value": 0.0162852644,
+            "min": 0.0162852644,
+            "max": 0.02141042354,
+            "count": 4
+        },
+        "Control_LowVLow_Low2.IsTraining.mean": {
+            "value": 1.0,
+            "min": 1.0,
+            "max": 1.0,
+            "count": 4
+        },
+        "Control_LowVLow_Low2.IsTraining.sum": {
+            "value": 1.0,
+            "min": 1.0,
+            "max": 1.0,
+            "count": 4
+        },
+        "Control_LowVLow_Low1.Policy.Entropy.mean": {
+            "value": 3.946969747543335,
+            "min": 3.946969747543335,
+            "max": 3.964047431945801,
+            "count": 4
+        },
+        "Control_LowVLow_Low1.Policy.Entropy.sum": {
+            "value": 197249.8125,
+            "min": 197249.8125,
+            "max": 198324.421875,
+            "count": 4
+        },
+        "Control_LowVLow_Low1.Step.mean": {
+            "value": 199971.0,
+            "min": 49955.0,
+            "max": 199971.0,
+            "count": 4
+        },
+        "Control_LowVLow_Low1.Step.sum": {
+            "value": 199971.0,
+            "min": 49955.0,
+            "max": 199971.0,
+            "count": 4
+        },
+        "Control_LowVLow_Low1.Policy.ExtrinsicValueEstimate.mean": {
+            "value": 0.06615529954433441,
+            "min": -0.024334987625479698,
+            "max": 0.06615529954433441,
+            "count": 4
+        },
+        "Control_LowVLow_Low1.Policy.ExtrinsicValueEstimate.sum": {
+            "value": 54.578125,
+            "min": -19.224639892578125,
+            "max": 54.578125,
+            "count": 4
+        },
+        "Control_LowVLow_Low1.Environment.EpisodeLength.mean": {
+            "value": 615.6875,
+            "min": 594.25,
+            "max": 2148.695652173913,
+            "count": 4
+        },
+        "Control_LowVLow_Low1.Environment.EpisodeLength.sum": {
+            "value": 49255.0,
+            "min": 49255.0,
+            "max": 50518.0,
+            "count": 4
+        },
+        "Control_LowVLow_Low1.Environment.CumulativeReward.mean": {
+            "value": 0.275,
+            "min": -0.31351012250651483,
+            "max": 0.275,
+            "count": 4
+        },
+        "Control_LowVLow_Low1.Environment.CumulativeReward.sum": {
+            "value": 22.0,
+            "min": -9.094366073608398,
+            "max": 22.0,
+            "count": 4
+        },
+        "Control_LowVLow_Low1.Policy.ExtrinsicReward.mean": {
+            "value": 0.275,
+            "min": -0.31351012250651483,
+            "max": 0.275,
+            "count": 4
+        },
+        "Control_LowVLow_Low1.Policy.ExtrinsicReward.sum": {
+            "value": 22.0,
+            "min": -9.094366073608398,
+            "max": 22.0,
+            "count": 4
+        },
+        "Control_LowVLow_Low1.Losses.PolicyLoss.mean": {
+            "value": 0.024596239076927307,
+            "min": 0.02080831901015093,
+            "max": 0.02737749351343761,
+            "count": 4
+        },
+        "Control_LowVLow_Low1.Losses.PolicyLoss.sum": {
+            "value": 0.12298119538463653,
+            "min": 0.08323327604060372,
+            "max": 0.13688746756718806,
+            "count": 4
+        },
+        "Control_LowVLow_Low1.Losses.ValueLoss.mean": {
+            "value": 0.012035237827027836,
+            "min": 0.004492618989509841,
+            "max": 0.012035237827027836,
+            "count": 4
+        },
+        "Control_LowVLow_Low1.Losses.ValueLoss.sum": {
+            "value": 0.06017618913513918,
+            "min": 0.017970475958039363,
+            "max": 0.06017618913513918,
+            "count": 4
+        },
+        "Control_LowVLow_Low1.Policy.LearningRate.mean": {
+            "value": 0.00019521363492880004,
+            "min": 0.00019521363492880004,
+            "max": 0.0002845941051353,
+            "count": 4
+        },
+        "Control_LowVLow_Low1.Policy.LearningRate.sum": {
+            "value": 0.0009760681746440002,
+            "min": 0.0009760681746440002,
+            "max": 0.0012841938719354,
+            "count": 4
+        },
+        "Control_LowVLow_Low1.Policy.Epsilon.mean": {
+            "value": 0.16507120000000006,
+            "min": 0.16507120000000006,
+            "max": 0.19486470000000003,
+            "count": 4
+        },
+        "Control_LowVLow_Low1.Policy.Epsilon.sum": {
+            "value": 0.8253560000000003,
+            "min": 0.7794588000000001,
+            "max": 0.9280645999999999,
+            "count": 4
+        },
+        "Control_LowVLow_Low1.Policy.Beta.mean": {
+            "value": 0.00325705288,
+            "min": 0.00325705288,
+            "max": 0.00474374853,
+            "count": 4
+        },
+        "Control_LowVLow_Low1.Policy.Beta.sum": {
+            "value": 0.0162852644,
+            "min": 0.0162852644,
+            "max": 0.02141042354,
+            "count": 4
+        },
+        "Control_LowVLow_Low1.IsTraining.mean": {
+            "value": 1.0,
+            "min": 1.0,
+            "max": 1.0,
+            "count": 4
+        },
+        "Control_LowVLow_Low1.IsTraining.sum": {
+            "value": 1.0,
+            "min": 1.0,
+            "max": 1.0,
+            "count": 4
+        },
+        "Simple_HighVHigh_High1.Policy.Entropy.mean": {
+            "value": 3.8342435359954834,
+            "min": 3.8342435359954834,
+            "max": 3.9656362533569336,
+            "count": 4
+        },
+        "Simple_HighVHigh_High1.Policy.Entropy.sum": {
+            "value": 191854.046875,
+            "min": 191854.046875,
+            "max": 198365.09375,
+            "count": 4
+        },
+        "Simple_HighVHigh_High1.Step.mean": {
+            "value": 199973.0,
+            "min": 49957.0,
+            "max": 199973.0,
+            "count": 4
+        },
+        "Simple_HighVHigh_High1.Step.sum": {
+            "value": 199973.0,
+            "min": 49957.0,
+            "max": 199973.0,
+            "count": 4
+        },
+        "Simple_HighVHigh_High1.Policy.ExtrinsicValueEstimate.mean": {
+            "value": 0.039322562515735626,
+            "min": 0.039322562515735626,
+            "max": 0.15981416404247284,
+            "count": 4
+        },
+        "Simple_HighVHigh_High1.Policy.ExtrinsicValueEstimate.sum": {
+            "value": 31.025501251220703,
+            "min": 31.025501251220703,
+            "max": 125.45411682128906,
+            "count": 4
+        },
+        "Simple_HighVHigh_High1.Environment.EpisodeLength.mean": {
+            "value": 2329.904761904762,
+            "min": 2138.75,
+            "max": 2653.5,
+            "count": 4
+        },
+        "Simple_HighVHigh_High1.Environment.EpisodeLength.sum": {
+            "value": 48928.0,
+            "min": 47763.0,
+            "max": 51330.0,
+            "count": 4
+        },
+        "Simple_HighVHigh_High1.Environment.CumulativeReward.mean": {
+            "value": 0.18482841480345952,
+            "min": 0.04073021560907364,
+            "max": 0.5246472424930997,
+            "count": 4
+        },
+        "Simple_HighVHigh_High1.Environment.CumulativeReward.sum": {
+            "value": 3.88139671087265,
+            "min": 0.9775251746177673,
+            "max": 9.443650364875793,
+            "count": 4
+        },
+        "Simple_HighVHigh_High1.Policy.ExtrinsicReward.mean": {
+            "value": 0.18482841480345952,
+            "min": 0.04073021560907364,
+            "max": 0.5246472424930997,
+            "count": 4
+        },
+        "Simple_HighVHigh_High1.Policy.ExtrinsicReward.sum": {
+            "value": 3.88139671087265,
+            "min": 0.9775251746177673,
+            "max": 9.443650364875793,
+            "count": 4
+        },
+        "Simple_HighVHigh_High1.Losses.PolicyLoss.mean": {
+            "value": 0.026235751574859023,
+            "min": 0.022677170396782458,
+            "max": 0.026235751574859023,
+            "count": 4
+        },
+        "Simple_HighVHigh_High1.Losses.PolicyLoss.sum": {
+            "value": 0.13117875787429512,
+            "min": 0.09369394262321293,
+            "max": 0.13117875787429512,
+            "count": 4
+        },
+        "Simple_HighVHigh_High1.Losses.ValueLoss.mean": {
+            "value": 0.003343269968560586,
+            "min": 0.003343269968560586,
+            "max": 0.006310530299864088,
+            "count": 4
+        },
+        "Simple_HighVHigh_High1.Losses.ValueLoss.sum": {
+            "value": 0.01671634984280293,
+            "min": 0.01671634984280293,
+            "max": 0.025242121199456354,
+            "count": 4
+        },
+        "Simple_HighVHigh_High1.Policy.LearningRate.mean": {
+            "value": 0.00019522179492608,
+            "min": 0.00019522179492608,
+            "max": 0.00028458510513829994,
+            "count": 4
+        },
+        "Simple_HighVHigh_High1.Policy.LearningRate.sum": {
+            "value": 0.0009761089746304,
+            "min": 0.0009761089746304,
+            "max": 0.0012842898719034003,
+            "count": 4
+        },
+        "Simple_HighVHigh_High1.Policy.Epsilon.mean": {
+            "value": 0.16507392,
+            "min": 0.16507392,
+            "max": 0.19486170000000003,
+            "count": 4
+        },
+        "Simple_HighVHigh_High1.Policy.Epsilon.sum": {
+            "value": 0.8253696,
+            "min": 0.7794468000000001,
+            "max": 0.9280966,
+            "count": 4
+        },
+        "Simple_HighVHigh_High1.Policy.Beta.mean": {
+            "value": 0.003257188608,
+            "min": 0.003257188608,
+            "max": 0.00474359883,
+            "count": 4
+        },
+        "Simple_HighVHigh_High1.Policy.Beta.sum": {
+            "value": 0.01628594304,
+            "min": 0.01628594304,
+            "max": 0.02141202034,
+            "count": 4
+        },
+        "Simple_HighVHigh_High1.IsTraining.mean": {
+            "value": 1.0,
+            "min": 1.0,
+            "max": 1.0,
+            "count": 4
+        },
+        "Simple_HighVHigh_High1.IsTraining.sum": {
+            "value": 1.0,
+            "min": 1.0,
+            "max": 1.0,
+            "count": 4
+        },
+        "Simple_HighVHigh_High2.Policy.Entropy.mean": {
+            "value": 3.8517191410064697,
+            "min": 3.7516603469848633,
+            "max": 3.9762046337127686,
+            "count": 4
+        },
+        "Simple_HighVHigh_High2.Policy.Entropy.sum": {
+            "value": 192728.46875,
+            "min": 187380.421875,
+            "max": 198893.734375,
+            "count": 4
+        },
+        "Simple_HighVHigh_High2.Step.mean": {
+            "value": 199973.0,
+            "min": 49957.0,
+            "max": 199973.0,
+            "count": 4
+        },
+        "Simple_HighVHigh_High2.Step.sum": {
+            "value": 199973.0,
+            "min": 49957.0,
+            "max": 199973.0,
+            "count": 4
+        },
+        "Simple_HighVHigh_High2.Policy.ExtrinsicValueEstimate.mean": {
+            "value": 0.054280124604701996,
+            "min": 0.054280124604701996,
+            "max": 0.08552557229995728,
+            "count": 4
+        },
+        "Simple_HighVHigh_High2.Policy.ExtrinsicValueEstimate.sum": {
+            "value": 42.82701873779297,
+            "min": 42.82701873779297,
+            "max": 67.1375732421875,
+            "count": 4
+        },
+        "Simple_HighVHigh_High2.Environment.EpisodeLength.mean": {
+            "value": 2329.904761904762,
+            "min": 2138.75,
+            "max": 2653.5,
+            "count": 4
+        },
+        "Simple_HighVHigh_High2.Environment.EpisodeLength.sum": {
+            "value": 48928.0,
+            "min": 47763.0,
+            "max": 51330.0,
+            "count": 4
+        },
+        "Simple_HighVHigh_High2.Environment.CumulativeReward.mean": {
+            "value": 0.5338909881455558,
+            "min": 0.5030744440025754,
+            "max": 0.7039042587081591,
+            "count": 4
+        },
+        "Simple_HighVHigh_High2.Environment.CumulativeReward.sum": {
+            "value": 11.211710751056671,
+            "min": 9.055339992046356,
+            "max": 16.89370220899582,
+            "count": 4
+        },
+        "Simple_HighVHigh_High2.Policy.ExtrinsicReward.mean": {
+            "value": 0.5338909881455558,
+            "min": 0.5030744440025754,
+            "max": 0.7039042587081591,
+            "count": 4
+        },
+        "Simple_HighVHigh_High2.Policy.ExtrinsicReward.sum": {
+            "value": 11.211710751056671,
+            "min": 9.055339992046356,
+            "max": 16.89370220899582,
+            "count": 4
+        },
+        "Simple_HighVHigh_High2.Losses.PolicyLoss.mean": {
+            "value": 0.02385107109788805,
+            "min": 0.02187567277190586,
+            "max": 0.025115605651711427,
+            "count": 4
+        },
+        "Simple_HighVHigh_High2.Losses.PolicyLoss.sum": {
+            "value": 0.11925535548944025,
+            "min": 0.09078686359959345,
+            "max": 0.12557802825855713,
+            "count": 4
+        },
+        "Simple_HighVHigh_High2.Losses.ValueLoss.mean": {
+            "value": 0.0029465994013783835,
+            "min": 0.002696978721457223,
+            "max": 0.0031261284234157458,
+            "count": 4
+        },
+        "Simple_HighVHigh_High2.Losses.ValueLoss.sum": {
+            "value": 0.014732997006891917,
+            "min": 0.012504513693662983,
+            "max": 0.014732997006891917,
+            "count": 4
+        },
+        "Simple_HighVHigh_High2.Policy.LearningRate.mean": {
+            "value": 0.00019522179492608,
+            "min": 0.00019522179492608,
+            "max": 0.00028458510513829994,
+            "count": 4
+        },
+        "Simple_HighVHigh_High2.Policy.LearningRate.sum": {
+            "value": 0.0009761089746304,
+            "min": 0.0009761089746304,
+            "max": 0.0012842898719034003,
+            "count": 4
+        },
+        "Simple_HighVHigh_High2.Policy.Epsilon.mean": {
+            "value": 0.16507392,
+            "min": 0.16507392,
+            "max": 0.19486170000000003,
+            "count": 4
+        },
+        "Simple_HighVHigh_High2.Policy.Epsilon.sum": {
+            "value": 0.8253696,
+            "min": 0.7794468000000001,
+            "max": 0.9280966,
+            "count": 4
+        },
+        "Simple_HighVHigh_High2.Policy.Beta.mean": {
+            "value": 0.003257188608,
+            "min": 0.003257188608,
+            "max": 0.00474359883,
+            "count": 4
+        },
+        "Simple_HighVHigh_High2.Policy.Beta.sum": {
+            "value": 0.01628594304,
+            "min": 0.01628594304,
+            "max": 0.02141202034,
+            "count": 4
+        },
+        "Simple_HighVHigh_High2.IsTraining.mean": {
+            "value": 1.0,
+            "min": 1.0,
+            "max": 1.0,
+            "count": 4
+        },
+        "Simple_HighVHigh_High2.IsTraining.sum": {
+            "value": 1.0,
+            "min": 1.0,
+            "max": 1.0,
+            "count": 4
+        },
+        "Simple_LowVLow_Low2.Policy.Entropy.mean": {
+            "value": 3.899538278579712,
+            "min": 3.899538278579712,
+            "max": 3.985128402709961,
+            "count": 4
+        },
+        "Simple_LowVLow_Low2.Policy.Entropy.sum": {
+            "value": 194953.515625,
+            "min": 194953.515625,
+            "max": 199375.96875,
+            "count": 4
+        },
+        "Simple_LowVLow_Low2.Step.mean": {
+            "value": 199980.0,
+            "min": 49966.0,
+            "max": 199980.0,
+            "count": 4
+        },
+        "Simple_LowVLow_Low2.Step.sum": {
+            "value": 199980.0,
+            "min": 49966.0,
+            "max": 199980.0,
+            "count": 4
+        },
+        "Simple_LowVLow_Low2.Policy.ExtrinsicValueEstimate.mean": {
+            "value": 0.06215088441967964,
+            "min": -0.018392350524663925,
+            "max": 0.06215088441967964,
+            "count": 4
+        },
+        "Simple_LowVLow_Low2.Policy.ExtrinsicValueEstimate.sum": {
+            "value": 49.2234992980957,
+            "min": -14.41960334777832,
+            "max": 49.2234992980957,
+            "count": 4
+        },
+        "Simple_LowVLow_Low2.Environment.EpisodeLength.mean": {
+            "value": 2075.56,
+            "min": 2075.56,
+            "max": 2510.8947368421054,
+            "count": 4
+        },
+        "Simple_LowVLow_Low2.Environment.EpisodeLength.sum": {
+            "value": 51889.0,
+            "min": 47707.0,
+            "max": 51919.0,
+            "count": 4
+        },
+        "Simple_LowVLow_Low2.Environment.CumulativeReward.mean": {
+            "value": 0.7407559156417847,
+            "min": 0.6375579833984375,
+            "max": 0.8989269325607702,
+            "count": 4
+        },
+        "Simple_LowVLow_Low2.Environment.CumulativeReward.sum": {
+            "value": 18.518897891044617,
+            "min": 12.75115966796875,
+            "max": 21.564981758594513,
+            "count": 4
+        },
+        "Simple_LowVLow_Low2.Policy.ExtrinsicReward.mean": {
+            "value": 0.7407559156417847,
+            "min": 0.6375579833984375,
+            "max": 0.8989269325607702,
+            "count": 4
+        },
+        "Simple_LowVLow_Low2.Policy.ExtrinsicReward.sum": {
+            "value": 18.518897891044617,
+            "min": 12.75115966796875,
+            "max": 21.564981758594513,
+            "count": 4
+        },
+        "Simple_LowVLow_Low2.Losses.PolicyLoss.mean": {
+            "value": 0.024408632035677634,
+            "min": 0.02246956997240583,
+            "max": 0.024408632035677634,
+            "count": 4
+        },
+        "Simple_LowVLow_Low2.Losses.PolicyLoss.sum": {
+            "value": 0.12204316017838816,
+            "min": 0.09528083061644187,
+            "max": 0.12204316017838816,
+            "count": 4
+        },
+        "Simple_LowVLow_Low2.Losses.ValueLoss.mean": {
+            "value": 0.0035825737259195497,
+            "min": 0.0026139726559631527,
+            "max": 0.0035825737259195497,
+            "count": 4
+        },
+        "Simple_LowVLow_Low2.Losses.ValueLoss.sum": {
+            "value": 0.017912868629597747,
+            "min": 0.012811241849946479,
+            "max": 0.017912868629597747,
+            "count": 4
+        },
+        "Simple_LowVLow_Low2.Policy.LearningRate.mean": {
+            "value": 0.00019515951494684003,
+            "min": 0.00019515951494684003,
+            "max": 0.00028458525513825,
+            "count": 4
+        },
+        "Simple_LowVLow_Low2.Policy.LearningRate.sum": {
+            "value": 0.0009757975747342002,
+            "min": 0.0009757975747342002,
+            "max": 0.001284276071908,
+            "count": 4
+        },
+        "Simple_LowVLow_Low2.Policy.Epsilon.mean": {
+            "value": 0.16505316000000003,
+            "min": 0.16505316000000003,
+            "max": 0.19486174999999997,
+            "count": 4
+        },
+        "Simple_LowVLow_Low2.Policy.Epsilon.sum": {
+            "value": 0.8252658000000002,
+            "min": 0.7794469999999999,
+            "max": 0.9280919999999999,
+            "count": 4
+        },
+        "Simple_LowVLow_Low2.Policy.Beta.mean": {
+            "value": 0.0032561526840000007,
+            "min": 0.0032561526840000007,
+            "max": 0.004743601325,
+            "count": 4
+        },
+        "Simple_LowVLow_Low2.Policy.Beta.sum": {
+            "value": 0.016280763420000004,
+            "min": 0.016280763420000004,
+            "max": 0.021411790799999997,
+            "count": 4
+        },
+        "Simple_LowVLow_Low2.IsTraining.mean": {
+            "value": 1.0,
+            "min": 1.0,
+            "max": 1.0,
+            "count": 4
+        },
+        "Simple_LowVLow_Low2.IsTraining.sum": {
+            "value": 1.0,
+            "min": 1.0,
+            "max": 1.0,
+            "count": 4
+        },
+        "Simple_LowVLow_Low1.Policy.Entropy.mean": {
+            "value": 3.805147171020508,
+            "min": 3.805147171020508,
+            "max": 3.979424476623535,
+            "count": 4
+        },
+        "Simple_LowVLow_Low1.Policy.Entropy.sum": {
+            "value": 190234.53125,
+            "min": 190234.53125,
+            "max": 199090.609375,
+            "count": 4
+        },
+        "Simple_LowVLow_Low1.Step.mean": {
+            "value": 199980.0,
+            "min": 49966.0,
+            "max": 199980.0,
+            "count": 4
+        },
+        "Simple_LowVLow_Low1.Step.sum": {
+            "value": 199980.0,
+            "min": 49966.0,
+            "max": 199980.0,
+            "count": 4
+        },
+        "Simple_LowVLow_Low1.Policy.ExtrinsicValueEstimate.mean": {
+            "value": 0.015283552929759026,
+            "min": -0.0974457710981369,
+            "max": 0.015283552929759026,
+            "count": 4
+        },
+        "Simple_LowVLow_Low1.Policy.ExtrinsicValueEstimate.sum": {
+            "value": 12.104574203491211,
+            "min": -76.3974838256836,
+            "max": 12.104574203491211,
+            "count": 4
+        },
+        "Simple_LowVLow_Low1.Environment.EpisodeLength.mean": {
+            "value": 2075.56,
+            "min": 2075.56,
+            "max": 2510.8947368421054,
+            "count": 4
+        },
+        "Simple_LowVLow_Low1.Environment.EpisodeLength.sum": {
+            "value": 51889.0,
+            "min": 47707.0,
+            "max": 51919.0,
+            "count": 4
+        },
+        "Simple_LowVLow_Low1.Environment.CumulativeReward.mean": {
+            "value": -0.23301870584487916,
+            "min": -0.23301870584487916,
+            "max": 0.4872872561216354,
+            "count": 4
+        },
+        "Simple_LowVLow_Low1.Environment.CumulativeReward.sum": {
+            "value": -5.825467646121979,
+            "min": -5.825467646121979,
+            "max": 9.745745122432709,
+            "count": 4
+        },
+        "Simple_LowVLow_Low1.Policy.ExtrinsicReward.mean": {
+            "value": -0.23301870584487916,
+            "min": -0.23301870584487916,
+            "max": 0.4872872561216354,
+            "count": 4
+        },
+        "Simple_LowVLow_Low1.Policy.ExtrinsicReward.sum": {
+            "value": -5.825467646121979,
+            "min": -5.825467646121979,
+            "max": 9.745745122432709,
+            "count": 4
+        },
+        "Simple_LowVLow_Low1.Losses.PolicyLoss.mean": {
+            "value": 0.021468297448009255,
+            "min": 0.02084930546504135,
+            "max": 0.02431877513571332,
+            "count": 4
+        },
+        "Simple_LowVLow_Low1.Losses.PolicyLoss.sum": {
+            "value": 0.10734148724004627,
+            "min": 0.0833972218601654,
+            "max": 0.1215938756785666,
+            "count": 4
+        },
+        "Simple_LowVLow_Low1.Losses.ValueLoss.mean": {
+            "value": 0.003612508300381402,
+            "min": 0.002257191012225424,
+            "max": 0.003612508300381402,
+            "count": 4
+        },
+        "Simple_LowVLow_Low1.Losses.ValueLoss.sum": {
+            "value": 0.01806254150190701,
+            "min": 0.010722985599810879,
+            "max": 0.01806254150190701,
+            "count": 4
+        },
+        "Simple_LowVLow_Low1.Policy.LearningRate.mean": {
+            "value": 0.00019515951494684003,
+            "min": 0.00019515951494684003,
+            "max": 0.00028458525513825,
+            "count": 4
+        },
+        "Simple_LowVLow_Low1.Policy.LearningRate.sum": {
+            "value": 0.0009757975747342002,
+            "min": 0.0009757975747342002,
+            "max": 0.001284276071908,
+            "count": 4
+        },
+        "Simple_LowVLow_Low1.Policy.Epsilon.mean": {
+            "value": 0.16505316000000003,
+            "min": 0.16505316000000003,
+            "max": 0.19486174999999997,
+            "count": 4
+        },
+        "Simple_LowVLow_Low1.Policy.Epsilon.sum": {
+            "value": 0.8252658000000002,
+            "min": 0.7794469999999999,
+            "max": 0.9280919999999999,
+            "count": 4
+        },
+        "Simple_LowVLow_Low1.Policy.Beta.mean": {
+            "value": 0.0032561526840000007,
+            "min": 0.0032561526840000007,
+            "max": 0.004743601325,
+            "count": 4
+        },
+        "Simple_LowVLow_Low1.Policy.Beta.sum": {
+            "value": 0.016280763420000004,
+            "min": 0.016280763420000004,
+            "max": 0.021411790799999997,
+            "count": 4
+        },
+        "Simple_LowVLow_Low1.IsTraining.mean": {
+            "value": 1.0,
+            "min": 1.0,
+            "max": 1.0,
+            "count": 4
+        },
+        "Simple_LowVLow_Low1.IsTraining.sum": {
+            "value": 1.0,
+            "min": 1.0,
+            "max": 1.0,
+            "count": 4
+        },
+        "Control_MedVHigh_High.Policy.Entropy.mean": {
+            "value": 3.9393422603607178,
+            "min": 3.8754308223724365,
+            "max": 3.969835042953491,
+            "count": 4
+        },
+        "Control_MedVHigh_High.Policy.Entropy.sum": {
+            "value": 196971.046875,
+            "min": 193585.515625,
+            "max": 198634.671875,
+            "count": 4
+        },
+        "Control_MedVHigh_High.Step.mean": {
+            "value": 199943.0,
+            "min": 49972.0,
+            "max": 199943.0,
+            "count": 4
+        },
+        "Control_MedVHigh_High.Step.sum": {
+            "value": 199943.0,
+            "min": 49972.0,
+            "max": 199943.0,
+            "count": 4
+        },
+        "Control_MedVHigh_High.Policy.ExtrinsicValueEstimate.mean": {
+            "value": 0.035990457981824875,
+            "min": 0.032703500241041183,
+            "max": 0.187297984957695,
+            "count": 4
+        },
+        "Control_MedVHigh_High.Policy.ExtrinsicValueEstimate.sum": {
+            "value": 28.432462692260742,
+            "min": 25.901172637939453,
+            "max": 149.2764892578125,
+            "count": 4
+        },
+        "Control_MedVHigh_High.Environment.EpisodeLength.mean": {
+            "value": 1812.1785714285713,
+            "min": 1297.923076923077,
+            "max": 1812.1785714285713,
+            "count": 4
+        },
+        "Control_MedVHigh_High.Environment.EpisodeLength.sum": {
+            "value": 50741.0,
+            "min": 48975.0,
+            "max": 50741.0,
+            "count": 4
+        },
+        "Control_MedVHigh_High.Environment.CumulativeReward.mean": {
+            "value": 0.4667122576917921,
+            "min": -0.13587437073389688,
+            "max": 0.4667122576917921,
+            "count": 4
+        },
+        "Control_MedVHigh_High.Environment.CumulativeReward.sum": {
+            "value": 13.067943215370178,
+            "min": -5.299100458621979,
+            "max": 16.134914994239807,
+            "count": 4
+        },
+        "Control_MedVHigh_High.Policy.ExtrinsicReward.mean": {
+            "value": 0.4667122576917921,
+            "min": -0.13587437073389688,
+            "max": 0.4667122576917921,
+            "count": 4
+        },
+        "Control_MedVHigh_High.Policy.ExtrinsicReward.sum": {
+            "value": 13.067943215370178,
+            "min": -5.299100458621979,
+            "max": 16.134914994239807,
+            "count": 4
+        },
+        "Control_MedVHigh_High.Losses.PolicyLoss.mean": {
+            "value": 0.024258329151198264,
+            "min": 0.021373375594460717,
+            "max": 0.025138030660649142,
+            "count": 4
+        },
+        "Control_MedVHigh_High.Losses.PolicyLoss.sum": {
+            "value": 0.12129164575599133,
+            "min": 0.08549350237784287,
+            "max": 0.1256901533032457,
+            "count": 4
+        },
+        "Control_MedVHigh_High.Losses.ValueLoss.mean": {
+            "value": 0.004287388149338464,
+            "min": 0.004009622508504738,
+            "max": 0.006845916995856291,
+            "count": 4
+        },
+        "Control_MedVHigh_High.Losses.ValueLoss.sum": {
+            "value": 0.02143694074669232,
+            "min": 0.020048112542523693,
+            "max": 0.030151876395878692,
+            "count": 4
+        },
+        "Control_MedVHigh_High.Policy.LearningRate.mean": {
+            "value": 0.0001951776349408,
+            "min": 0.0001951776349408,
+            "max": 0.00028462455512514987,
+            "count": 4
+        },
+        "Control_MedVHigh_High.Policy.LearningRate.sum": {
+            "value": 0.0009758881747039999,
+            "min": 0.0009758881747039999,
+            "max": 0.0012844788718403997,
+            "count": 4
+        },
+        "Control_MedVHigh_High.Policy.Epsilon.mean": {
+            "value": 0.16505920000000002,
+            "min": 0.16505920000000002,
+            "max": 0.19487485000000002,
+            "count": 4
+        },
+        "Control_MedVHigh_High.Policy.Epsilon.sum": {
+            "value": 0.8252960000000001,
+            "min": 0.7794994000000001,
+            "max": 0.9281595999999998,
+            "count": 4
+        },
+        "Control_MedVHigh_High.Policy.Beta.mean": {
+            "value": 0.003256454080000001,
+            "min": 0.003256454080000001,
+            "max": 0.004744255015,
+            "count": 4
+        },
+        "Control_MedVHigh_High.Policy.Beta.sum": {
+            "value": 0.016282270400000007,
+            "min": 0.016282270400000007,
+            "max": 0.021415164040000004,
+            "count": 4
+        },
+        "Control_MedVHigh_High.IsTraining.mean": {
+            "value": 1.0,
+            "min": 1.0,
+            "max": 1.0,
+            "count": 4
+        },
+        "Control_MedVHigh_High.IsTraining.sum": {
+            "value": 1.0,
+            "min": 1.0,
+            "max": 1.0,
+            "count": 4
+        },
+        "Control_MedVHigh_Med.Policy.Entropy.mean": {
+            "value": 3.953665256500244,
+            "min": 3.9017221927642822,
+            "max": 3.9834859371185303,
+            "count": 4
+        },
+        "Control_MedVHigh_Med.Policy.Entropy.sum": {
+            "value": 197687.21875,
+            "min": 194898.828125,
+            "max": 199317.703125,
+            "count": 4
+        },
+        "Control_MedVHigh_Med.Step.mean": {
+            "value": 199943.0,
+            "min": 49972.0,
+            "max": 199943.0,
+            "count": 4
+        },
+        "Control_MedVHigh_Med.Step.sum": {
+            "value": 199943.0,
+            "min": 49972.0,
+            "max": 199943.0,
+            "count": 4
+        },
+        "Control_MedVHigh_Med.Policy.ExtrinsicValueEstimate.mean": {
+            "value": -0.006261987145990133,
+            "min": -0.1531399041414261,
+            "max": -0.006261987145990133,
+            "count": 4
+        },
+        "Control_MedVHigh_Med.Policy.ExtrinsicValueEstimate.sum": {
+            "value": -4.946969985961914,
+            "min": -122.05250549316406,
+            "max": -4.946969985961914,
+            "count": 4
+        },
+        "Control_MedVHigh_Med.Environment.EpisodeLength.mean": {
+            "value": 1812.1785714285713,
+            "min": 1297.923076923077,
+            "max": 1812.1785714285713,
+            "count": 4
+        },
+        "Control_MedVHigh_Med.Environment.EpisodeLength.sum": {
+            "value": 50741.0,
+            "min": 48975.0,
+            "max": 50741.0,
+            "count": 4
+        },
+        "Control_MedVHigh_Med.Environment.CumulativeReward.mean": {
+            "value": 0.0446590930223465,
+            "min": -0.0966819718077376,
+            "max": 0.6261623288903918,
+            "count": 4
+        },
+        "Control_MedVHigh_Med.Environment.CumulativeReward.sum": {
+            "value": 1.250454604625702,
+            "min": -3.5772329568862915,
+            "max": 17.53254520893097,
+            "count": 4
+        },
+        "Control_MedVHigh_Med.Policy.ExtrinsicReward.mean": {
+            "value": 0.0446590930223465,
+            "min": -0.0966819718077376,
+            "max": 0.6261623288903918,
+            "count": 4
+        },
+        "Control_MedVHigh_Med.Policy.ExtrinsicReward.sum": {
+            "value": 1.250454604625702,
+            "min": -3.5772329568862915,
+            "max": 17.53254520893097,
+            "count": 4
+        },
+        "Control_MedVHigh_Med.Losses.PolicyLoss.mean": {
+            "value": 0.025887762098573148,
+            "min": 0.022417306651671725,
+            "max": 0.025887762098573148,
+            "count": 4
+        },
+        "Control_MedVHigh_Med.Losses.PolicyLoss.sum": {
+            "value": 0.12943881049286574,
+            "min": 0.09210880648655197,
+            "max": 0.12943881049286574,
+            "count": 4
+        },
+        "Control_MedVHigh_Med.Losses.ValueLoss.mean": {
+            "value": 0.004210907597249995,
+            "min": 0.004210907597249995,
+            "max": 0.0074123685287001235,
+            "count": 4
+        },
+        "Control_MedVHigh_Med.Losses.ValueLoss.sum": {
+            "value": 0.021054537986249976,
+            "min": 0.021054537986249976,
+            "max": 0.03038071960521241,
+            "count": 4
+        },
+        "Control_MedVHigh_Med.Policy.LearningRate.mean": {
+            "value": 0.0001951776349408,
+            "min": 0.0001951776349408,
+            "max": 0.00028462455512514987,
+            "count": 4
+        },
+        "Control_MedVHigh_Med.Policy.LearningRate.sum": {
+            "value": 0.0009758881747039999,
+            "min": 0.0009758881747039999,
+            "max": 0.0012844788718403997,
+            "count": 4
+        },
+        "Control_MedVHigh_Med.Policy.Epsilon.mean": {
+            "value": 0.16505920000000002,
+            "min": 0.16505920000000002,
+            "max": 0.19487485000000002,
+            "count": 4
+        },
+        "Control_MedVHigh_Med.Policy.Epsilon.sum": {
+            "value": 0.8252960000000001,
+            "min": 0.7794994000000001,
+            "max": 0.9281595999999998,
+            "count": 4
+        },
+        "Control_MedVHigh_Med.Policy.Beta.mean": {
+            "value": 0.003256454080000001,
+            "min": 0.003256454080000001,
+            "max": 0.004744255015,
+            "count": 4
+        },
+        "Control_MedVHigh_Med.Policy.Beta.sum": {
+            "value": 0.016282270400000007,
+            "min": 0.016282270400000007,
+            "max": 0.021415164040000004,
+            "count": 4
+        },
+        "Control_MedVHigh_Med.IsTraining.mean": {
+            "value": 1.0,
+            "min": 1.0,
+            "max": 1.0,
+            "count": 4
+        },
+        "Control_MedVHigh_Med.IsTraining.sum": {
+            "value": 1.0,
+            "min": 1.0,
+            "max": 1.0,
+            "count": 4
+        },
+        "Complex_MedVMed_Med2.Policy.Entropy.mean": {
+            "value": 3.886375904083252,
+            "min": 3.886375904083252,
+            "max": 3.9717252254486084,
+            "count": 4
+        },
+        "Complex_MedVMed_Med2.Policy.Entropy.sum": {
+            "value": 194276.046875,
+            "min": 194276.046875,
+            "max": 198745.125,
+            "count": 4
+        },
+        "Complex_MedVMed_Med2.Step.mean": {
+            "value": 199971.0,
+            "min": 49976.0,
+            "max": 199971.0,
+            "count": 4
+        },
+        "Complex_MedVMed_Med2.Step.sum": {
+            "value": 199971.0,
+            "min": 49976.0,
+            "max": 199971.0,
+            "count": 4
+        },
+        "Complex_MedVMed_Med2.Policy.ExtrinsicValueEstimate.mean": {
+            "value": 0.012366073206067085,
+            "min": -0.4390179216861725,
+            "max": 0.012366073206067085,
+            "count": 4
+        },
+        "Complex_MedVMed_Med2.Policy.ExtrinsicValueEstimate.sum": {
+            "value": 9.84339427947998,
+            "min": -346.3851318359375,
+            "max": 9.84339427947998,
+            "count": 4
+        },
+        "Complex_MedVMed_Med2.Environment.EpisodeLength.mean": {
+            "value": 1418.1142857142856,
+            "min": 1418.1142857142856,
+            "max": 2182.6521739130435,
+            "count": 4
+        },
+        "Complex_MedVMed_Med2.Environment.EpisodeLength.sum": {
+            "value": 49634.0,
+            "min": 49566.0,
+            "max": 50201.0,
+            "count": 4
+        },
+        "Complex_MedVMed_Med2.Environment.CumulativeReward.mean": {
+            "value": 0.883244412285941,
+            "min": 0.11587287733952205,
+            "max": 0.883244412285941,
+            "count": 4
+        },
+        "Complex_MedVMed_Med2.Environment.CumulativeReward.sum": {
+            "value": 30.913554430007935,
+            "min": 2.780949056148529,
+            "max": 30.913554430007935,
+            "count": 4
+        },
+        "Complex_MedVMed_Med2.Policy.ExtrinsicReward.mean": {
+            "value": 0.883244412285941,
+            "min": 0.11587287733952205,
+            "max": 0.883244412285941,
+            "count": 4
+        },
+        "Complex_MedVMed_Med2.Policy.ExtrinsicReward.sum": {
+            "value": 30.913554430007935,
+            "min": 2.780949056148529,
+            "max": 30.913554430007935,
+            "count": 4
+        },
+        "Complex_MedVMed_Med2.Losses.PolicyLoss.mean": {
+            "value": 0.02273679473282148,
+            "min": 0.02273679473282148,
+            "max": 0.027278279631088177,
+            "count": 4
+        },
+        "Complex_MedVMed_Med2.Losses.PolicyLoss.sum": {
+            "value": 0.11368397366410742,
+            "min": 0.09243187201985469,
+            "max": 0.13639139815544088,
+            "count": 4
+        },
+        "Complex_MedVMed_Med2.Losses.ValueLoss.mean": {
+            "value": 0.005015975664524982,
+            "min": 0.0029870504005036,
+            "max": 0.010687872833417107,
+            "count": 4
+        },
+        "Complex_MedVMed_Med2.Losses.ValueLoss.sum": {
+            "value": 0.02507987832262491,
+            "min": 0.014935252002518001,
+            "max": 0.04275149133366843,
+            "count": 4
+        },
+        "Complex_MedVMed_Med2.Policy.LearningRate.mean": {
+            "value": 0.0001951854349382,
+            "min": 0.0001951854349382,
+            "max": 0.00028459650513449995,
+            "count": 4
+        },
+        "Complex_MedVMed_Med2.Policy.LearningRate.sum": {
+            "value": 0.000975927174691,
+            "min": 0.000975927174691,
+            "max": 0.0012841782719405998,
+            "count": 4
+        },
+        "Complex_MedVMed_Med2.Policy.Epsilon.mean": {
+            "value": 0.16506180000000004,
+            "min": 0.16506180000000004,
+            "max": 0.19486550000000005,
+            "count": 4
+        },
+        "Complex_MedVMed_Med2.Policy.Epsilon.sum": {
+            "value": 0.8253090000000002,
+            "min": 0.7794620000000002,
+            "max": 0.9280594000000001,
+            "count": 4
+        },
+        "Complex_MedVMed_Med2.Policy.Beta.mean": {
+            "value": 0.003256583820000001,
+            "min": 0.003256583820000001,
+            "max": 0.00474378845,
+            "count": 4
+        },
+        "Complex_MedVMed_Med2.Policy.Beta.sum": {
+            "value": 0.016282919100000005,
+            "min": 0.016282919100000005,
+            "max": 0.021410164059999997,
+            "count": 4
+        },
+        "Complex_MedVMed_Med2.IsTraining.mean": {
+            "value": 1.0,
+            "min": 1.0,
+            "max": 1.0,
+            "count": 4
+        },
+        "Complex_MedVMed_Med2.IsTraining.sum": {
+            "value": 1.0,
+            "min": 1.0,
+            "max": 1.0,
+            "count": 4
+        },
+        "Complex_MedVMed_Med1.Policy.Entropy.mean": {
+            "value": 3.946044921875,
+            "min": 3.9266231060028076,
+            "max": 3.9611172676086426,
+            "count": 4
+        },
+        "Complex_MedVMed_Med1.Policy.Entropy.sum": {
+            "value": 197258.84375,
+            "min": 196456.8125,
+            "max": 198214.3125,
+            "count": 4
+        },
+        "Complex_MedVMed_Med1.Step.mean": {
+            "value": 199971.0,
+            "min": 49976.0,
+            "max": 199971.0,
+            "count": 4
+        },
+        "Complex_MedVMed_Med1.Step.sum": {
+            "value": 199971.0,
+            "min": 49976.0,
+            "max": 199971.0,
+            "count": 4
+        },
+        "Complex_MedVMed_Med1.Policy.ExtrinsicValueEstimate.mean": {
+            "value": -0.05268079787492752,
+            "min": -0.5150400400161743,
+            "max": -0.05268079787492752,
+            "count": 4
+        },
+        "Complex_MedVMed_Med1.Policy.ExtrinsicValueEstimate.sum": {
+            "value": -41.93391418457031,
+            "min": -406.3665771484375,
+            "max": -41.93391418457031,
+            "count": 4
+        },
+        "Complex_MedVMed_Med1.Environment.EpisodeLength.mean": {
+            "value": 1418.1142857142856,
+            "min": 1418.1142857142856,
+            "max": 2182.6521739130435,
+            "count": 4
+        },
+        "Complex_MedVMed_Med1.Environment.EpisodeLength.sum": {
+            "value": 49634.0,
+            "min": 49566.0,
+            "max": 50201.0,
+            "count": 4
+        },
+        "Complex_MedVMed_Med1.Environment.CumulativeReward.mean": {
+            "value": -0.7265537687710353,
+            "min": -0.7265537687710353,
+            "max": 0.571776861945788,
+            "count": 4
+        },
+        "Complex_MedVMed_Med1.Environment.CumulativeReward.sum": {
+            "value": -25.429381906986237,
+            "min": -25.429381906986237,
+            "max": 13.722644686698914,
+            "count": 4
+        },
+        "Complex_MedVMed_Med1.Policy.ExtrinsicReward.mean": {
+            "value": -0.7265537687710353,
+            "min": -0.7265537687710353,
+            "max": 0.571776861945788,
+            "count": 4
+        },
+        "Complex_MedVMed_Med1.Policy.ExtrinsicReward.sum": {
+            "value": -25.429381906986237,
+            "min": -25.429381906986237,
+            "max": 13.722644686698914,
+            "count": 4
+        },
+        "Complex_MedVMed_Med1.Losses.PolicyLoss.mean": {
+            "value": 0.024707492363328733,
+            "min": 0.02375801156119754,
+            "max": 0.024905609003811453,
+            "count": 4
+        },
+        "Complex_MedVMed_Med1.Losses.PolicyLoss.sum": {
+            "value": 0.12353746181664367,
+            "min": 0.09962243601524581,
+            "max": 0.12362055814204118,
+            "count": 4
+        },
+        "Complex_MedVMed_Med1.Losses.ValueLoss.mean": {
+            "value": 0.004253621393193801,
+            "min": 0.003539229483382465,
+            "max": 0.007719995403507104,
+            "count": 4
+        },
+        "Complex_MedVMed_Med1.Losses.ValueLoss.sum": {
+            "value": 0.021268106965969005,
+            "min": 0.017696147416912326,
+            "max": 0.030879981614028416,
+            "count": 4
+        },
+        "Complex_MedVMed_Med1.Policy.LearningRate.mean": {
+            "value": 0.0001951854349382,
+            "min": 0.0001951854349382,
+            "max": 0.00028459650513449995,
+            "count": 4
+        },
+        "Complex_MedVMed_Med1.Policy.LearningRate.sum": {
+            "value": 0.000975927174691,
+            "min": 0.000975927174691,
+            "max": 0.0012841782719405998,
+            "count": 4
+        },
+        "Complex_MedVMed_Med1.Policy.Epsilon.mean": {
+            "value": 0.16506180000000004,
+            "min": 0.16506180000000004,
+            "max": 0.19486550000000005,
+            "count": 4
+        },
+        "Complex_MedVMed_Med1.Policy.Epsilon.sum": {
+            "value": 0.8253090000000002,
+            "min": 0.7794620000000002,
+            "max": 0.9280594000000001,
+            "count": 4
+        },
+        "Complex_MedVMed_Med1.Policy.Beta.mean": {
+            "value": 0.003256583820000001,
+            "min": 0.003256583820000001,
+            "max": 0.00474378845,
+            "count": 4
+        },
+        "Complex_MedVMed_Med1.Policy.Beta.sum": {
+            "value": 0.016282919100000005,
+            "min": 0.016282919100000005,
+            "max": 0.021410164059999997,
+            "count": 4
+        },
+        "Complex_MedVMed_Med1.IsTraining.mean": {
+            "value": 1.0,
+            "min": 1.0,
+            "max": 1.0,
+            "count": 4
+        },
+        "Complex_MedVMed_Med1.IsTraining.sum": {
+            "value": 1.0,
+            "min": 1.0,
+            "max": 1.0,
+            "count": 4
+        },
+        "Complex_LowVHigh_Low.Policy.Entropy.mean": {
+            "value": 3.9678614139556885,
+            "min": 3.9369630813598633,
+            "max": 3.9678614139556885,
+            "count": 4
+        },
+        "Complex_LowVHigh_Low.Policy.Entropy.sum": {
+            "value": 198444.65625,
+            "min": 196867.84375,
+            "max": 198444.65625,
+            "count": 4
+        },
+        "Complex_LowVHigh_Low.Step.mean": {
+            "value": 199989.0,
+            "min": 49977.0,
+            "max": 199989.0,
+            "count": 4
+        },
+        "Complex_LowVHigh_Low.Step.sum": {
+            "value": 199989.0,
+            "min": 49977.0,
+            "max": 199989.0,
+            "count": 4
+        },
+        "Complex_LowVHigh_Low.Policy.ExtrinsicValueEstimate.mean": {
+            "value": 0.03401476889848709,
+            "min": 0.03401476889848709,
+            "max": 0.16019631922245026,
+            "count": 4
+        },
+        "Complex_LowVHigh_Low.Policy.ExtrinsicValueEstimate.sum": {
+            "value": 26.939697265625,
+            "min": 26.939697265625,
+            "max": 125.59391784667969,
+            "count": 4
+        },
+        "Complex_LowVHigh_Low.Environment.EpisodeLength.mean": {
+            "value": 2004.64,
+            "min": 2004.64,
+            "max": 2886.1176470588234,
+            "count": 4
+        },
+        "Complex_LowVHigh_Low.Environment.EpisodeLength.sum": {
+            "value": 50116.0,
+            "min": 49064.0,
+            "max": 50419.0,
+            "count": 4
+        },
+        "Complex_LowVHigh_Low.Environment.CumulativeReward.mean": {
+            "value": -0.29363258838653566,
+            "min": -0.29363258838653566,
+            "max": 0.6754526110256419,
+            "count": 4
+        },
+        "Complex_LowVHigh_Low.Environment.CumulativeReward.sum": {
+            "value": -7.340814709663391,
+            "min": -7.340814709663391,
+            "max": 11.482694387435913,
+            "count": 4
+        },
+        "Complex_LowVHigh_Low.Policy.ExtrinsicReward.mean": {
+            "value": -0.29363258838653566,
+            "min": -0.29363258838653566,
+            "max": 0.6754526110256419,
+            "count": 4
+        },
+        "Complex_LowVHigh_Low.Policy.ExtrinsicReward.sum": {
+            "value": -7.340814709663391,
+            "min": -7.340814709663391,
+            "max": 11.482694387435913,
+            "count": 4
+        },
+        "Complex_LowVHigh_Low.Losses.PolicyLoss.mean": {
+            "value": 0.0227656359753261,
+            "min": 0.022052029094969235,
+            "max": 0.02310720920795575,
+            "count": 4
+        },
+        "Complex_LowVHigh_Low.Losses.PolicyLoss.sum": {
+            "value": 0.1138281798766305,
+            "min": 0.092428836831823,
+            "max": 0.1138281798766305,
+            "count": 4
+        },
+        "Complex_LowVHigh_Low.Losses.ValueLoss.mean": {
+            "value": 0.003684848930764323,
+            "min": 0.0027463728363121237,
+            "max": 0.0038771545770578085,
+            "count": 4
+        },
+        "Complex_LowVHigh_Low.Losses.ValueLoss.sum": {
+            "value": 0.018424244653821614,
+            "min": 0.010985491345248495,
+            "max": 0.019385772885289042,
+            "count": 4
+        },
+        "Complex_LowVHigh_Low.Policy.LearningRate.mean": {
+            "value": 0.00019519683493439999,
+            "min": 0.00019519683493439999,
+            "max": 0.00028458345513885,
+            "count": 4
+        },
+        "Complex_LowVHigh_Low.Policy.LearningRate.sum": {
+            "value": 0.0009759841746719999,
+            "min": 0.0009759841746719999,
+            "max": 0.0012841728719424,
+            "count": 4
+        },
+        "Complex_LowVHigh_Low.Policy.Epsilon.mean": {
+            "value": 0.16506559999999998,
+            "min": 0.16506559999999998,
+            "max": 0.19486115000000004,
+            "count": 4
+        },
+        "Complex_LowVHigh_Low.Policy.Epsilon.sum": {
+            "value": 0.825328,
+            "min": 0.7794446000000002,
+            "max": 0.9280576,
+            "count": 4
+        },
+        "Complex_LowVHigh_Low.Policy.Beta.mean": {
+            "value": 0.00325677344,
+            "min": 0.00325677344,
+            "max": 0.004743571385000001,
+            "count": 4
+        },
+        "Complex_LowVHigh_Low.Policy.Beta.sum": {
+            "value": 0.0162838672,
+            "min": 0.0162838672,
+            "max": 0.02141007424,
+            "count": 4
+        },
+        "Complex_LowVHigh_Low.IsTraining.mean": {
+            "value": 1.0,
+            "min": 1.0,
+            "max": 1.0,
+            "count": 4
+        },
+        "Complex_LowVHigh_Low.IsTraining.sum": {
+            "value": 1.0,
+            "min": 1.0,
+            "max": 1.0,
+            "count": 4
+        },
+        "Complex_LowVHigh_High.Policy.Entropy.mean": {
+            "value": 3.9208123683929443,
+            "min": 3.9208123683929443,
+            "max": 3.9751718044281006,
+            "count": 4
+        },
+        "Complex_LowVHigh_High.Policy.Entropy.sum": {
+            "value": 196091.59375,
+            "min": 196091.59375,
+            "max": 198921.578125,
+            "count": 4
+        },
+        "Complex_LowVHigh_High.Step.mean": {
+            "value": 199989.0,
+            "min": 49977.0,
+            "max": 199989.0,
+            "count": 4
+        },
+        "Complex_LowVHigh_High.Step.sum": {
+            "value": 199989.0,
+            "min": 49977.0,
+            "max": 199989.0,
+            "count": 4
+        },
+        "Complex_LowVHigh_High.Policy.ExtrinsicValueEstimate.mean": {
+            "value": 0.05032273381948471,
+            "min": 0.05032273381948471,
+            "max": 0.12120441347360611,
+            "count": 4
+        },
+        "Complex_LowVHigh_High.Policy.ExtrinsicValueEstimate.sum": {
+            "value": 39.85560607910156,
+            "min": 39.85560607910156,
+            "max": 95.02426147460938,
+            "count": 4
+        },
+        "Complex_LowVHigh_High.Environment.EpisodeLength.mean": {
+            "value": 2004.64,
+            "min": 2004.64,
+            "max": 2886.1176470588234,
+            "count": 4
+        },
+        "Complex_LowVHigh_High.Environment.EpisodeLength.sum": {
+            "value": 50116.0,
+            "min": 49064.0,
+            "max": 50419.0,
+            "count": 4
+        },
+        "Complex_LowVHigh_High.Environment.CumulativeReward.mean": {
+            "value": 0.6560475158691407,
+            "min": 0.2558367641075798,
+            "max": 0.6624528748147628,
+            "count": 4
+        },
+        "Complex_LowVHigh_High.Environment.CumulativeReward.sum": {
+            "value": 16.401187896728516,
+            "min": 5.884245574474335,
+            "max": 16.401187896728516,
+            "count": 4
+        },
+        "Complex_LowVHigh_High.Policy.ExtrinsicReward.mean": {
+            "value": 0.6560475158691407,
+            "min": 0.2558367641075798,
+            "max": 0.6624528748147628,
+            "count": 4
+        },
+        "Complex_LowVHigh_High.Policy.ExtrinsicReward.sum": {
+            "value": 16.401187896728516,
+            "min": 5.884245574474335,
+            "max": 16.401187896728516,
+            "count": 4
+        },
+        "Complex_LowVHigh_High.Losses.PolicyLoss.mean": {
+            "value": 0.025105469319969414,
+            "min": 0.0225007398519665,
+            "max": 0.025105469319969414,
+            "count": 4
+        },
+        "Complex_LowVHigh_High.Losses.PolicyLoss.sum": {
+            "value": 0.12552734659984707,
+            "min": 0.090002959407866,
+            "max": 0.12552734659984707,
+            "count": 4
+        },
+        "Complex_LowVHigh_High.Losses.ValueLoss.mean": {
+            "value": 0.00323708158529674,
+            "min": 0.003145522689834858,
+            "max": 0.007588332659603718,
+            "count": 4
+        },
+        "Complex_LowVHigh_High.Losses.ValueLoss.sum": {
+            "value": 0.0161854079264837,
+            "min": 0.01572761344917429,
+            "max": 0.03035333063841487,
+            "count": 4
+        },
+        "Complex_LowVHigh_High.Policy.LearningRate.mean": {
+            "value": 0.00019519683493439999,
+            "min": 0.00019519683493439999,
+            "max": 0.00028458345513885,
+            "count": 4
+        },
+        "Complex_LowVHigh_High.Policy.LearningRate.sum": {
+            "value": 0.0009759841746719999,
+            "min": 0.0009759841746719999,
+            "max": 0.0012841728719424,
+            "count": 4
+        },
+        "Complex_LowVHigh_High.Policy.Epsilon.mean": {
+            "value": 0.16506559999999998,
+            "min": 0.16506559999999998,
+            "max": 0.19486115000000004,
+            "count": 4
+        },
+        "Complex_LowVHigh_High.Policy.Epsilon.sum": {
+            "value": 0.825328,
+            "min": 0.7794446000000002,
+            "max": 0.9280576,
+            "count": 4
+        },
+        "Complex_LowVHigh_High.Policy.Beta.mean": {
+            "value": 0.00325677344,
+            "min": 0.00325677344,
+            "max": 0.004743571385000001,
+            "count": 4
+        },
+        "Complex_LowVHigh_High.Policy.Beta.sum": {
+            "value": 0.0162838672,
+            "min": 0.0162838672,
+            "max": 0.02141007424,
+            "count": 4
+        },
+        "Complex_LowVHigh_High.IsTraining.mean": {
+            "value": 1.0,
+            "min": 1.0,
+            "max": 1.0,
+            "count": 4
+        },
+        "Complex_LowVHigh_High.IsTraining.sum": {
+            "value": 1.0,
+            "min": 1.0,
+            "max": 1.0,
+            "count": 4
+        },
+        "Simple_LowVMed_Low.Policy.Entropy.mean": {
+            "value": 3.9569449424743652,
+            "min": 3.9569449424743652,
+            "max": 3.9716620445251465,
+            "count": 4
+        },
+        "Simple_LowVMed_Low.Policy.Entropy.sum": {
+            "value": 197823.5,
+            "min": 197823.5,
+            "max": 198768.734375,
+            "count": 4
+        },
+        "Simple_LowVMed_Low.Step.mean": {
+            "value": 199993.0,
+            "min": 49978.0,
+            "max": 199993.0,
+            "count": 4
+        },
+        "Simple_LowVMed_Low.Step.sum": {
+            "value": 199993.0,
+            "min": 49978.0,
+            "max": 199993.0,
+            "count": 4
+        },
+        "Simple_LowVMed_Low.Policy.ExtrinsicValueEstimate.mean": {
+            "value": 0.09428872913122177,
+            "min": 0.09428872913122177,
+            "max": 0.1863478422164917,
+            "count": 4
+        },
+        "Simple_LowVMed_Low.Policy.ExtrinsicValueEstimate.sum": {
+            "value": 75.14811706542969,
+            "min": 75.14811706542969,
+            "max": 146.65574645996094,
+            "count": 4
+        },
+        "Simple_LowVMed_Low.Environment.EpisodeLength.mean": {
+            "value": 1403.6285714285714,
+            "min": 1403.6285714285714,
+            "max": 2629.4210526315787,
+            "count": 4
+        },
+        "Simple_LowVMed_Low.Environment.EpisodeLength.sum": {
+            "value": 49127.0,
+            "min": 49119.0,
+            "max": 50856.0,
+            "count": 4
+        },
+        "Simple_LowVMed_Low.Environment.CumulativeReward.mean": {
+            "value": 0.53923659324646,
+            "min": 0.5146112877589005,
+            "max": 0.8768383201799894,
+            "count": 4
+        },
+        "Simple_LowVMed_Low.Environment.CumulativeReward.sum": {
+            "value": 18.8732807636261,
+            "min": 13.379893481731415,
+            "max": 18.8732807636261,
+            "count": 4
+        },
+        "Simple_LowVMed_Low.Policy.ExtrinsicReward.mean": {
+            "value": 0.53923659324646,
+            "min": 0.5146112877589005,
+            "max": 0.8768383201799894,
+            "count": 4
+        },
+        "Simple_LowVMed_Low.Policy.ExtrinsicReward.sum": {
+            "value": 18.8732807636261,
+            "min": 13.379893481731415,
+            "max": 18.8732807636261,
+            "count": 4
+        },
+        "Simple_LowVMed_Low.Losses.PolicyLoss.mean": {
+            "value": 0.024920708656621476,
+            "min": 0.02252872912834088,
+            "max": 0.024920708656621476,
+            "count": 4
+        },
+        "Simple_LowVMed_Low.Losses.PolicyLoss.sum": {
+            "value": 0.12460354328310738,
+            "min": 0.0920286122088631,
+            "max": 0.12460354328310738,
+            "count": 4
+        },
+        "Simple_LowVMed_Low.Losses.ValueLoss.mean": {
+            "value": 0.004772671300452202,
+            "min": 0.0022311611765568765,
+            "max": 0.004772671300452202,
+            "count": 4
+        },
+        "Simple_LowVMed_Low.Losses.ValueLoss.sum": {
+            "value": 0.023863356502261013,
+            "min": 0.008924644706227506,
+            "max": 0.023863356502261013,
+            "count": 4
+        },
+        "Simple_LowVMed_Low.Policy.LearningRate.mean": {
+            "value": 0.00019527171490943998,
+            "min": 0.00019527171490943998,
+            "max": 0.00028458405513865,
+            "count": 4
+        },
+        "Simple_LowVMed_Low.Policy.LearningRate.sum": {
+            "value": 0.0009763585745471999,
+            "min": 0.0009763585745471999,
+            "max": 0.0012842328719224001,
+            "count": 4
+        },
+        "Simple_LowVMed_Low.Policy.Epsilon.mean": {
+            "value": 0.16509055999999997,
+            "min": 0.16509055999999997,
+            "max": 0.19486135,
+            "count": 4
+        },
+        "Simple_LowVMed_Low.Policy.Epsilon.sum": {
+            "value": 0.8254527999999999,
+            "min": 0.7794454,
+            "max": 0.9280776000000001,
+            "count": 4
+        },
+        "Simple_LowVMed_Low.Policy.Beta.mean": {
+            "value": 0.0032580189440000002,
+            "min": 0.0032580189440000002,
+            "max": 0.004743581365,
+            "count": 4
+        },
+        "Simple_LowVMed_Low.Policy.Beta.sum": {
+            "value": 0.016290094720000002,
+            "min": 0.016290094720000002,
+            "max": 0.02141107224,
+            "count": 4
+        },
+        "Simple_LowVMed_Low.IsTraining.mean": {
+            "value": 1.0,
+            "min": 1.0,
+            "max": 1.0,
+            "count": 4
+        },
+        "Simple_LowVMed_Low.IsTraining.sum": {
+            "value": 1.0,
+            "min": 1.0,
+            "max": 1.0,
+            "count": 4
+        },
+        "Simple_LowVMed_Med.Policy.Entropy.mean": {
+            "value": 3.865025043487549,
+            "min": 3.865025043487549,
+            "max": 3.957219123840332,
+            "count": 4
+        },
+        "Simple_LowVMed_Med.Policy.Entropy.sum": {
+            "value": 193228.0625,
+            "min": 193228.0625,
+            "max": 198027.15625,
+            "count": 4
+        },
+        "Simple_LowVMed_Med.Step.mean": {
+            "value": 199993.0,
+            "min": 49978.0,
+            "max": 199993.0,
+            "count": 4
+        },
+        "Simple_LowVMed_Med.Step.sum": {
+            "value": 199993.0,
+            "min": 49978.0,
+            "max": 199993.0,
+            "count": 4
+        },
+        "Simple_LowVMed_Med.Policy.ExtrinsicValueEstimate.mean": {
+            "value": -0.050103019922971725,
+            "min": -0.050103019922971725,
+            "max": -0.00028413510881364346,
+            "count": 4
+        },
+        "Simple_LowVMed_Med.Policy.ExtrinsicValueEstimate.sum": {
+            "value": -39.932106018066406,
+            "min": -39.932106018066406,
+            "max": -0.22304606437683105,
+            "count": 4
+        },
+        "Simple_LowVMed_Med.Environment.EpisodeLength.mean": {
+            "value": 1403.6285714285714,
+            "min": 1403.6285714285714,
+            "max": 2629.4210526315787,
+            "count": 4
+        },
+        "Simple_LowVMed_Med.Environment.EpisodeLength.sum": {
+            "value": 49127.0,
+            "min": 49119.0,
+            "max": 50856.0,
+            "count": 4
+        },
+        "Simple_LowVMed_Med.Environment.CumulativeReward.mean": {
+            "value": -0.31778953416006905,
+            "min": -0.31778953416006905,
+            "max": 0.17299236357212067,
+            "count": 4
+        },
+        "Simple_LowVMed_Med.Environment.CumulativeReward.sum": {
+            "value": -11.122633695602417,
+            "min": -11.122633695602417,
+            "max": 3.4598472714424133,
+            "count": 4
+        },
+        "Simple_LowVMed_Med.Policy.ExtrinsicReward.mean": {
+            "value": -0.31778953416006905,
+            "min": -0.31778953416006905,
+            "max": 0.17299236357212067,
+            "count": 4
+        },
+        "Simple_LowVMed_Med.Policy.ExtrinsicReward.sum": {
+            "value": -11.122633695602417,
+            "min": -11.122633695602417,
+            "max": 3.4598472714424133,
+            "count": 4
+        },
+        "Simple_LowVMed_Med.Losses.PolicyLoss.mean": {
+            "value": 0.02332569788830976,
+            "min": 0.02041881282503406,
+            "max": 0.02627325331792236,
+            "count": 4
+        },
+        "Simple_LowVMed_Med.Losses.PolicyLoss.sum": {
+            "value": 0.11662848944154879,
+            "min": 0.09062568813096733,
+            "max": 0.13136626658961179,
+            "count": 4
+        },
+        "Simple_LowVMed_Med.Losses.ValueLoss.mean": {
+            "value": 0.00495939117235442,
+            "min": 0.0026583357603522017,
+            "max": 0.0067940009408630425,
+            "count": 4
+        },
+        "Simple_LowVMed_Med.Losses.ValueLoss.sum": {
+            "value": 0.0247969558617721,
+            "min": 0.01329167880176101,
+            "max": 0.02717600376345217,
+            "count": 4
+        },
+        "Simple_LowVMed_Med.Policy.LearningRate.mean": {
+            "value": 0.00019527171490943998,
+            "min": 0.00019527171490943998,
+            "max": 0.00028458405513865,
+            "count": 4
+        },
+        "Simple_LowVMed_Med.Policy.LearningRate.sum": {
+            "value": 0.0009763585745471999,
+            "min": 0.0009763585745471999,
+            "max": 0.0012842328719224001,
+            "count": 4
+        },
+        "Simple_LowVMed_Med.Policy.Epsilon.mean": {
+            "value": 0.16509055999999997,
+            "min": 0.16509055999999997,
+            "max": 0.19486135,
+            "count": 4
+        },
+        "Simple_LowVMed_Med.Policy.Epsilon.sum": {
+            "value": 0.8254527999999999,
+            "min": 0.7794454,
+            "max": 0.9280776000000001,
+            "count": 4
+        },
+        "Simple_LowVMed_Med.Policy.Beta.mean": {
+            "value": 0.0032580189440000002,
+            "min": 0.0032580189440000002,
+            "max": 0.004743581365,
+            "count": 4
+        },
+        "Simple_LowVMed_Med.Policy.Beta.sum": {
+            "value": 0.016290094720000002,
+            "min": 0.016290094720000002,
+            "max": 0.02141107224,
+            "count": 4
+        },
+        "Simple_LowVMed_Med.IsTraining.mean": {
+            "value": 1.0,
+            "min": 1.0,
+            "max": 1.0,
+            "count": 4
+        },
+        "Simple_LowVMed_Med.IsTraining.sum": {
+            "value": 1.0,
+            "min": 1.0,
+            "max": 1.0,
+            "count": 4
+        },
+        "Complex_MedVHigh_Med.Policy.Entropy.mean": {
+            "value": 3.9406027793884277,
+            "min": 3.9406027793884277,
+            "max": 3.961561441421509,
+            "count": 4
+        },
+        "Complex_MedVHigh_Med.Policy.Entropy.sum": {
+            "value": 197093.1875,
+            "min": 197093.1875,
+            "max": 198133.53125,
+            "count": 4
+        },
+        "Complex_MedVHigh_Med.Step.mean": {
+            "value": 199999.0,
+            "min": 49983.0,
+            "max": 199999.0,
+            "count": 4
+        },
+        "Complex_MedVHigh_Med.Step.sum": {
+            "value": 199999.0,
+            "min": 49983.0,
+            "max": 199999.0,
+            "count": 4
+        },
+        "Complex_MedVHigh_Med.Policy.ExtrinsicValueEstimate.mean": {
+            "value": 0.0025176748167723417,
+            "min": -0.03205665573477745,
+            "max": 0.0025176748167723417,
+            "count": 4
+        },
+        "Complex_MedVHigh_Med.Policy.ExtrinsicValueEstimate.sum": {
+            "value": 1.9914807081222534,
+            "min": -25.452983856201172,
+            "max": 1.9914807081222534,
+            "count": 4
+        },
+        "Complex_MedVHigh_Med.Environment.EpisodeLength.mean": {
+            "value": 2058.52,
+            "min": 1705.0,
+            "max": 2482.15,
+            "count": 4
+        },
+        "Complex_MedVHigh_Med.Environment.EpisodeLength.sum": {
+            "value": 51463.0,
+            "min": 49221.0,
+            "max": 51463.0,
+            "count": 4
+        },
+        "Complex_MedVHigh_Med.Environment.CumulativeReward.mean": {
+            "value": -0.12491963863372803,
+            "min": -0.12491963863372803,
+            "max": 0.23590611070394515,
+            "count": 4
+        },
+        "Complex_MedVHigh_Med.Environment.CumulativeReward.sum": {
+            "value": -3.1229909658432007,
+            "min": -3.1229909658432007,
+            "max": 4.718122214078903,
+            "count": 4
+        },
+        "Complex_MedVHigh_Med.Policy.ExtrinsicReward.mean": {
+            "value": -0.12491963863372803,
+            "min": -0.12491963863372803,
+            "max": 0.23590611070394515,
+            "count": 4
+        },
+        "Complex_MedVHigh_Med.Policy.ExtrinsicReward.sum": {
+            "value": -3.1229909658432007,
+            "min": -3.1229909658432007,
+            "max": 4.718122214078903,
+            "count": 4
+        },
+        "Complex_MedVHigh_Med.Losses.PolicyLoss.mean": {
+            "value": 0.022571463825491567,
+            "min": 0.021384494222390155,
+            "max": 0.02383207461874311,
+            "count": 4
+        },
+        "Complex_MedVHigh_Med.Losses.PolicyLoss.sum": {
+            "value": 0.11285731912745783,
+            "min": 0.09532829847497244,
+            "max": 0.11285731912745783,
+            "count": 4
+        },
+        "Complex_MedVHigh_Med.Losses.ValueLoss.mean": {
+            "value": 0.003666678600711748,
+            "min": 0.002994929609509806,
+            "max": 0.004008381022140383,
+            "count": 4
+        },
+        "Complex_MedVHigh_Med.Losses.ValueLoss.sum": {
+            "value": 0.01833339300355874,
+            "min": 0.014974648047549029,
+            "max": 0.01878431560859705,
+            "count": 4
+        },
+        "Complex_MedVHigh_Med.Policy.LearningRate.mean": {
+            "value": 0.00019521411492864004,
+            "min": 0.00019521411492864004,
+            "max": 0.0002845812051396,
+            "count": 4
+        },
+        "Complex_MedVHigh_Med.Policy.LearningRate.sum": {
+            "value": 0.0009760705746432002,
+            "min": 0.0009760705746432002,
+            "max": 0.0012843408718863998,
+            "count": 4
+        },
+        "Complex_MedVHigh_Med.Policy.Epsilon.mean": {
+            "value": 0.16507136000000006,
+            "min": 0.16507136000000006,
+            "max": 0.1948604,
+            "count": 4
+        },
+        "Complex_MedVHigh_Med.Policy.Epsilon.sum": {
+            "value": 0.8253568000000002,
+            "min": 0.7794416,
+            "max": 0.9281135999999999,
+            "count": 4
+        },
+        "Complex_MedVHigh_Med.Policy.Beta.mean": {
+            "value": 0.0032570608640000004,
+            "min": 0.0032570608640000004,
+            "max": 0.004743533959999999,
+            "count": 4
+        },
+        "Complex_MedVHigh_Med.Policy.Beta.sum": {
+            "value": 0.016285304320000003,
+            "min": 0.016285304320000003,
+            "max": 0.02141286864,
+            "count": 4
+        },
+        "Complex_MedVHigh_Med.IsTraining.mean": {
+            "value": 1.0,
+            "min": 1.0,
+            "max": 1.0,
+            "count": 4
+        },
+        "Complex_MedVHigh_Med.IsTraining.sum": {
+            "value": 1.0,
+            "min": 1.0,
+            "max": 1.0,
+            "count": 4
+        },
+        "Complex_MedVHigh_High.Policy.Entropy.mean": {
+            "value": 3.862706184387207,
+            "min": 3.862706184387207,
+            "max": 3.975276470184326,
+            "count": 4
+        },
+        "Complex_MedVHigh_High.Policy.Entropy.sum": {
+            "value": 193197.109375,
+            "min": 193197.109375,
+            "max": 198950.65625,
+            "count": 4
+        },
+        "Complex_MedVHigh_High.Step.mean": {
+            "value": 199999.0,
+            "min": 49983.0,
+            "max": 199999.0,
+            "count": 4
+        },
+        "Complex_MedVHigh_High.Step.sum": {
+            "value": 199999.0,
+            "min": 49983.0,
+            "max": 199999.0,
+            "count": 4
+        },
+        "Complex_MedVHigh_High.Policy.ExtrinsicValueEstimate.mean": {
+            "value": 0.008801346644759178,
+            "min": -0.25748252868652344,
+            "max": 0.008801346644759178,
+            "count": 4
+        },
+        "Complex_MedVHigh_High.Policy.ExtrinsicValueEstimate.sum": {
+            "value": 6.961865425109863,
+            "min": -202.38125610351562,
+            "max": 6.961865425109863,
+            "count": 4
+        },
+        "Complex_MedVHigh_High.Environment.EpisodeLength.mean": {
+            "value": 2058.52,
+            "min": 1705.0,
+            "max": 2482.15,
+            "count": 4
+        },
+        "Complex_MedVHigh_High.Environment.EpisodeLength.sum": {
+            "value": 51463.0,
+            "min": 49221.0,
+            "max": 51463.0,
+            "count": 4
+        },
+        "Complex_MedVHigh_High.Environment.CumulativeReward.mean": {
+            "value": 0.728408555984497,
+            "min": 0.35614873006426057,
+            "max": 0.728408555984497,
+            "count": 4
+        },
+        "Complex_MedVHigh_High.Environment.CumulativeReward.sum": {
+            "value": 18.210213899612427,
+            "min": 10.328313171863556,
+            "max": 18.210213899612427,
+            "count": 4
+        },
+        "Complex_MedVHigh_High.Policy.ExtrinsicReward.mean": {
+            "value": 0.728408555984497,
+            "min": 0.35614873006426057,
+            "max": 0.728408555984497,
+            "count": 4
+        },
+        "Complex_MedVHigh_High.Policy.ExtrinsicReward.sum": {
+            "value": 18.210213899612427,
+            "min": 10.328313171863556,
+            "max": 18.210213899612427,
+            "count": 4
+        },
+        "Complex_MedVHigh_High.Losses.PolicyLoss.mean": {
+            "value": 0.023380241321089366,
+            "min": 0.023243554557363193,
+            "max": 0.027505934839913,
+            "count": 4
+        },
+        "Complex_MedVHigh_High.Losses.PolicyLoss.sum": {
+            "value": 0.11690120660544684,
+            "min": 0.110023739359652,
+            "max": 0.1203070674246798,
+            "count": 4
+        },
+        "Complex_MedVHigh_High.Losses.ValueLoss.mean": {
+            "value": 0.003977049054810777,
+            "min": 0.003343463578106215,
+            "max": 0.015511877256600807,
+            "count": 4
+        },
+        "Complex_MedVHigh_High.Losses.ValueLoss.sum": {
+            "value": 0.019885245274053887,
+            "min": 0.016717317890531075,
+            "max": 0.06204750902640323,
+            "count": 4
+        },
+        "Complex_MedVHigh_High.Policy.LearningRate.mean": {
+            "value": 0.00019521411492864004,
+            "min": 0.00019521411492864004,
+            "max": 0.0002845812051396,
+            "count": 4
+        },
+        "Complex_MedVHigh_High.Policy.LearningRate.sum": {
+            "value": 0.0009760705746432002,
+            "min": 0.0009760705746432002,
+            "max": 0.0012843408718863998,
+            "count": 4
+        },
+        "Complex_MedVHigh_High.Policy.Epsilon.mean": {
+            "value": 0.16507136000000006,
+            "min": 0.16507136000000006,
+            "max": 0.1948604,
+            "count": 4
+        },
+        "Complex_MedVHigh_High.Policy.Epsilon.sum": {
+            "value": 0.8253568000000002,
+            "min": 0.7794416,
+            "max": 0.9281135999999999,
+            "count": 4
+        },
+        "Complex_MedVHigh_High.Policy.Beta.mean": {
+            "value": 0.0032570608640000004,
+            "min": 0.0032570608640000004,
+            "max": 0.004743533959999999,
+            "count": 4
+        },
+        "Complex_MedVHigh_High.Policy.Beta.sum": {
+            "value": 0.016285304320000003,
+            "min": 0.016285304320000003,
+            "max": 0.02141286864,
+            "count": 4
+        },
+        "Complex_MedVHigh_High.IsTraining.mean": {
+            "value": 1.0,
+            "min": 1.0,
+            "max": 1.0,
+            "count": 4
+        },
+        "Complex_MedVHigh_High.IsTraining.sum": {
+            "value": 1.0,
+            "min": 1.0,
+            "max": 1.0,
+            "count": 4
+        },
+        "Control_LowVMed_Low.Policy.Entropy.mean": {
+            "value": 3.94549298286438,
+            "min": 3.9414353370666504,
+            "max": 3.9593541622161865,
+            "count": 4
+        },
+        "Control_LowVMed_Low.Policy.Entropy.sum": {
+            "value": 197408.796875,
+            "min": 197075.703125,
+            "max": 198161.71875,
+            "count": 4
+        },
+        "Control_LowVMed_Low.Step.mean": {
+            "value": 199974.0,
+            "min": 49985.0,
+            "max": 199974.0,
+            "count": 4
+        },
+        "Control_LowVMed_Low.Step.sum": {
+            "value": 199974.0,
+            "min": 49985.0,
+            "max": 199974.0,
+            "count": 4
+        },
+        "Control_LowVMed_Low.Policy.ExtrinsicValueEstimate.mean": {
+            "value": 0.04242853820323944,
+            "min": 0.04242853820323944,
+            "max": 0.1401137113571167,
+            "count": 4
+        },
+        "Control_LowVMed_Low.Policy.ExtrinsicValueEstimate.sum": {
+            "value": 33.391258239746094,
+            "min": 33.391258239746094,
+            "max": 110.40960693359375,
+            "count": 4
+        },
+        "Control_LowVMed_Low.Environment.EpisodeLength.mean": {
+            "value": 2345.0,
+            "min": 2170.913043478261,
+            "max": 2550.25,
+            "count": 4
+        },
+        "Control_LowVMed_Low.Environment.EpisodeLength.sum": {
+            "value": 49245.0,
+            "min": 47853.0,
+            "max": 51005.0,
+            "count": 4
+        },
+        "Control_LowVMed_Low.Environment.CumulativeReward.mean": {
+            "value": 0.0967432317279634,
+            "min": -0.10526194002317346,
+            "max": 0.721553485095501,
+            "count": 4
+        },
+        "Control_LowVMed_Low.Environment.CumulativeReward.sum": {
+            "value": 2.0316078662872314,
+            "min": -2.4210246205329895,
+            "max": 14.431069701910019,
+            "count": 4
+        },
+        "Control_LowVMed_Low.Policy.ExtrinsicReward.mean": {
+            "value": 0.0967432317279634,
+            "min": -0.10526194002317346,
+            "max": 0.721553485095501,
+            "count": 4
+        },
+        "Control_LowVMed_Low.Policy.ExtrinsicReward.sum": {
+            "value": 2.0316078662872314,
+            "min": -2.4210246205329895,
+            "max": 14.431069701910019,
+            "count": 4
+        },
+        "Control_LowVMed_Low.Losses.PolicyLoss.mean": {
+            "value": 0.0232424320668603,
+            "min": 0.022116465119567393,
+            "max": 0.0237103573170801,
+            "count": 4
+        },
+        "Control_LowVMed_Low.Losses.PolicyLoss.sum": {
+            "value": 0.1162121603343015,
+            "min": 0.08846586047826957,
+            "max": 0.1185517865854005,
+            "count": 4
+        },
+        "Control_LowVMed_Low.Losses.ValueLoss.mean": {
+            "value": 0.002321457794557015,
+            "min": 0.001970122385149201,
+            "max": 0.0030963836941130768,
+            "count": 4
+        },
+        "Control_LowVMed_Low.Losses.ValueLoss.sum": {
+            "value": 0.011607288972785075,
+            "min": 0.009850611925746005,
+            "max": 0.015481918470565384,
+            "count": 4
+        },
+        "Control_LowVMed_Low.Policy.LearningRate.mean": {
+            "value": 0.0001951794349402,
+            "min": 0.0001951794349402,
+            "max": 0.00028458420513859995,
+            "count": 4
+        },
+        "Control_LowVMed_Low.Policy.LearningRate.sum": {
+            "value": 0.0009758971747010001,
+            "min": 0.0009758971747010001,
+            "max": 0.0012840930719689996,
+            "count": 4
+        },
+        "Control_LowVMed_Low.Policy.Epsilon.mean": {
+            "value": 0.16505979999999998,
+            "min": 0.16505979999999998,
+            "max": 0.19486140000000002,
+            "count": 4
+        },
+        "Control_LowVMed_Low.Policy.Epsilon.sum": {
+            "value": 0.8252989999999999,
+            "min": 0.7794456000000001,
+            "max": 0.9280310000000002,
+            "count": 4
+        },
+        "Control_LowVMed_Low.Policy.Beta.mean": {
+            "value": 0.00325648402,
+            "min": 0.00325648402,
+            "max": 0.004743583860000001,
+            "count": 4
+        },
+        "Control_LowVMed_Low.Policy.Beta.sum": {
+            "value": 0.0162824201,
+            "min": 0.0162824201,
+            "max": 0.0214087469,
+            "count": 4
+        },
+        "Control_LowVMed_Low.IsTraining.mean": {
+            "value": 1.0,
+            "min": 1.0,
+            "max": 1.0,
+            "count": 4
+        },
+        "Control_LowVMed_Low.IsTraining.sum": {
+            "value": 1.0,
+            "min": 1.0,
+            "max": 1.0,
+            "count": 4
+        },
+        "Control_LowVMed_Med.Policy.Entropy.mean": {
+            "value": 3.8527016639709473,
+            "min": 3.8527016639709473,
+            "max": 3.950669527053833,
+            "count": 4
+        },
+        "Control_LowVMed_Med.Policy.Entropy.sum": {
+            "value": 192766.078125,
+            "min": 192766.078125,
+            "max": 197727.0625,
+            "count": 4
+        },
+        "Control_LowVMed_Med.Step.mean": {
+            "value": 199974.0,
+            "min": 49985.0,
+            "max": 199974.0,
+            "count": 4
+        },
+        "Control_LowVMed_Med.Step.sum": {
+            "value": 199974.0,
+            "min": 49985.0,
+            "max": 199974.0,
+            "count": 4
+        },
+        "Control_LowVMed_Med.Policy.ExtrinsicValueEstimate.mean": {
+            "value": 0.017833411693572998,
+            "min": -0.14097528159618378,
+            "max": 0.017833411693572998,
+            "count": 4
+        },
+        "Control_LowVMed_Med.Policy.ExtrinsicValueEstimate.sum": {
+            "value": 14.034894943237305,
+            "min": -111.08851623535156,
+            "max": 14.034894943237305,
+            "count": 4
+        },
+        "Control_LowVMed_Med.Environment.EpisodeLength.mean": {
+            "value": 2345.0,
+            "min": 2170.913043478261,
+            "max": 2550.25,
+            "count": 4
+        },
+        "Control_LowVMed_Med.Environment.EpisodeLength.sum": {
+            "value": 49245.0,
+            "min": 47853.0,
+            "max": 51005.0,
+            "count": 4
+        },
+        "Control_LowVMed_Med.Environment.CumulativeReward.mean": {
+            "value": 0.8344139229683649,
+            "min": 0.2527042478322983,
+            "max": 0.920009770989418,
+            "count": 4
+        },
+        "Control_LowVMed_Med.Environment.CumulativeReward.sum": {
+            "value": 17.522692382335663,
+            "min": 5.054084956645966,
+            "max": 18.40019541978836,
+            "count": 4
+        },
+        "Control_LowVMed_Med.Policy.ExtrinsicReward.mean": {
+            "value": 0.8344139229683649,
+            "min": 0.2527042478322983,
+            "max": 0.920009770989418,
+            "count": 4
+        },
+        "Control_LowVMed_Med.Policy.ExtrinsicReward.sum": {
+            "value": 17.522692382335663,
+            "min": 5.054084956645966,
+            "max": 18.40019541978836,
+            "count": 4
+        },
+        "Control_LowVMed_Med.Losses.PolicyLoss.mean": {
+            "value": 0.023788681003885967,
+            "min": 0.022140951709200937,
+            "max": 0.02517001781612635,
+            "count": 4
+        },
+        "Control_LowVMed_Med.Losses.PolicyLoss.sum": {
+            "value": 0.11894340501942983,
+            "min": 0.09764510428843398,
+            "max": 0.12585008908063175,
+            "count": 4
+        },
+        "Control_LowVMed_Med.Losses.ValueLoss.mean": {
+            "value": 0.0029110110438584037,
+            "min": 0.0029110110438584037,
+            "max": 0.004963743527575086,
+            "count": 4
+        },
+        "Control_LowVMed_Med.Losses.ValueLoss.sum": {
+            "value": 0.01455505521929202,
+            "min": 0.01455505521929202,
+            "max": 0.019854974110300343,
+            "count": 4
+        },
+        "Control_LowVMed_Med.Policy.LearningRate.mean": {
+            "value": 0.0001951794349402,
+            "min": 0.0001951794349402,
+            "max": 0.00028458420513859995,
+            "count": 4
+        },
+        "Control_LowVMed_Med.Policy.LearningRate.sum": {
+            "value": 0.0009758971747010001,
+            "min": 0.0009758971747010001,
+            "max": 0.0012840930719689996,
+            "count": 4
+        },
+        "Control_LowVMed_Med.Policy.Epsilon.mean": {
+            "value": 0.16505979999999998,
+            "min": 0.16505979999999998,
+            "max": 0.19486140000000002,
+            "count": 4
+        },
+        "Control_LowVMed_Med.Policy.Epsilon.sum": {
+            "value": 0.8252989999999999,
+            "min": 0.7794456000000001,
+            "max": 0.9280310000000002,
+            "count": 4
+        },
+        "Control_LowVMed_Med.Policy.Beta.mean": {
+            "value": 0.00325648402,
+            "min": 0.00325648402,
+            "max": 0.004743583860000001,
+            "count": 4
+        },
+        "Control_LowVMed_Med.Policy.Beta.sum": {
+            "value": 0.0162824201,
+            "min": 0.0162824201,
+            "max": 0.0214087469,
+            "count": 4
+        },
+        "Control_LowVMed_Med.IsTraining.mean": {
+            "value": 1.0,
+            "min": 1.0,
+            "max": 1.0,
+            "count": 4
+        },
+        "Control_LowVMed_Med.IsTraining.sum": {
+            "value": 1.0,
+            "min": 1.0,
+            "max": 1.0,
+            "count": 4
+        },
+        "Control_HighVHigh_High1.Policy.Entropy.mean": {
+            "value": 3.955165147781372,
+            "min": 3.955165147781372,
+            "max": 3.9648191928863525,
+            "count": 4
+        },
+        "Control_HighVHigh_High1.Policy.Entropy.sum": {
+            "value": 197663.328125,
+            "min": 197663.328125,
+            "max": 198447.125,
+            "count": 4
+        },
+        "Control_HighVHigh_High1.Step.mean": {
+            "value": 199971.0,
+            "min": 49988.0,
+            "max": 199971.0,
+            "count": 4
+        },
+        "Control_HighVHigh_High1.Step.sum": {
+            "value": 199971.0,
+            "min": 49988.0,
+            "max": 199971.0,
+            "count": 4
+        },
+        "Control_HighVHigh_High1.Policy.ExtrinsicValueEstimate.mean": {
+            "value": 0.0024338101502507925,
+            "min": -0.04395044967532158,
+            "max": 0.008594704791903496,
+            "count": 4
+        },
+        "Control_HighVHigh_High1.Policy.ExtrinsicValueEstimate.sum": {
+            "value": 1.920276165008545,
+            "min": -34.720855712890625,
+            "max": 6.7984113693237305,
+            "count": 4
+        },
+        "Control_HighVHigh_High1.Environment.EpisodeLength.mean": {
+            "value": 2149.608695652174,
+            "min": 1946.576923076923,
+            "max": 2149.608695652174,
+            "count": 4
+        },
+        "Control_HighVHigh_High1.Environment.EpisodeLength.sum": {
+            "value": 49441.0,
+            "min": 48492.0,
+            "max": 50611.0,
+            "count": 4
+        },
+        "Control_HighVHigh_High1.Environment.CumulativeReward.mean": {
+            "value": -0.08349875004395195,
+            "min": -0.1302240238739894,
+            "max": 0.5035827035705248,
+            "count": 4
+        },
+        "Control_HighVHigh_High1.Environment.CumulativeReward.sum": {
+            "value": -1.9204712510108948,
+            "min": -3.3858246207237244,
+            "max": 12.085984885692596,
+            "count": 4
+        },
+        "Control_HighVHigh_High1.Policy.ExtrinsicReward.mean": {
+            "value": -0.08349875004395195,
+            "min": -0.1302240238739894,
+            "max": 0.5035827035705248,
+            "count": 4
+        },
+        "Control_HighVHigh_High1.Policy.ExtrinsicReward.sum": {
+            "value": -1.9204712510108948,
+            "min": -3.3858246207237244,
+            "max": 12.085984885692596,
+            "count": 4
+        },
+        "Control_HighVHigh_High1.Losses.PolicyLoss.mean": {
+            "value": 0.02507810449227691,
+            "min": 0.020662369120206373,
+            "max": 0.02507810449227691,
+            "count": 4
+        },
+        "Control_HighVHigh_High1.Losses.PolicyLoss.sum": {
+            "value": 0.12539052246138455,
+            "min": 0.08264947648082549,
+            "max": 0.12539052246138455,
+            "count": 4
+        },
+        "Control_HighVHigh_High1.Losses.ValueLoss.mean": {
+            "value": 0.0035805017233360554,
+            "min": 0.0035805017233360554,
+            "max": 0.006792459215891237,
+            "count": 4
+        },
+        "Control_HighVHigh_High1.Losses.ValueLoss.sum": {
+            "value": 0.017902508616680277,
+            "min": 0.017902508616680277,
+            "max": 0.027169836863564948,
+            "count": 4
+        },
+        "Control_HighVHigh_High1.Policy.LearningRate.mean": {
+            "value": 0.00019519251493583996,
+            "min": 0.00019519251493583996,
+            "max": 0.00028456350514549997,
+            "count": 4
+        },
+        "Control_HighVHigh_High1.Policy.LearningRate.sum": {
+            "value": 0.0009759625746791998,
+            "min": 0.0009759625746791998,
+            "max": 0.0012841182719606002,
+            "count": 4
+        },
+        "Control_HighVHigh_High1.Policy.Epsilon.mean": {
+            "value": 0.16506416,
+            "min": 0.16506416,
+            "max": 0.19485449999999999,
+            "count": 4
+        },
+        "Control_HighVHigh_High1.Policy.Epsilon.sum": {
+            "value": 0.8253208,
+            "min": 0.7794179999999999,
+            "max": 0.9280394,
+            "count": 4
+        },
+        "Control_HighVHigh_High1.Policy.Beta.mean": {
+            "value": 0.0032567015840000006,
+            "min": 0.0032567015840000006,
+            "max": 0.00474323955,
+            "count": 4
+        },
+        "Control_HighVHigh_High1.Policy.Beta.sum": {
+            "value": 0.016283507920000002,
+            "min": 0.016283507920000002,
+            "max": 0.021409166060000002,
+            "count": 4
+        },
+        "Control_HighVHigh_High1.IsTraining.mean": {
+            "value": 1.0,
+            "min": 1.0,
+            "max": 1.0,
+            "count": 4
+        },
+        "Control_HighVHigh_High1.IsTraining.sum": {
+            "value": 1.0,
+            "min": 1.0,
+            "max": 1.0,
+            "count": 4
+        },
+        "Control_HighVHigh_High2.Policy.Entropy.mean": {
+            "value": 3.961345911026001,
+            "min": 3.945596933364868,
+            "max": 3.961345911026001,
+            "count": 4
+        },
+        "Control_HighVHigh_High2.Policy.Entropy.sum": {
+            "value": 197972.21875,
+            "min": 197319.296875,
+            "max": 197972.21875,
+            "count": 4
+        },
+        "Control_HighVHigh_High2.Step.mean": {
+            "value": 199971.0,
+            "min": 49988.0,
+            "max": 199971.0,
+            "count": 4
+        },
+        "Control_HighVHigh_High2.Step.sum": {
+            "value": 199971.0,
+            "min": 49988.0,
+            "max": 199971.0,
+            "count": 4
+        },
+        "Control_HighVHigh_High2.Policy.ExtrinsicValueEstimate.mean": {
+            "value": 0.037382081151008606,
+            "min": -0.06983550637960434,
+            "max": 0.037382081151008606,
+            "count": 4
+        },
+        "Control_HighVHigh_High2.Policy.ExtrinsicValueEstimate.sum": {
+            "value": 29.494461059570312,
+            "min": -55.17005157470703,
+            "max": 29.494461059570312,
+            "count": 4
+        },
+        "Control_HighVHigh_High2.Environment.EpisodeLength.mean": {
+            "value": 2149.608695652174,
+            "min": 1946.576923076923,
+            "max": 2149.608695652174,
+            "count": 4
+        },
+        "Control_HighVHigh_High2.Environment.EpisodeLength.sum": {
+            "value": 49441.0,
+            "min": 48492.0,
+            "max": 50611.0,
+            "count": 4
+        },
+        "Control_HighVHigh_High2.Environment.CumulativeReward.mean": {
+            "value": 0.7169743024784586,
+            "min": 0.2666600967446963,
+            "max": 0.7169743024784586,
+            "count": 4
+        },
+        "Control_HighVHigh_High2.Environment.CumulativeReward.sum": {
+            "value": 16.490408957004547,
+            "min": 6.399842321872711,
+            "max": 16.490408957004547,
+            "count": 4
+        },
+        "Control_HighVHigh_High2.Policy.ExtrinsicReward.mean": {
+            "value": 0.7169743024784586,
+            "min": 0.2666600967446963,
+            "max": 0.7169743024784586,
+            "count": 4
+        },
+        "Control_HighVHigh_High2.Policy.ExtrinsicReward.sum": {
+            "value": 16.490408957004547,
+            "min": 6.399842321872711,
+            "max": 16.490408957004547,
+            "count": 4
+        },
+        "Control_HighVHigh_High2.Losses.PolicyLoss.mean": {
+            "value": 0.024621641713504987,
+            "min": 0.022529452552165215,
+            "max": 0.026847912948578596,
+            "count": 4
+        },
+        "Control_HighVHigh_High2.Losses.PolicyLoss.sum": {
+            "value": 0.12310820856752494,
+            "min": 0.09011781020866086,
+            "max": 0.13423956474289298,
+            "count": 4
+        },
+        "Control_HighVHigh_High2.Losses.ValueLoss.mean": {
+            "value": 0.003344542865330974,
+            "min": 0.003344542865330974,
+            "max": 0.006916266912109373,
+            "count": 4
+        },
+        "Control_HighVHigh_High2.Losses.ValueLoss.sum": {
+            "value": 0.01672271432665487,
+            "min": 0.01672271432665487,
+            "max": 0.027665067648437493,
+            "count": 4
+        },
+        "Control_HighVHigh_High2.Policy.LearningRate.mean": {
+            "value": 0.00019519251493583996,
+            "min": 0.00019519251493583996,
+            "max": 0.00028456350514549997,
+            "count": 4
+        },
+        "Control_HighVHigh_High2.Policy.LearningRate.sum": {
+            "value": 0.0009759625746791998,
+            "min": 0.0009759625746791998,
+            "max": 0.0012841182719606002,
+            "count": 4
+        },
+        "Control_HighVHigh_High2.Policy.Epsilon.mean": {
+            "value": 0.16506416,
+            "min": 0.16506416,
+            "max": 0.19485449999999999,
+            "count": 4
+        },
+        "Control_HighVHigh_High2.Policy.Epsilon.sum": {
+            "value": 0.8253208,
+            "min": 0.7794179999999999,
+            "max": 0.9280394,
+            "count": 4
+        },
+        "Control_HighVHigh_High2.Policy.Beta.mean": {
+            "value": 0.0032567015840000006,
+            "min": 0.0032567015840000006,
+            "max": 0.00474323955,
+            "count": 4
+        },
+        "Control_HighVHigh_High2.Policy.Beta.sum": {
+            "value": 0.016283507920000002,
+            "min": 0.016283507920000002,
+            "max": 0.021409166060000002,
+            "count": 4
+        },
+        "Control_HighVHigh_High2.IsTraining.mean": {
+            "value": 1.0,
+            "min": 1.0,
+            "max": 1.0,
+            "count": 4
+        },
+        "Control_HighVHigh_High2.IsTraining.sum": {
+            "value": 1.0,
+            "min": 1.0,
+            "max": 1.0,
+            "count": 4
+        },
+        "Complex_LowVMed_Med.Policy.Entropy.mean": {
+            "value": 3.9502687454223633,
+            "min": 3.910670757293701,
+            "max": 3.955291271209717,
+            "count": 4
+        },
+        "Complex_LowVMed_Med.Policy.Entropy.sum": {
+            "value": 197580.59375,
+            "min": 195463.140625,
+            "max": 197993.96875,
+            "count": 4
+        },
+        "Complex_LowVMed_Med.Step.mean": {
+            "value": 199991.0,
+            "min": 49994.0,
+            "max": 199991.0,
+            "count": 4
+        },
+        "Complex_LowVMed_Med.Step.sum": {
+            "value": 199991.0,
+            "min": 49994.0,
+            "max": 199991.0,
+            "count": 4
+        },
+        "Complex_LowVMed_Med.Policy.ExtrinsicValueEstimate.mean": {
+            "value": 0.03778914362192154,
+            "min": 0.03778914362192154,
+            "max": 0.07767659425735474,
+            "count": 4
+        },
+        "Complex_LowVMed_Med.Policy.ExtrinsicValueEstimate.sum": {
+            "value": 29.626689910888672,
+            "min": 29.626689910888672,
+            "max": 60.89845275878906,
+            "count": 4
+        },
+        "Complex_LowVMed_Med.Environment.EpisodeLength.mean": {
+            "value": 2854.5882352941176,
+            "min": 2713.842105263158,
+            "max": 2951.625,
+            "count": 4
+        },
+        "Complex_LowVMed_Med.Environment.EpisodeLength.sum": {
+            "value": 48528.0,
+            "min": 47226.0,
+            "max": 51563.0,
+            "count": 4
+        },
+        "Complex_LowVMed_Med.Environment.CumulativeReward.mean": {
+            "value": 0.6387875167762532,
+            "min": 0.6387875167762532,
+            "max": 0.7671766861488944,
+            "count": 4
+        },
+        "Complex_LowVMed_Med.Environment.CumulativeReward.sum": {
+            "value": 10.859387785196304,
+            "min": 10.859387785196304,
+            "max": 14.576357036828995,
+            "count": 4
+        },
+        "Complex_LowVMed_Med.Policy.ExtrinsicReward.mean": {
+            "value": 0.6387875167762532,
+            "min": 0.6387875167762532,
+            "max": 0.7671766861488944,
+            "count": 4
+        },
+        "Complex_LowVMed_Med.Policy.ExtrinsicReward.sum": {
+            "value": 10.859387785196304,
+            "min": 10.859387785196304,
+            "max": 14.576357036828995,
+            "count": 4
+        },
+        "Complex_LowVMed_Med.Losses.PolicyLoss.mean": {
+            "value": 0.02175742521261176,
+            "min": 0.02175742521261176,
+            "max": 0.023807641938328745,
+            "count": 4
+        },
+        "Complex_LowVMed_Med.Losses.PolicyLoss.sum": {
+            "value": 0.10878712606305879,
+            "min": 0.09134374426988263,
+            "max": 0.11903820969164372,
+            "count": 4
+        },
+        "Complex_LowVMed_Med.Losses.ValueLoss.mean": {
+            "value": 0.0012326782825402916,
+            "min": 0.001163881115304927,
+            "max": 0.003439044439195034,
+            "count": 4
+        },
+        "Complex_LowVMed_Med.Losses.ValueLoss.sum": {
+            "value": 0.006163391412701458,
+            "min": 0.005819405576524635,
+            "max": 0.013756177756780136,
+            "count": 4
+        },
+        "Complex_LowVMed_Med.Policy.LearningRate.mean": {
+            "value": 0.00019513983495340003,
+            "min": 0.00019513983495340003,
+            "max": 0.00028458135513955004,
+            "count": 4
+        },
+        "Complex_LowVMed_Med.Policy.LearningRate.sum": {
+            "value": 0.0009756991747670001,
+            "min": 0.0009756991747670001,
+            "max": 0.0012841320719559999,
+            "count": 4
+        },
+        "Complex_LowVMed_Med.Policy.Epsilon.mean": {
+            "value": 0.1650466,
+            "min": 0.1650466,
+            "max": 0.19486045000000002,
+            "count": 4
+        },
+        "Complex_LowVMed_Med.Policy.Epsilon.sum": {
+            "value": 0.8252329999999999,
+            "min": 0.7794418000000001,
+            "max": 0.9280439999999999,
+            "count": 4
+        },
+        "Complex_LowVMed_Med.Policy.Beta.mean": {
+            "value": 0.0032558253400000008,
+            "min": 0.0032558253400000008,
+            "max": 0.004743536455000001,
+            "count": 4
+        },
+        "Complex_LowVMed_Med.Policy.Beta.sum": {
+            "value": 0.016279126700000004,
+            "min": 0.016279126700000004,
+            "max": 0.021409395600000002,
+            "count": 4
+        },
+        "Complex_LowVMed_Med.IsTraining.mean": {
+            "value": 1.0,
+            "min": 1.0,
+            "max": 1.0,
+            "count": 4
+        },
+        "Complex_LowVMed_Med.IsTraining.sum": {
+            "value": 1.0,
+            "min": 1.0,
+            "max": 1.0,
+            "count": 4
+        },
+        "Complex_LowVMed_Low.Policy.Entropy.mean": {
+            "value": 3.8879449367523193,
+            "min": 3.8879449367523193,
+            "max": 3.9651873111724854,
+            "count": 4
+        },
+        "Complex_LowVMed_Low.Policy.Entropy.sum": {
+            "value": 194463.34375,
+            "min": 194463.34375,
+            "max": 198489.34375,
+            "count": 4
+        },
+        "Complex_LowVMed_Low.Step.mean": {
+            "value": 199991.0,
+            "min": 49994.0,
+            "max": 199991.0,
+            "count": 4
+        },
+        "Complex_LowVMed_Low.Step.sum": {
+            "value": 199991.0,
+            "min": 49994.0,
+            "max": 199991.0,
+            "count": 4
+        },
+        "Complex_LowVMed_Low.Policy.ExtrinsicValueEstimate.mean": {
+            "value": 0.07947531342506409,
+            "min": 0.07947531342506409,
+            "max": 0.2076873630285263,
+            "count": 4
+        },
+        "Complex_LowVMed_Low.Policy.ExtrinsicValueEstimate.sum": {
+            "value": 62.30864334106445,
+            "min": 62.30864334106445,
+            "max": 162.61920166015625,
+            "count": 4
+        },
+        "Complex_LowVMed_Low.Environment.EpisodeLength.mean": {
+            "value": 2854.5882352941176,
+            "min": 2713.842105263158,
+            "max": 2951.625,
+            "count": 4
+        },
+        "Complex_LowVMed_Low.Environment.EpisodeLength.sum": {
+            "value": 48528.0,
+            "min": 47226.0,
+            "max": 51563.0,
+            "count": 4
+        },
+        "Complex_LowVMed_Low.Environment.CumulativeReward.mean": {
+            "value": 0.502930562285816,
+            "min": 0.22521806861224927,
+            "max": 0.502930562285816,
+            "count": 4
+        },
+        "Complex_LowVMed_Low.Environment.CumulativeReward.sum": {
+            "value": 8.549819558858871,
+            "min": 4.279143303632736,
+            "max": 8.549819558858871,
+            "count": 4
+        },
+        "Complex_LowVMed_Low.Policy.ExtrinsicReward.mean": {
+            "value": 0.502930562285816,
+            "min": 0.22521806861224927,
+            "max": 0.502930562285816,
+            "count": 4
+        },
+        "Complex_LowVMed_Low.Policy.ExtrinsicReward.sum": {
+            "value": 8.549819558858871,
+            "min": 4.279143303632736,
+            "max": 8.549819558858871,
+            "count": 4
+        },
+        "Complex_LowVMed_Low.Losses.PolicyLoss.mean": {
+            "value": 0.02346876212550948,
+            "min": 0.022008585156872866,
+            "max": 0.024708803335670382,
+            "count": 4
+        },
+        "Complex_LowVMed_Low.Losses.PolicyLoss.sum": {
+            "value": 0.1173438106275474,
+            "min": 0.09883521334268153,
+            "max": 0.1173438106275474,
+            "count": 4
+        },
+        "Complex_LowVMed_Low.Losses.ValueLoss.mean": {
+            "value": 0.0011871273078334827,
+            "min": 0.0011871273078334827,
+            "max": 0.004220611478861732,
+            "count": 4
+        },
+        "Complex_LowVMed_Low.Losses.ValueLoss.sum": {
+            "value": 0.005935636539167414,
+            "min": 0.005935636539167414,
+            "max": 0.01688244591544693,
+            "count": 4
+        },
+        "Complex_LowVMed_Low.Policy.LearningRate.mean": {
+            "value": 0.00019513983495340003,
+            "min": 0.00019513983495340003,
+            "max": 0.00028458135513955004,
+            "count": 4
+        },
+        "Complex_LowVMed_Low.Policy.LearningRate.sum": {
+            "value": 0.0009756991747670001,
+            "min": 0.0009756991747670001,
+            "max": 0.0012841320719559999,
+            "count": 4
+        },
+        "Complex_LowVMed_Low.Policy.Epsilon.mean": {
+            "value": 0.1650466,
+            "min": 0.1650466,
+            "max": 0.19486045000000002,
+            "count": 4
+        },
+        "Complex_LowVMed_Low.Policy.Epsilon.sum": {
+            "value": 0.8252329999999999,
+            "min": 0.7794418000000001,
+            "max": 0.9280439999999999,
+            "count": 4
+        },
+        "Complex_LowVMed_Low.Policy.Beta.mean": {
+            "value": 0.0032558253400000008,
+            "min": 0.0032558253400000008,
+            "max": 0.004743536455000001,
+            "count": 4
+        },
+        "Complex_LowVMed_Low.Policy.Beta.sum": {
+            "value": 0.016279126700000004,
+            "min": 0.016279126700000004,
+            "max": 0.021409395600000002,
+            "count": 4
+        },
+        "Complex_LowVMed_Low.IsTraining.mean": {
+            "value": 1.0,
+            "min": 1.0,
+            "max": 1.0,
+            "count": 4
+        },
+        "Complex_LowVMed_Low.IsTraining.sum": {
+            "value": 1.0,
+            "min": 1.0,
+            "max": 1.0,
+            "count": 4
+        },
+        "Simple_MedVMed_Med2.Policy.Entropy.mean": {
+            "value": 3.913602113723755,
+            "min": 3.913602113723755,
+            "max": 3.9702346324920654,
+            "count": 4
+        },
+        "Simple_MedVMed_Med2.Policy.Entropy.sum": {
+            "value": 195797.515625,
+            "min": 195633.390625,
+            "max": 198742.0,
+            "count": 4
+        },
+        "Simple_MedVMed_Med2.Step.mean": {
+            "value": 199970.0,
+            "min": 49994.0,
+            "max": 199970.0,
+            "count": 4
+        },
+        "Simple_MedVMed_Med2.Step.sum": {
+            "value": 199970.0,
+            "min": 49994.0,
+            "max": 199970.0,
+            "count": 4
+        },
+        "Simple_MedVMed_Med2.Policy.ExtrinsicValueEstimate.mean": {
+            "value": -0.00453796936199069,
+            "min": -0.2852489650249481,
+            "max": -0.00453796936199069,
+            "count": 4
+        },
+        "Simple_MedVMed_Med2.Policy.ExtrinsicValueEstimate.sum": {
+            "value": -3.6122236251831055,
+            "min": -224.77618408203125,
+            "max": -3.6122236251831055,
+            "count": 4
+        },
+        "Simple_MedVMed_Med2.Environment.EpisodeLength.mean": {
+            "value": 1421.1142857142856,
+            "min": 1353.027027027027,
+            "max": 2257.7619047619046,
+            "count": 4
+        },
+        "Simple_MedVMed_Med2.Environment.EpisodeLength.sum": {
+            "value": 49739.0,
+            "min": 47413.0,
+            "max": 52051.0,
+            "count": 4
+        },
+        "Simple_MedVMed_Med2.Environment.CumulativeReward.mean": {
+            "value": -0.20633464200156076,
+            "min": -0.20633464200156076,
+            "max": 0.43596431612968445,
+            "count": 4
+        },
+        "Simple_MedVMed_Med2.Environment.CumulativeReward.sum": {
+            "value": -7.2217124700546265,
+            "min": -7.2217124700546265,
+            "max": 15.69471538066864,
+            "count": 4
+        },
+        "Simple_MedVMed_Med2.Policy.ExtrinsicReward.mean": {
+            "value": -0.20633464200156076,
+            "min": -0.20633464200156076,
+            "max": 0.43596431612968445,
+            "count": 4
+        },
+        "Simple_MedVMed_Med2.Policy.ExtrinsicReward.sum": {
+            "value": -7.2217124700546265,
+            "min": -7.2217124700546265,
+            "max": 15.69471538066864,
+            "count": 4
+        },
+        "Simple_MedVMed_Med2.Losses.PolicyLoss.mean": {
+            "value": 0.02419331860418121,
+            "min": 0.023472661313523227,
+            "max": 0.026221656914179527,
+            "count": 4
+        },
+        "Simple_MedVMed_Med2.Losses.PolicyLoss.sum": {
+            "value": 0.12096659302090605,
+            "min": 0.09389064525409291,
+            "max": 0.13110828457089763,
+            "count": 4
+        },
+        "Simple_MedVMed_Med2.Losses.ValueLoss.mean": {
+            "value": 0.005282671461657932,
+            "min": 0.005281871254555881,
+            "max": 0.012479869365536918,
+            "count": 4
+        },
+        "Simple_MedVMed_Med2.Losses.ValueLoss.sum": {
+            "value": 0.026413357308289656,
+            "min": 0.026409356272779405,
+            "max": 0.04991947746214767,
+            "count": 4
+        },
+        "Simple_MedVMed_Med2.Policy.LearningRate.mean": {
+            "value": 0.00019527219490928,
+            "min": 0.00019527219490928,
+            "max": 0.00028458390513870003,
+            "count": 4
+        },
+        "Simple_MedVMed_Med2.Policy.LearningRate.sum": {
+            "value": 0.0009763609745464001,
+            "min": 0.0009763609745464001,
+            "max": 0.0012841884719371997,
+            "count": 4
+        },
+        "Simple_MedVMed_Med2.Policy.Epsilon.mean": {
+            "value": 0.16509072,
+            "min": 0.16509072,
+            "max": 0.1948613,
+            "count": 4
+        },
+        "Simple_MedVMed_Med2.Policy.Epsilon.sum": {
+            "value": 0.8254536,
+            "min": 0.7794452,
+            "max": 0.9280628,
+            "count": 4
+        },
+        "Simple_MedVMed_Med2.Policy.Beta.mean": {
+            "value": 0.0032580269280000004,
+            "min": 0.0032580269280000004,
+            "max": 0.004743578870000001,
+            "count": 4
+        },
+        "Simple_MedVMed_Med2.Policy.Beta.sum": {
+            "value": 0.016290134640000002,
+            "min": 0.016290134640000002,
+            "max": 0.021410333719999997,
+            "count": 4
+        },
+        "Simple_MedVMed_Med2.IsTraining.mean": {
+            "value": 1.0,
+            "min": 1.0,
+            "max": 1.0,
+            "count": 4
+        },
+        "Simple_MedVMed_Med2.IsTraining.sum": {
+            "value": 1.0,
+            "min": 1.0,
+            "max": 1.0,
+            "count": 4
+        },
+        "Simple_MedVMed_Med1.Policy.Entropy.mean": {
+            "value": 3.9495177268981934,
+            "min": 3.9330475330352783,
+            "max": 3.973855972290039,
+            "count": 4
+        },
+        "Simple_MedVMed_Med1.Policy.Entropy.sum": {
+            "value": 197594.375,
+            "min": 196538.3125,
+            "max": 198923.28125,
+            "count": 4
+        },
+        "Simple_MedVMed_Med1.Step.mean": {
+            "value": 199970.0,
+            "min": 49994.0,
+            "max": 199970.0,
+            "count": 4
+        },
+        "Simple_MedVMed_Med1.Step.sum": {
+            "value": 199970.0,
+            "min": 49994.0,
+            "max": 199970.0,
+            "count": 4
+        },
+        "Simple_MedVMed_Med1.Policy.ExtrinsicValueEstimate.mean": {
+            "value": 0.008233753964304924,
+            "min": -0.07000584155321121,
+            "max": 0.008233753964304924,
+            "count": 4
+        },
+        "Simple_MedVMed_Med1.Policy.ExtrinsicValueEstimate.sum": {
+            "value": 6.554068088531494,
+            "min": -55.16460037231445,
+            "max": 6.554068088531494,
+            "count": 4
+        },
+        "Simple_MedVMed_Med1.Environment.EpisodeLength.mean": {
+            "value": 1421.1142857142856,
+            "min": 1353.027027027027,
+            "max": 2257.7619047619046,
+            "count": 4
+        },
+        "Simple_MedVMed_Med1.Environment.EpisodeLength.sum": {
+            "value": 49739.0,
+            "min": 47413.0,
+            "max": 52051.0,
+            "count": 4
+        },
+        "Simple_MedVMed_Med1.Environment.CumulativeReward.mean": {
+            "value": 0.30670446838651383,
+            "min": -0.2324789928065406,
+            "max": 0.6061460361594245,
+            "count": 4
+        },
+        "Simple_MedVMed_Med1.Environment.CumulativeReward.sum": {
+            "value": 10.734656393527985,
+            "min": -8.369243741035461,
+            "max": 12.729066759347916,
+            "count": 4
+        },
+        "Simple_MedVMed_Med1.Policy.ExtrinsicReward.mean": {
+            "value": 0.30670446838651383,
+            "min": -0.2324789928065406,
+            "max": 0.6061460361594245,
+            "count": 4
+        },
+        "Simple_MedVMed_Med1.Policy.ExtrinsicReward.sum": {
+            "value": 10.734656393527985,
+            "min": -8.369243741035461,
+            "max": 12.729066759347916,
+            "count": 4
+        },
+        "Simple_MedVMed_Med1.Losses.PolicyLoss.mean": {
+            "value": 0.02420609386637807,
+            "min": 0.021698324432751784,
+            "max": 0.0261986237919579,
+            "count": 4
+        },
+        "Simple_MedVMed_Med1.Losses.PolicyLoss.sum": {
+            "value": 0.12103046933189035,
+            "min": 0.08679329773100714,
+            "max": 0.1309931189597895,
+            "count": 4
+        },
+        "Simple_MedVMed_Med1.Losses.ValueLoss.mean": {
+            "value": 0.00544319660247614,
+            "min": 0.005004522589345773,
+            "max": 0.006004933032672853,
+            "count": 4
+        },
+        "Simple_MedVMed_Med1.Losses.ValueLoss.sum": {
+            "value": 0.0272159830123807,
+            "min": 0.021849018816525737,
+            "max": 0.030024665163364262,
+            "count": 4
+        },
+        "Simple_MedVMed_Med1.Policy.LearningRate.mean": {
+            "value": 0.00019527219490928,
+            "min": 0.00019527219490928,
+            "max": 0.00028458390513870003,
+            "count": 4
+        },
+        "Simple_MedVMed_Med1.Policy.LearningRate.sum": {
+            "value": 0.0009763609745464001,
+            "min": 0.0009763609745464001,
+            "max": 0.0012841884719371997,
+            "count": 4
+        },
+        "Simple_MedVMed_Med1.Policy.Epsilon.mean": {
+            "value": 0.16509072,
+            "min": 0.16509072,
+            "max": 0.1948613,
+            "count": 4
+        },
+        "Simple_MedVMed_Med1.Policy.Epsilon.sum": {
+            "value": 0.8254536,
+            "min": 0.7794452,
+            "max": 0.9280628,
+            "count": 4
+        },
+        "Simple_MedVMed_Med1.Policy.Beta.mean": {
+            "value": 0.0032580269280000004,
+            "min": 0.0032580269280000004,
+            "max": 0.004743578870000001,
+            "count": 4
+        },
+        "Simple_MedVMed_Med1.Policy.Beta.sum": {
+            "value": 0.016290134640000002,
+            "min": 0.016290134640000002,
+            "max": 0.021410333719999997,
+            "count": 4
+        },
+        "Simple_MedVMed_Med1.IsTraining.mean": {
+            "value": 1.0,
+            "min": 1.0,
+            "max": 1.0,
+            "count": 4
+        },
+        "Simple_MedVMed_Med1.IsTraining.sum": {
+            "value": 1.0,
+            "min": 1.0,
+            "max": 1.0,
+            "count": 4
+        },
+        "Control_MedVMed_Med1.Policy.Entropy.mean": {
+            "value": 3.920577049255371,
+            "min": 3.920577049255371,
+            "max": 3.9644968509674072,
+            "count": 4
+        },
+        "Control_MedVMed_Med1.Policy.Entropy.sum": {
+            "value": 195973.96875,
+            "min": 195973.96875,
+            "max": 198474.609375,
+            "count": 4
+        },
+        "Control_MedVMed_Med1.Step.mean": {
+            "value": 199939.0,
+            "min": 49999.0,
+            "max": 199939.0,
+            "count": 4
+        },
+        "Control_MedVMed_Med1.Step.sum": {
+            "value": 199939.0,
+            "min": 49999.0,
+            "max": 199939.0,
+            "count": 4
+        },
+        "Control_MedVMed_Med1.Policy.ExtrinsicValueEstimate.mean": {
+            "value": 0.006637061480432749,
+            "min": -0.16999194025993347,
+            "max": 0.006637061480432749,
+            "count": 4
+        },
+        "Control_MedVMed_Med1.Policy.ExtrinsicValueEstimate.sum": {
+            "value": 5.2831010818481445,
+            "min": -136.50352478027344,
+            "max": 5.2831010818481445,
+            "count": 4
+        },
+        "Control_MedVMed_Med1.Environment.EpisodeLength.mean": {
+            "value": 1439.9714285714285,
+            "min": 1088.7555555555555,
+            "max": 1856.4444444444443,
+            "count": 4
+        },
+        "Control_MedVMed_Med1.Environment.EpisodeLength.sum": {
+            "value": 50399.0,
+            "min": 48994.0,
+            "max": 50399.0,
+            "count": 4
+        },
+        "Control_MedVMed_Med1.Environment.CumulativeReward.mean": {
+            "value": 0.021563926764896938,
+            "min": 0.021563926764896938,
+            "max": 0.3906217472893851,
+            "count": 4
+        },
+        "Control_MedVMed_Med1.Environment.CumulativeReward.sum": {
+            "value": 0.7547374367713928,
+            "min": 0.7547374367713928,
+            "max": 10.937408924102783,
+            "count": 4
+        },
+        "Control_MedVMed_Med1.Policy.ExtrinsicReward.mean": {
+            "value": 0.021563926764896938,
+            "min": 0.021563926764896938,
+            "max": 0.3906217472893851,
+            "count": 4
+        },
+        "Control_MedVMed_Med1.Policy.ExtrinsicReward.sum": {
+            "value": 0.7547374367713928,
+            "min": 0.7547374367713928,
+            "max": 10.937408924102783,
+            "count": 4
+        },
+        "Control_MedVMed_Med1.Losses.PolicyLoss.mean": {
+            "value": 0.022653593079497415,
+            "min": 0.02087705151255553,
+            "max": 0.0255018905736506,
+            "count": 4
+        },
+        "Control_MedVMed_Med1.Losses.PolicyLoss.sum": {
+            "value": 0.11326796539748708,
+            "min": 0.1020075622946024,
+            "max": 0.1157059814936171,
+            "count": 4
+        },
+        "Control_MedVMed_Med1.Losses.ValueLoss.mean": {
+            "value": 0.005070587110240012,
+            "min": 0.004087088633483896,
+            "max": 0.018041330830116446,
+            "count": 4
+        },
+        "Control_MedVMed_Med1.Losses.ValueLoss.sum": {
+            "value": 0.02535293555120006,
+            "min": 0.020435443167419482,
+            "max": 0.07216532332046578,
+            "count": 4
+        },
+        "Control_MedVMed_Med1.Policy.LearningRate.mean": {
+            "value": 0.0001952502349166,
+            "min": 0.0001952502349166,
+            "max": 0.00028458630513789995,
+            "count": 4
+        },
+        "Control_MedVMed_Med1.Policy.LearningRate.sum": {
+            "value": 0.0009762511745830001,
+            "min": 0.0009762511745830001,
+            "max": 0.0012843822718725999,
+            "count": 4
+        },
+        "Control_MedVMed_Med1.Policy.Epsilon.mean": {
+            "value": 0.1650834,
+            "min": 0.1650834,
+            "max": 0.19486209999999998,
+            "count": 4
+        },
+        "Control_MedVMed_Med1.Policy.Epsilon.sum": {
+            "value": 0.825417,
+            "min": 0.7794483999999999,
+            "max": 0.9281274,
+            "count": 4
+        },
+        "Control_MedVMed_Med1.Policy.Beta.mean": {
+            "value": 0.0032576616599999998,
+            "min": 0.0032576616599999998,
+            "max": 0.004743618789999999,
+            "count": 4
+        },
+        "Control_MedVMed_Med1.Policy.Beta.sum": {
+            "value": 0.0162883083,
+            "min": 0.0162883083,
+            "max": 0.021413557260000004,
+            "count": 4
+        },
+        "Control_MedVMed_Med1.IsTraining.mean": {
+            "value": 1.0,
+            "min": 1.0,
+            "max": 1.0,
+            "count": 4
+        },
+        "Control_MedVMed_Med1.IsTraining.sum": {
+            "value": 1.0,
+            "min": 1.0,
+            "max": 1.0,
+            "count": 4
+        },
+        "Control_MedVMed_Med2.Policy.Entropy.mean": {
+            "value": 3.8864521980285645,
+            "min": 3.8864521980285645,
+            "max": 3.969879627227783,
+            "count": 4
+        },
+        "Control_MedVMed_Med2.Policy.Entropy.sum": {
+            "value": 194268.203125,
+            "min": 194268.203125,
+            "max": 198695.109375,
+            "count": 4
+        },
+        "Control_MedVMed_Med2.Step.mean": {
+            "value": 199939.0,
+            "min": 49999.0,
+            "max": 199939.0,
+            "count": 4
+        },
+        "Control_MedVMed_Med2.Step.sum": {
+            "value": 199939.0,
+            "min": 49999.0,
+            "max": 199939.0,
+            "count": 4
+        },
+        "Control_MedVMed_Med2.Policy.ExtrinsicValueEstimate.mean": {
+            "value": 0.002048965310677886,
+            "min": -0.10653489083051682,
+            "max": 0.002048965310677886,
+            "count": 4
+        },
+        "Control_MedVMed_Med2.Policy.ExtrinsicValueEstimate.sum": {
+            "value": 1.6309764385223389,
+            "min": -85.54751586914062,
+            "max": 1.6309764385223389,
+            "count": 4
+        },
+        "Control_MedVMed_Med2.Environment.EpisodeLength.mean": {
+            "value": 1439.9714285714285,
+            "min": 1088.7555555555555,
+            "max": 1856.4444444444443,
+            "count": 4
+        },
+        "Control_MedVMed_Med2.Environment.EpisodeLength.sum": {
+            "value": 50399.0,
+            "min": 48994.0,
+            "max": 50399.0,
+            "count": 4
+        },
+        "Control_MedVMed_Med2.Environment.CumulativeReward.mean": {
+            "value": 0.13926837103707448,
+            "min": -0.04191804197099474,
+            "max": 0.3293482703822,
+            "count": 4
+        },
+        "Control_MedVMed_Med2.Environment.CumulativeReward.sum": {
+            "value": 4.874392986297607,
+            "min": -1.8863118886947632,
+            "max": 9.2217515707016,
+            "count": 4
+        },
+        "Control_MedVMed_Med2.Policy.ExtrinsicReward.mean": {
+            "value": 0.13926837103707448,
+            "min": -0.04191804197099474,
+            "max": 0.3293482703822,
+            "count": 4
+        },
+        "Control_MedVMed_Med2.Policy.ExtrinsicReward.sum": {
+            "value": 4.874392986297607,
+            "min": -1.8863118886947632,
+            "max": 9.2217515707016,
+            "count": 4
+        },
+        "Control_MedVMed_Med2.Losses.PolicyLoss.mean": {
+            "value": 0.026042502466589214,
+            "min": 0.023516213224502282,
+            "max": 0.026042502466589214,
+            "count": 4
+        },
+        "Control_MedVMed_Med2.Losses.PolicyLoss.sum": {
+            "value": 0.13021251233294606,
+            "min": 0.09406485289800913,
+            "max": 0.13021251233294606,
+            "count": 4
+        },
+        "Control_MedVMed_Med2.Losses.ValueLoss.mean": {
+            "value": 0.005108854866897066,
+            "min": 0.003692081076248238,
+            "max": 0.009238574382228155,
+            "count": 4
+        },
+        "Control_MedVMed_Med2.Losses.ValueLoss.sum": {
+            "value": 0.02554427433448533,
+            "min": 0.01846040538124119,
+            "max": 0.03695429752891262,
+            "count": 4
+        },
+        "Control_MedVMed_Med2.Policy.LearningRate.mean": {
+            "value": 0.0001952502349166,
+            "min": 0.0001952502349166,
+            "max": 0.00028458630513789995,
+            "count": 4
+        },
+        "Control_MedVMed_Med2.Policy.LearningRate.sum": {
+            "value": 0.0009762511745830001,
+            "min": 0.0009762511745830001,
+            "max": 0.0012843822718725999,
+            "count": 4
+        },
+        "Control_MedVMed_Med2.Policy.Epsilon.mean": {
+            "value": 0.1650834,
+            "min": 0.1650834,
+            "max": 0.19486209999999998,
+            "count": 4
+        },
+        "Control_MedVMed_Med2.Policy.Epsilon.sum": {
+            "value": 0.825417,
+            "min": 0.7794483999999999,
+            "max": 0.9281274,
+            "count": 4
+        },
+        "Control_MedVMed_Med2.Policy.Beta.mean": {
+            "value": 0.0032576616599999998,
+            "min": 0.0032576616599999998,
+            "max": 0.004743618789999999,
+            "count": 4
+        },
+        "Control_MedVMed_Med2.Policy.Beta.sum": {
+            "value": 0.0162883083,
+            "min": 0.0162883083,
+            "max": 0.021413557260000004,
+            "count": 4
+        },
+        "Control_MedVMed_Med2.IsTraining.mean": {
+            "value": 1.0,
+            "min": 1.0,
+            "max": 1.0,
+            "count": 4
+        },
+        "Control_MedVMed_Med2.IsTraining.sum": {
+            "value": 1.0,
+            "min": 1.0,
+            "max": 1.0,
+            "count": 4
+        }
+    },
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1746521677",
+        "python_version": "3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\Emil\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python310\\Scripts\\mlagents-learn --run-id=MassTraining",
+        "mlagents_version": "1.1.0",
+        "mlagents_envs_version": "1.1.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "2.2.2+cu121",
+        "numpy_version": "1.23.5",
+        "end_time_seconds": "1746546071"
+    },
+    "total": 24394.041800000006,
+    "count": 1,
+    "self": 0.033337200060486794,
+    "children": {
+        "run_training.setup": {
+            "total": 0.0632511000148952,
+            "count": 1,
+            "self": 0.0632511000148952
+        },
+        "TrainerController.start_learning": {
+            "total": 24393.94521169993,
+            "count": 1,
+            "self": 9.545146390795708,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 49.290504300035536,
+                    "count": 1,
+                    "self": 49.290504300035536
+                },
+                "TrainerController.advance": {
+                    "total": 24332.508232808905,
+                    "count": 225051,
+                    "self": 14.39358277968131,
+                    "children": {
+                        "env_step": {
+                            "total": 23127.896531748585,
+                            "count": 225051,
+                            "self": 2823.991233085748,
+                            "children": {
+                                "SubprocessEnvManager._take_step": {
+                                    "total": 20302.18270651973,
+                                    "count": 225051,
+                                    "self": 207.77446301770397,
+                                    "children": {
+                                        "TorchPolicy.evaluate": {
+                                            "total": 20094.408243502025,
+                                            "count": 8101836,
+                                            "self": 20094.408243502025
+                                        }
+                                    }
+                                },
+                                "workers": {
+                                    "total": 1.7225921431090683,
+                                    "count": 225050,
+                                    "self": 0.0,
+                                    "children": {
+                                        "worker_root": {
+                                            "total": 24330.99785984424,
+                                            "count": 225050,
+                                            "is_parallel": true,
+                                            "self": 22418.325990197714,
+                                            "children": {
+                                                "steps_from_proto": {
+                                                    "total": 0.004475200083106756,
+                                                    "count": 36,
+                                                    "is_parallel": true,
+                                                    "self": 0.003218998434022069,
+                                                    "children": {
+                                                        "_process_rank_one_or_two_observation": {
+                                                            "total": 0.0012562016490846872,
+                                                            "count": 72,
+                                                            "is_parallel": true,
+                                                            "self": 0.0012562016490846872
+                                                        }
+                                                    }
+                                                },
+                                                "UnityEnvironment.step": {
+                                                    "total": 1912.667394446442,
+                                                    "count": 225050,
+                                                    "is_parallel": true,
+                                                    "self": 53.86687001422979,
+                                                    "children": {
+                                                        "UnityEnvironment._generate_step_input": {
+                                                            "total": 62.294053240446374,
+                                                            "count": 225050,
+                                                            "is_parallel": true,
+                                                            "self": 62.294053240446374
+                                                        },
+                                                        "communicator.exchange": {
+                                                            "total": 1450.527022154536,
+                                                            "count": 225050,
+                                                            "is_parallel": true,
+                                                            "self": 1450.527022154536
+                                                        },
+                                                        "steps_from_proto": {
+                                                            "total": 345.97944903722964,
+                                                            "count": 8101800,
+                                                            "is_parallel": true,
+                                                            "self": 254.71063843276352,
+                                                            "children": {
+                                                                "_process_rank_one_or_two_observation": {
+                                                                    "total": 91.26881060446613,
+                                                                    "count": 16203600,
+                                                                    "is_parallel": true,
+                                                                    "self": 91.26881060446613
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "trainer_advance": {
+                            "total": 1190.218118280638,
+                            "count": 8101800,
+                            "self": 44.09990771417506,
+                            "children": {
+                                "process_trajectory": {
+                                    "total": 425.2892714655027,
+                                    "count": 8101800,
+                                    "self": 425.2892714655027
+                                },
+                                "_update_policy": {
+                                    "total": 720.8289391009603,
+                                    "count": 756,
+                                    "self": 400.32838747580536,
+                                    "children": {
+                                        "TorchPPOOptimizer.update": {
+                                            "total": 320.5005516251549,
+                                            "count": 22680,
+                                            "self": 320.5005516251549
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "trainer_threads": {
+                    "total": 2.400018274784088e-06,
+                    "count": 1,
+                    "self": 2.400018274784088e-06
+                },
+                "TrainerController._save_models": {
+                    "total": 2.60132580017671,
+                    "count": 1,
+                    "self": 0.2364555997774005,
+                    "children": {
+                        "RLTrainer._checkpoint": {
+                            "total": 2.3648702003993094,
+                            "count": 36,
+                            "self": 2.3648702003993094
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

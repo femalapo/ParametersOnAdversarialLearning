@@ -1,0 +1,29 @@
+{
+    "LowObsAgent": {
+        "checkpoints": [
+            {
+                "steps": 11416,
+                "file_path": "results\\MassTest1\\LowObsAgent\\LowObsAgent-11416.onnx",
+                "reward": 0.0,
+                "creation_time": 1746516609.7970257,
+                "auxillary_file_paths": [
+                    "results\\MassTest1\\LowObsAgent\\LowObsAgent-11416.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 11416,
+            "file_path": "results\\MassTest1\\LowObsAgent.onnx",
+            "reward": 0.0,
+            "creation_time": 1746516609.7970257,
+            "auxillary_file_paths": [
+                "results\\MassTest1\\LowObsAgent\\LowObsAgent-11416.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.1.0",
+        "torch_version": "2.2.2+cu121"
+    }
+}

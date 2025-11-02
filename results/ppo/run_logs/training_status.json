@@ -1,0 +1,51 @@
+{
+    "HighVHigh1": {
+        "checkpoints": [
+            {
+                "steps": 15477,
+                "file_path": "results\\ppo\\HighVHigh1\\HighVHigh1-15477.onnx",
+                "reward": 0.3333333333333333,
+                "creation_time": 1746514412.8909974,
+                "auxillary_file_paths": [
+                    "results\\ppo\\HighVHigh1\\HighVHigh1-15477.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 15477,
+            "file_path": "results\\ppo\\HighVHigh1.onnx",
+            "reward": 0.3333333333333333,
+            "creation_time": 1746514412.8909974,
+            "auxillary_file_paths": [
+                "results\\ppo\\HighVHigh1\\HighVHigh1-15477.pt"
+            ]
+        }
+    },
+    "HighVHigh2": {
+        "checkpoints": [
+            {
+                "steps": 15477,
+                "file_path": "results\\ppo\\HighVHigh2\\HighVHigh2-15477.onnx",
+                "reward": -0.3333333333333333,
+                "creation_time": 1746514412.9743278,
+                "auxillary_file_paths": [
+                    "results\\ppo\\HighVHigh2\\HighVHigh2-15477.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 15477,
+            "file_path": "results\\ppo\\HighVHigh2.onnx",
+            "reward": -0.3333333333333333,
+            "creation_time": 1746514412.9743278,
+            "auxillary_file_paths": [
+                "results\\ppo\\HighVHigh2\\HighVHigh2-15477.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.1.0",
+        "torch_version": "2.2.2+cu121"
+    }
+}

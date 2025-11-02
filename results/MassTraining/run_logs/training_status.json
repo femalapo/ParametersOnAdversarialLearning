@@ -1,0 +1,799 @@
+{
+    "Complex_MedVMed_Med2": {
+        "checkpoints": [
+            {
+                "steps": 225043,
+                "file_path": "results\\MassTraining\\Complex_MedVMed_Med2\\Complex_MedVMed_Med2-225043.onnx",
+                "reward": 0.9865392595529556,
+                "creation_time": 1746546068.9799979,
+                "auxillary_file_paths": [
+                    "results\\MassTraining\\Complex_MedVMed_Med2\\Complex_MedVMed_Med2-225043.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 225043,
+            "file_path": "results\\MassTraining\\Complex_MedVMed_Med2.onnx",
+            "reward": 0.9865392595529556,
+            "creation_time": 1746546068.9799979,
+            "auxillary_file_paths": [
+                "results\\MassTraining\\Complex_MedVMed_Med2\\Complex_MedVMed_Med2-225043.pt"
+            ]
+        }
+    },
+    "Simple_HighVHigh_High1": {
+        "checkpoints": [
+            {
+                "steps": 224997,
+                "file_path": "results\\MassTraining\\Simple_HighVHigh_High1\\Simple_HighVHigh_High1-224997.onnx",
+                "reward": -0.5,
+                "creation_time": 1746546069.0501428,
+                "auxillary_file_paths": [
+                    "results\\MassTraining\\Simple_HighVHigh_High1\\Simple_HighVHigh_High1-224997.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 224997,
+            "file_path": "results\\MassTraining\\Simple_HighVHigh_High1.onnx",
+            "reward": -0.5,
+            "creation_time": 1746546069.0501428,
+            "auxillary_file_paths": [
+                "results\\MassTraining\\Simple_HighVHigh_High1\\Simple_HighVHigh_High1-224997.pt"
+            ]
+        }
+    },
+    "Complex_LowVLow_Low2": {
+        "checkpoints": [
+            {
+                "steps": 225020,
+                "file_path": "results\\MassTraining\\Complex_LowVLow_Low2\\Complex_LowVLow_Low2-225020.onnx",
+                "reward": 0.9936472535133362,
+                "creation_time": 1746546069.119488,
+                "auxillary_file_paths": [
+                    "results\\MassTraining\\Complex_LowVLow_Low2\\Complex_LowVLow_Low2-225020.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 225020,
+            "file_path": "results\\MassTraining\\Complex_LowVLow_Low2.onnx",
+            "reward": 0.9936472535133362,
+            "creation_time": 1746546069.119488,
+            "auxillary_file_paths": [
+                "results\\MassTraining\\Complex_LowVLow_Low2\\Complex_LowVLow_Low2-225020.pt"
+            ]
+        }
+    },
+    "Simple_HighVHigh_High2": {
+        "checkpoints": [
+            {
+                "steps": 224997,
+                "file_path": "results\\MassTraining\\Simple_HighVHigh_High2\\Simple_HighVHigh_High2-224997.onnx",
+                "reward": 0.5,
+                "creation_time": 1746546069.192683,
+                "auxillary_file_paths": [
+                    "results\\MassTraining\\Simple_HighVHigh_High2\\Simple_HighVHigh_High2-224997.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 224997,
+            "file_path": "results\\MassTraining\\Simple_HighVHigh_High2.onnx",
+            "reward": 0.5,
+            "creation_time": 1746546069.192683,
+            "auxillary_file_paths": [
+                "results\\MassTraining\\Simple_HighVHigh_High2\\Simple_HighVHigh_High2-224997.pt"
+            ]
+        }
+    },
+    "Complex_LowVLow_Low1": {
+        "checkpoints": [
+            {
+                "steps": 225020,
+                "file_path": "results\\MassTraining\\Complex_LowVLow_Low1\\Complex_LowVLow_Low1-225020.onnx",
+                "reward": -0.6082492589950561,
+                "creation_time": 1746546069.2686696,
+                "auxillary_file_paths": [
+                    "results\\MassTraining\\Complex_LowVLow_Low1\\Complex_LowVLow_Low1-225020.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 225020,
+            "file_path": "results\\MassTraining\\Complex_LowVLow_Low1.onnx",
+            "reward": -0.6082492589950561,
+            "creation_time": 1746546069.2686696,
+            "auxillary_file_paths": [
+                "results\\MassTraining\\Complex_LowVLow_Low1\\Complex_LowVLow_Low1-225020.pt"
+            ]
+        }
+    },
+    "Control_HighVHigh_High1": {
+        "checkpoints": [
+            {
+                "steps": 225040,
+                "file_path": "results\\MassTraining\\Control_HighVHigh_High1\\Control_HighVHigh_High1-225040.onnx",
+                "reward": -0.1751808077096939,
+                "creation_time": 1746546069.3370528,
+                "auxillary_file_paths": [
+                    "results\\MassTraining\\Control_HighVHigh_High1\\Control_HighVHigh_High1-225040.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 225040,
+            "file_path": "results\\MassTraining\\Control_HighVHigh_High1.onnx",
+            "reward": -0.1751808077096939,
+            "creation_time": 1746546069.3370528,
+            "auxillary_file_paths": [
+                "results\\MassTraining\\Control_HighVHigh_High1\\Control_HighVHigh_High1-225040.pt"
+            ]
+        }
+    },
+    "Simple_LowVLow_Low2": {
+        "checkpoints": [
+            {
+                "steps": 225017,
+                "file_path": "results\\MassTraining\\Simple_LowVLow_Low2\\Simple_LowVLow_Low2-225017.onnx",
+                "reward": 0.9883719563484192,
+                "creation_time": 1746546069.4043472,
+                "auxillary_file_paths": [
+                    "results\\MassTraining\\Simple_LowVLow_Low2\\Simple_LowVLow_Low2-225017.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 225017,
+            "file_path": "results\\MassTraining\\Simple_LowVLow_Low2.onnx",
+            "reward": 0.9883719563484192,
+            "creation_time": 1746546069.4043472,
+            "auxillary_file_paths": [
+                "results\\MassTraining\\Simple_LowVLow_Low2\\Simple_LowVLow_Low2-225017.pt"
+            ]
+        }
+    },
+    "Complex_LowVMed_Med": {
+        "checkpoints": [
+            {
+                "steps": 225014,
+                "file_path": "results\\MassTraining\\Complex_LowVMed_Med\\Complex_LowVMed_Med-225014.onnx",
+                "reward": 0.7819758454958597,
+                "creation_time": 1746546069.469177,
+                "auxillary_file_paths": [
+                    "results\\MassTraining\\Complex_LowVMed_Med\\Complex_LowVMed_Med-225014.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 225014,
+            "file_path": "results\\MassTraining\\Complex_LowVMed_Med.onnx",
+            "reward": 0.7819758454958597,
+            "creation_time": 1746546069.469177,
+            "auxillary_file_paths": [
+                "results\\MassTraining\\Complex_LowVMed_Med\\Complex_LowVMed_Med-225014.pt"
+            ]
+        }
+    },
+    "Complex_HighVHigh_High2": {
+        "checkpoints": [
+            {
+                "steps": 225031,
+                "file_path": "results\\MassTraining\\Complex_HighVHigh_High2\\Complex_HighVHigh_High2-225031.onnx",
+                "reward": 0.7664691607157389,
+                "creation_time": 1746546069.5408442,
+                "auxillary_file_paths": [
+                    "results\\MassTraining\\Complex_HighVHigh_High2\\Complex_HighVHigh_High2-225031.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 225031,
+            "file_path": "results\\MassTraining\\Complex_HighVHigh_High2.onnx",
+            "reward": 0.7664691607157389,
+            "creation_time": 1746546069.5408442,
+            "auxillary_file_paths": [
+                "results\\MassTraining\\Complex_HighVHigh_High2\\Complex_HighVHigh_High2-225031.pt"
+            ]
+        }
+    },
+    "Control_MedVHigh_High": {
+        "checkpoints": [
+            {
+                "steps": 224988,
+                "file_path": "results\\MassTraining\\Control_MedVHigh_High\\Control_MedVHigh_High-224988.onnx",
+                "reward": 0.16666666666666666,
+                "creation_time": 1746546069.6076338,
+                "auxillary_file_paths": [
+                    "results\\MassTraining\\Control_MedVHigh_High\\Control_MedVHigh_High-224988.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 224988,
+            "file_path": "results\\MassTraining\\Control_MedVHigh_High.onnx",
+            "reward": 0.16666666666666666,
+            "creation_time": 1746546069.6076338,
+            "auxillary_file_paths": [
+                "results\\MassTraining\\Control_MedVHigh_High\\Control_MedVHigh_High-224988.pt"
+            ]
+        }
+    },
+    "Complex_MedVHigh_Med": {
+        "checkpoints": [
+            {
+                "steps": 225039,
+                "file_path": "results\\MassTraining\\Complex_MedVHigh_Med\\Complex_MedVHigh_Med-225039.onnx",
+                "reward": 0.32235032320022583,
+                "creation_time": 1746546069.6754036,
+                "auxillary_file_paths": [
+                    "results\\MassTraining\\Complex_MedVHigh_Med\\Complex_MedVHigh_Med-225039.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 225039,
+            "file_path": "results\\MassTraining\\Complex_MedVHigh_Med.onnx",
+            "reward": 0.32235032320022583,
+            "creation_time": 1746546069.6754036,
+            "auxillary_file_paths": [
+                "results\\MassTraining\\Complex_MedVHigh_Med\\Complex_MedVHigh_Med-225039.pt"
+            ]
+        }
+    },
+    "Control_HighVHigh_High2": {
+        "checkpoints": [
+            {
+                "steps": 225040,
+                "file_path": "results\\MassTraining\\Control_HighVHigh_High2\\Control_HighVHigh_High2-225040.onnx",
+                "reward": 0.9647817760705948,
+                "creation_time": 1746546069.745578,
+                "auxillary_file_paths": [
+                    "results\\MassTraining\\Control_HighVHigh_High2\\Control_HighVHigh_High2-225040.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 225040,
+            "file_path": "results\\MassTraining\\Control_HighVHigh_High2.onnx",
+            "reward": 0.9647817760705948,
+            "creation_time": 1746546069.745578,
+            "auxillary_file_paths": [
+                "results\\MassTraining\\Control_HighVHigh_High2\\Control_HighVHigh_High2-225040.pt"
+            ]
+        }
+    },
+    "Control_LowVLow_Low2": {
+        "checkpoints": [
+            {
+                "steps": 225026,
+                "file_path": "results\\MassTraining\\Control_LowVLow_Low2\\Control_LowVLow_Low2-225026.onnx",
+                "reward": 1.0,
+                "creation_time": 1746546069.8131816,
+                "auxillary_file_paths": [
+                    "results\\MassTraining\\Control_LowVLow_Low2\\Control_LowVLow_Low2-225026.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 225026,
+            "file_path": "results\\MassTraining\\Control_LowVLow_Low2.onnx",
+            "reward": 1.0,
+            "creation_time": 1746546069.8131816,
+            "auxillary_file_paths": [
+                "results\\MassTraining\\Control_LowVLow_Low2\\Control_LowVLow_Low2-225026.pt"
+            ]
+        }
+    },
+    "Complex_LowVHigh_Low": {
+        "checkpoints": [
+            {
+                "steps": 225016,
+                "file_path": "results\\MassTraining\\Complex_LowVHigh_Low\\Complex_LowVHigh_Low-225016.onnx",
+                "reward": 0.89789879322052,
+                "creation_time": 1746546069.880544,
+                "auxillary_file_paths": [
+                    "results\\MassTraining\\Complex_LowVHigh_Low\\Complex_LowVHigh_Low-225016.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 225016,
+            "file_path": "results\\MassTraining\\Complex_LowVHigh_Low.onnx",
+            "reward": 0.89789879322052,
+            "creation_time": 1746546069.880544,
+            "auxillary_file_paths": [
+                "results\\MassTraining\\Complex_LowVHigh_Low\\Complex_LowVHigh_Low-225016.pt"
+            ]
+        }
+    },
+    "Simple_LowVMed_Low": {
+        "checkpoints": [
+            {
+                "steps": 225025,
+                "file_path": "results\\MassTraining\\Simple_LowVMed_Low\\Simple_LowVMed_Low-225025.onnx",
+                "reward": 0.5769280076026917,
+                "creation_time": 1746546069.9536328,
+                "auxillary_file_paths": [
+                    "results\\MassTraining\\Simple_LowVMed_Low\\Simple_LowVMed_Low-225025.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 225025,
+            "file_path": "results\\MassTraining\\Simple_LowVMed_Low.onnx",
+            "reward": 0.5769280076026917,
+            "creation_time": 1746546069.9536328,
+            "auxillary_file_paths": [
+                "results\\MassTraining\\Simple_LowVMed_Low\\Simple_LowVMed_Low-225025.pt"
+            ]
+        }
+    },
+    "Control_LowVMed_Low": {
+        "checkpoints": [
+            {
+                "steps": 225040,
+                "file_path": "results\\MassTraining\\Control_LowVMed_Low\\Control_LowVMed_Low-225040.onnx",
+                "reward": 0.5355096161365509,
+                "creation_time": 1746546070.0234716,
+                "auxillary_file_paths": [
+                    "results\\MassTraining\\Control_LowVMed_Low\\Control_LowVMed_Low-225040.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 225040,
+            "file_path": "results\\MassTraining\\Control_LowVMed_Low.onnx",
+            "reward": 0.5355096161365509,
+            "creation_time": 1746546070.0234716,
+            "auxillary_file_paths": [
+                "results\\MassTraining\\Control_LowVMed_Low\\Control_LowVMed_Low-225040.pt"
+            ]
+        }
+    },
+    "Simple_LowVHigh_Low": {
+        "checkpoints": [
+            {
+                "steps": 225038,
+                "file_path": "results\\MassTraining\\Simple_LowVHigh_Low\\Simple_LowVHigh_Low-225038.onnx",
+                "reward": -0.6096725344657898,
+                "creation_time": 1746546070.091505,
+                "auxillary_file_paths": [
+                    "results\\MassTraining\\Simple_LowVHigh_Low\\Simple_LowVHigh_Low-225038.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 225038,
+            "file_path": "results\\MassTraining\\Simple_LowVHigh_Low.onnx",
+            "reward": -0.6096725344657898,
+            "creation_time": 1746546070.091505,
+            "auxillary_file_paths": [
+                "results\\MassTraining\\Simple_LowVHigh_Low\\Simple_LowVHigh_Low-225038.pt"
+            ]
+        }
+    },
+    "Control_MedVMed_Med1": {
+        "checkpoints": [
+            {
+                "steps": 225010,
+                "file_path": "results\\MassTraining\\Control_MedVMed_Med1\\Control_MedVMed_Med1-225010.onnx",
+                "reward": -0.2727272727272727,
+                "creation_time": 1746546070.1603963,
+                "auxillary_file_paths": [
+                    "results\\MassTraining\\Control_MedVMed_Med1\\Control_MedVMed_Med1-225010.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 225010,
+            "file_path": "results\\MassTraining\\Control_MedVMed_Med1.onnx",
+            "reward": -0.2727272727272727,
+            "creation_time": 1746546070.1603963,
+            "auxillary_file_paths": [
+                "results\\MassTraining\\Control_MedVMed_Med1\\Control_MedVMed_Med1-225010.pt"
+            ]
+        }
+    },
+    "Complex_LowVMed_Low": {
+        "checkpoints": [
+            {
+                "steps": 225014,
+                "file_path": "results\\MassTraining\\Complex_LowVMed_Low\\Complex_LowVMed_Low-225014.onnx",
+                "reward": 0.6348610321680704,
+                "creation_time": 1746546070.2252195,
+                "auxillary_file_paths": [
+                    "results\\MassTraining\\Complex_LowVMed_Low\\Complex_LowVMed_Low-225014.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 225014,
+            "file_path": "results\\MassTraining\\Complex_LowVMed_Low.onnx",
+            "reward": 0.6348610321680704,
+            "creation_time": 1746546070.2252195,
+            "auxillary_file_paths": [
+                "results\\MassTraining\\Complex_LowVMed_Low\\Complex_LowVMed_Low-225014.pt"
+            ]
+        }
+    },
+    "Simple_MedVMed_Med2": {
+        "checkpoints": [
+            {
+                "steps": 225044,
+                "file_path": "results\\MassTraining\\Simple_MedVMed_Med2\\Simple_MedVMed_Med2-225044.onnx",
+                "reward": -0.6052731513977051,
+                "creation_time": 1746546070.290715,
+                "auxillary_file_paths": [
+                    "results\\MassTraining\\Simple_MedVMed_Med2\\Simple_MedVMed_Med2-225044.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 225044,
+            "file_path": "results\\MassTraining\\Simple_MedVMed_Med2.onnx",
+            "reward": -0.6052731513977051,
+            "creation_time": 1746546070.290715,
+            "auxillary_file_paths": [
+                "results\\MassTraining\\Simple_MedVMed_Med2\\Simple_MedVMed_Med2-225044.pt"
+            ]
+        }
+    },
+    "Complex_MedVMed_Med1": {
+        "checkpoints": [
+            {
+                "steps": 225043,
+                "file_path": "results\\MassTraining\\Complex_MedVMed_Med1\\Complex_MedVMed_Med1-225043.onnx",
+                "reward": -0.7845549508929253,
+                "creation_time": 1746546070.3593764,
+                "auxillary_file_paths": [
+                    "results\\MassTraining\\Complex_MedVMed_Med1\\Complex_MedVMed_Med1-225043.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 225043,
+            "file_path": "results\\MassTraining\\Complex_MedVMed_Med1.onnx",
+            "reward": -0.7845549508929253,
+            "creation_time": 1746546070.3593764,
+            "auxillary_file_paths": [
+                "results\\MassTraining\\Complex_MedVMed_Med1\\Complex_MedVMed_Med1-225043.pt"
+            ]
+        }
+    },
+    "Complex_MedVHigh_High": {
+        "checkpoints": [
+            {
+                "steps": 225039,
+                "file_path": "results\\MassTraining\\Complex_MedVHigh_High\\Complex_MedVHigh_High-225039.onnx",
+                "reward": 0.9319751709699631,
+                "creation_time": 1746546070.4608877,
+                "auxillary_file_paths": [
+                    "results\\MassTraining\\Complex_MedVHigh_High\\Complex_MedVHigh_High-225039.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 225039,
+            "file_path": "results\\MassTraining\\Complex_MedVHigh_High.onnx",
+            "reward": 0.9319751709699631,
+            "creation_time": 1746546070.4608877,
+            "auxillary_file_paths": [
+                "results\\MassTraining\\Complex_MedVHigh_High\\Complex_MedVHigh_High-225039.pt"
+            ]
+        }
+    },
+    "Simple_MedVHigh_High": {
+        "checkpoints": [
+            {
+                "steps": 224997,
+                "file_path": "results\\MassTraining\\Simple_MedVHigh_High\\Simple_MedVHigh_High-224997.onnx",
+                "reward": -0.2,
+                "creation_time": 1746546070.5290496,
+                "auxillary_file_paths": [
+                    "results\\MassTraining\\Simple_MedVHigh_High\\Simple_MedVHigh_High-224997.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 224997,
+            "file_path": "results\\MassTraining\\Simple_MedVHigh_High.onnx",
+            "reward": -0.2,
+            "creation_time": 1746546070.5290496,
+            "auxillary_file_paths": [
+                "results\\MassTraining\\Simple_MedVHigh_High\\Simple_MedVHigh_High-224997.pt"
+            ]
+        }
+    },
+    "Simple_LowVHigh_High": {
+        "checkpoints": [
+            {
+                "steps": 225038,
+                "file_path": "results\\MassTraining\\Simple_LowVHigh_High\\Simple_LowVHigh_High-225038.onnx",
+                "reward": 0.9919148683547974,
+                "creation_time": 1746546070.6132805,
+                "auxillary_file_paths": [
+                    "results\\MassTraining\\Simple_LowVHigh_High\\Simple_LowVHigh_High-225038.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 225038,
+            "file_path": "results\\MassTraining\\Simple_LowVHigh_High.onnx",
+            "reward": 0.9919148683547974,
+            "creation_time": 1746546070.6132805,
+            "auxillary_file_paths": [
+                "results\\MassTraining\\Simple_LowVHigh_High\\Simple_LowVHigh_High-225038.pt"
+            ]
+        }
+    },
+    "Simple_LowVMed_Med": {
+        "checkpoints": [
+            {
+                "steps": 225025,
+                "file_path": "results\\MassTraining\\Simple_LowVMed_Med\\Simple_LowVMed_Med-225025.onnx",
+                "reward": 0.5734350919723511,
+                "creation_time": 1746546070.6825016,
+                "auxillary_file_paths": [
+                    "results\\MassTraining\\Simple_LowVMed_Med\\Simple_LowVMed_Med-225025.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 225025,
+            "file_path": "results\\MassTraining\\Simple_LowVMed_Med.onnx",
+            "reward": 0.5734350919723511,
+            "creation_time": 1746546070.6825016,
+            "auxillary_file_paths": [
+                "results\\MassTraining\\Simple_LowVMed_Med\\Simple_LowVMed_Med-225025.pt"
+            ]
+        }
+    },
+    "Control_MedVHigh_Med": {
+        "checkpoints": [
+            {
+                "steps": 224988,
+                "file_path": "results\\MassTraining\\Control_MedVHigh_Med\\Control_MedVHigh_Med-224988.onnx",
+                "reward": -0.16666666666666666,
+                "creation_time": 1746546070.752971,
+                "auxillary_file_paths": [
+                    "results\\MassTraining\\Control_MedVHigh_Med\\Control_MedVHigh_Med-224988.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 224988,
+            "file_path": "results\\MassTraining\\Control_MedVHigh_Med.onnx",
+            "reward": -0.16666666666666666,
+            "creation_time": 1746546070.752971,
+            "auxillary_file_paths": [
+                "results\\MassTraining\\Control_MedVHigh_Med\\Control_MedVHigh_Med-224988.pt"
+            ]
+        }
+    },
+    "Complex_LowVHigh_High": {
+        "checkpoints": [
+            {
+                "steps": 225016,
+                "file_path": "results\\MassTraining\\Complex_LowVHigh_High\\Complex_LowVHigh_High-225016.onnx",
+                "reward": 0.8918315768241882,
+                "creation_time": 1746546070.8258154,
+                "auxillary_file_paths": [
+                    "results\\MassTraining\\Complex_LowVHigh_High\\Complex_LowVHigh_High-225016.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 225016,
+            "file_path": "results\\MassTraining\\Complex_LowVHigh_High.onnx",
+            "reward": 0.8918315768241882,
+            "creation_time": 1746546070.8258154,
+            "auxillary_file_paths": [
+                "results\\MassTraining\\Complex_LowVHigh_High\\Complex_LowVHigh_High-225016.pt"
+            ]
+        }
+    },
+    "Simple_MedVHigh_Med": {
+        "checkpoints": [
+            {
+                "steps": 224997,
+                "file_path": "results\\MassTraining\\Simple_MedVHigh_Med\\Simple_MedVHigh_Med-224997.onnx",
+                "reward": 0.2,
+                "creation_time": 1746546070.8932285,
+                "auxillary_file_paths": [
+                    "results\\MassTraining\\Simple_MedVHigh_Med\\Simple_MedVHigh_Med-224997.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 224997,
+            "file_path": "results\\MassTraining\\Simple_MedVHigh_Med.onnx",
+            "reward": 0.2,
+            "creation_time": 1746546070.8932285,
+            "auxillary_file_paths": [
+                "results\\MassTraining\\Simple_MedVHigh_Med\\Simple_MedVHigh_Med-224997.pt"
+            ]
+        }
+    },
+    "Control_LowVHigh_High": {
+        "checkpoints": [
+            {
+                "steps": 225049,
+                "file_path": "results\\MassTraining\\Control_LowVHigh_High\\Control_LowVHigh_High-225049.onnx",
+                "reward": -0.25534258782863617,
+                "creation_time": 1746546070.9647222,
+                "auxillary_file_paths": [
+                    "results\\MassTraining\\Control_LowVHigh_High\\Control_LowVHigh_High-225049.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 225049,
+            "file_path": "results\\MassTraining\\Control_LowVHigh_High.onnx",
+            "reward": -0.25534258782863617,
+            "creation_time": 1746546070.9647222,
+            "auxillary_file_paths": [
+                "results\\MassTraining\\Control_LowVHigh_High\\Control_LowVHigh_High-225049.pt"
+            ]
+        }
+    },
+    "Control_LowVMed_Med": {
+        "checkpoints": [
+            {
+                "steps": 225040,
+                "file_path": "results\\MassTraining\\Control_LowVMed_Med\\Control_LowVMed_Med-225040.onnx",
+                "reward": 0.9565975666046143,
+                "creation_time": 1746546071.032666,
+                "auxillary_file_paths": [
+                    "results\\MassTraining\\Control_LowVMed_Med\\Control_LowVMed_Med-225040.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 225040,
+            "file_path": "results\\MassTraining\\Control_LowVMed_Med.onnx",
+            "reward": 0.9565975666046143,
+            "creation_time": 1746546071.032666,
+            "auxillary_file_paths": [
+                "results\\MassTraining\\Control_LowVMed_Med\\Control_LowVMed_Med-225040.pt"
+            ]
+        }
+    },
+    "Complex_HighVHigh_High1": {
+        "checkpoints": [
+            {
+                "steps": 225031,
+                "file_path": "results\\MassTraining\\Complex_HighVHigh_High1\\Complex_HighVHigh_High1-225031.onnx",
+                "reward": 0.9238786896069845,
+                "creation_time": 1746546071.1057706,
+                "auxillary_file_paths": [
+                    "results\\MassTraining\\Complex_HighVHigh_High1\\Complex_HighVHigh_High1-225031.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 225031,
+            "file_path": "results\\MassTraining\\Complex_HighVHigh_High1.onnx",
+            "reward": 0.9238786896069845,
+            "creation_time": 1746546071.1057706,
+            "auxillary_file_paths": [
+                "results\\MassTraining\\Complex_HighVHigh_High1\\Complex_HighVHigh_High1-225031.pt"
+            ]
+        }
+    },
+    "Control_MedVMed_Med2": {
+        "checkpoints": [
+            {
+                "steps": 225010,
+                "file_path": "results\\MassTraining\\Control_MedVMed_Med2\\Control_MedVMed_Med2-225010.onnx",
+                "reward": 0.2727272727272727,
+                "creation_time": 1746546071.188047,
+                "auxillary_file_paths": [
+                    "results\\MassTraining\\Control_MedVMed_Med2\\Control_MedVMed_Med2-225010.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 225010,
+            "file_path": "results\\MassTraining\\Control_MedVMed_Med2.onnx",
+            "reward": 0.2727272727272727,
+            "creation_time": 1746546071.188047,
+            "auxillary_file_paths": [
+                "results\\MassTraining\\Control_MedVMed_Med2\\Control_MedVMed_Med2-225010.pt"
+            ]
+        }
+    },
+    "Control_LowVHigh_Low": {
+        "checkpoints": [
+            {
+                "steps": 225049,
+                "file_path": "results\\MassTraining\\Control_LowVHigh_Low\\Control_LowVHigh_Low-225049.onnx",
+                "reward": 0.4964718371629715,
+                "creation_time": 1746546071.2594938,
+                "auxillary_file_paths": [
+                    "results\\MassTraining\\Control_LowVHigh_Low\\Control_LowVHigh_Low-225049.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 225049,
+            "file_path": "results\\MassTraining\\Control_LowVHigh_Low.onnx",
+            "reward": 0.4964718371629715,
+            "creation_time": 1746546071.2594938,
+            "auxillary_file_paths": [
+                "results\\MassTraining\\Control_LowVHigh_Low\\Control_LowVHigh_Low-225049.pt"
+            ]
+        }
+    },
+    "Simple_LowVLow_Low1": {
+        "checkpoints": [
+            {
+                "steps": 225017,
+                "file_path": "results\\MassTraining\\Simple_LowVLow_Low1\\Simple_LowVLow_Low1-225017.onnx",
+                "reward": -0.6651978492736816,
+                "creation_time": 1746546071.330874,
+                "auxillary_file_paths": [
+                    "results\\MassTraining\\Simple_LowVLow_Low1\\Simple_LowVLow_Low1-225017.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 225017,
+            "file_path": "results\\MassTraining\\Simple_LowVLow_Low1.onnx",
+            "reward": -0.6651978492736816,
+            "creation_time": 1746546071.330874,
+            "auxillary_file_paths": [
+                "results\\MassTraining\\Simple_LowVLow_Low1\\Simple_LowVLow_Low1-225017.pt"
+            ]
+        }
+    },
+    "Control_LowVLow_Low1": {
+        "checkpoints": [
+            {
+                "steps": 225026,
+                "file_path": "results\\MassTraining\\Control_LowVLow_Low1\\Control_LowVLow_Low1-225026.onnx",
+                "reward": -1.0,
+                "creation_time": 1746546071.402105,
+                "auxillary_file_paths": [
+                    "results\\MassTraining\\Control_LowVLow_Low1\\Control_LowVLow_Low1-225026.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 225026,
+            "file_path": "results\\MassTraining\\Control_LowVLow_Low1.onnx",
+            "reward": -1.0,
+            "creation_time": 1746546071.402105,
+            "auxillary_file_paths": [
+                "results\\MassTraining\\Control_LowVLow_Low1\\Control_LowVLow_Low1-225026.pt"
+            ]
+        }
+    },
+    "Simple_MedVMed_Med1": {
+        "checkpoints": [
+            {
+                "steps": 225044,
+                "file_path": "results\\MassTraining\\Simple_MedVMed_Med1\\Simple_MedVMed_Med1-225044.onnx",
+                "reward": 0.9936099410057068,
+                "creation_time": 1746546071.4728584,
+                "auxillary_file_paths": [
+                    "results\\MassTraining\\Simple_MedVMed_Med1\\Simple_MedVMed_Med1-225044.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 225044,
+            "file_path": "results\\MassTraining\\Simple_MedVMed_Med1.onnx",
+            "reward": 0.9936099410057068,
+            "creation_time": 1746546071.4728584,
+            "auxillary_file_paths": [
+                "results\\MassTraining\\Simple_MedVMed_Med1\\Simple_MedVMed_Med1-225044.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.1.0",
+        "torch_version": "2.2.2+cu121"
+    }
+}
